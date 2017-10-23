@@ -155,7 +155,7 @@ previous step's Troubleshooting section.
 When you login to the server for the first time with your nickname, its being
 used by you, but it's still not registered yet.
 
-In order to register we need to send a message to nickserv on freenode, which
+In order to register we need to send a message to nickserv on Freenode, which
 is a bot that allows us to register and identify ourselves as the owner of
 a nick name.
 
