@@ -12,16 +12,11 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-import os
-import sys
-
-sys.path.insert(0, os.path.abspath('../..'))
 # -- General configuration ----------------------------------------------------
 
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom ones.
 extensions = [
-    'sphinx.ext.autodoc',
     'openstackdocstheme',
     #'sphinx.ext.intersphinx',
 ]
@@ -44,6 +39,10 @@ copyright = u'2017, OpenStack Developers'
 repository_name = 'openstack/contributor-guide'
 bug_project = 'openstack-contributor-guide'
 bug_tag = ''
+
+# No need to show a version number
+version = ''
+release = ''
 
 # If true, '()' will be appended to :func: etc. cross-reference text.
 add_function_parentheses = True
