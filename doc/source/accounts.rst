@@ -9,7 +9,6 @@ What is the OpenStack Foundation Account?
 -----------------------------------------
 Allows you to:
 
-* Make code contributions.
 * Vote in elections.
 * Run for elected positions in the OpenStack project.
 * Submit presentations to OpenStack conferences.
@@ -131,7 +130,9 @@ Individual Contributors
 ^^^^^^^^^^^^^^^^^^^^^^^
 
 #. In Gerrit's `settings <https://review.openstack.org/#/settings/agreements>`_
-   click the **New Contributor Agreement** link and sign the agreement.
+   click the **New Contributor Agreement** link and sign the agreement. You need
+   this to contribute code & documentation. You will not be able to push patches
+   to gerrit without this.
 
 .. image:: _assets/account-setup/3.png
 
