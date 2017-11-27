@@ -104,6 +104,16 @@ Congratulations you're now ready to communicate with the OpenStack community
 and have a registered nick name on Freenode! From here on out when you connect
 to Freenode with Hexchat you will be identified with your nickname.
 
+A good channel to join right away is the #openstack-dev channel. A lot of
+people hang around in that channel so come on in and say hello! If there is
+a specific project you are also interested in working on, feel free to join
+that one as well and introduce yourself there. Interested in joining more
+channels or need to look up what one is called? `Look Here
+<https://wiki.openstack.org/wiki/IRC>`__.
+
+It's also important to note that given that the majority of contributors
+reside in the United States, channels will likely be quieter outside of
+United States work hours and it might be a while before they respond.
 
 Mac OS
 ======
@@ -195,3 +205,14 @@ Done
 Congratulations you're now ready to communicate with the OpenStack community
 and have a registered nick name on Freenode! From here on out when you connect
 to Freenode with Colloquy you will be identified with your nickname.
+
+A good channel to join right away is the #openstack-dev channel. A lot of
+people hang around in that channel so come on in and say hello! If there is
+a specific project you are also interested in working on, feel free to join
+that one as well and introduce yourself there. Interested in joining more
+channels or need to look up what one is called? `Look Here
+<https://wiki.openstack.org/wiki/IRC>`__.
+
+It's also important to note that given that the majority of contributors
+reside in the United States, channels will likely be quieter outside of
+United States work hours and it might be a while before they respond.
