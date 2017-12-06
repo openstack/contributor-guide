@@ -1,6 +1,6 @@
-===============================
+###############################
 The OpenStack Contributor Guide
-===============================
+###############################
 
 The Contributor Guide for the OpenStack project.
 
