@@ -3,19 +3,16 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-===============================
+###############################
 The OpenStack Contributor Guide
-===============================
-
-Contents:
+###############################
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
-   readme
-   irc
-   accounts
-   git
+   code-and-documentation
+   users
+   README file <readme>
 
 Indices and tables
 ==================
