@@ -12,7 +12,7 @@ The OpenStack Contributor Guide
 
    code-and-documentation
    users
-   README file <readme>
+   contributing/index
 
 Indices and tables
 ==================
