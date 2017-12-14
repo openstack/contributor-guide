@@ -10,3 +10,4 @@ Code & Documentation Contributor Guide
    /common/accounts
    /common/git
    /common/setup-gerrit
+   /common/task-tracking
