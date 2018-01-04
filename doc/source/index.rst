@@ -12,6 +12,7 @@ The OpenStack Contributor Guide
 
    code-and-documentation/index
    users/index
+   operators/index
    contributing/index
 
 Indices and tables
