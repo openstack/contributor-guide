@@ -28,7 +28,7 @@ Sign Up
    <https://www.openstack.org/legal/community-code-of-conduct/>`_.
 #. Complete the application.
 
-.. image:: _assets/account-setup/2.png
+.. image:: /_assets/account-setup/2.png
 
 
 Setup Your Bug Tracker Account
@@ -63,7 +63,7 @@ Sign Up
 #. Fill in your email address, name, password, and accepting the terms of
    services.
 
-.. image:: _assets/account-setup/1.png
+.. image:: /_assets/account-setup/1.png
 
 
 Launchpad

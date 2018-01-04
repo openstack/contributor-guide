@@ -6,7 +6,7 @@ Users' Contributor Guide
    :caption: User Contributors
    :maxdepth: 2
 
-   irc
-   accounts
-   git
-   setup-gerrit
+   /common/irc
+   /common/accounts
+   /common/git
+   /common/setup-gerrit

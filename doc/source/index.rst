@@ -10,8 +10,8 @@ The OpenStack Contributor Guide
 .. toctree::
    :maxdepth: 1
 
-   code-and-documentation
-   users
+   code-and-documentation/index
+   users/index
    contributing/index
 
 Indices and tables

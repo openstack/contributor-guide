@@ -38,7 +38,8 @@ examples of project team specific contributor guides are the `Nova team's
 Adding/Updating Content
 =======================
 Before you modify or add new content first get familiar with OpenStack's
-code/documentation practices. You can read the :doc:`../code-and-documentation`
+code/documentation practices. You can read the
+:doc:`/code-and-documentation/index`
 for getting started.
 
 Once you've read through the guide, use git to clone the Contributor Guide
@@ -83,9 +84,9 @@ Examples of Good Documentation
 Use chapters that have already been accepted to get a feel of what we're
 looking for.
 
-* :doc:`../irc`
-* :doc:`../git`
-* :doc:`../setup-gerrit`
+* :doc:`/common/irc`
+* :doc:`/common/git`
+* :doc:`/common/setup-gerrit`
 
 How Can I Start Helping?
 ========================
@@ -100,4 +101,4 @@ We want you to succeed! You can ask for help on `IRC Freenode
 for help on the `OpenStack Dev Mailing list
 <http://lists.openstack.org/cgi-bin/mailman/listinfo/openstack-dev>`_ prefixing
 your email subject with '[contributor-guide]'. If you're not familiar with
-these ways of communicating, read the :doc:`../code-and-documentation`.
+these ways of communicating, read the :doc:`/code-and-documentation/index`.

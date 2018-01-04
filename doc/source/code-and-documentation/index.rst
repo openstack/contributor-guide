@@ -6,7 +6,7 @@ Code & Documentation Contributor Guide
    :caption: Code and Documentation Contributors
    :maxdepth: 2
 
-   irc
-   accounts
-   git
-   setup-gerrit
+   /common/irc
+   /common/accounts
+   /common/git
+   /common/setup-gerrit

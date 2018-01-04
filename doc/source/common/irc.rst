@@ -38,7 +38,7 @@ Edit Nick Name Settings
 #. From the list of **Networks** you should see Freenode. Select that and click
    'edit'.
 
-.. image:: _assets/irc/linux/1.png
+.. image:: /_assets/irc/linux/1.png
 
 
 Edit Server Settings
@@ -47,7 +47,7 @@ Edit Server Settings
 #. Make sure that **Use SSL for all the servers on this network** is
    checked.
 
-.. image:: _assets/irc/linux/2.png
+.. image:: /_assets/irc/linux/2.png
 
 Troubleshooting
 ^^^^^^^^^^^^^^^
@@ -61,7 +61,7 @@ If all goes well we should get a dialog window indicating the connection to
 freenode has completed, and what to do next.. For now we'll select "Nothing,
 I'll join a channel later."
 
-.. image:: _assets/irc/linux/3.png
+.. image:: /_assets/irc/linux/3.png
 
 When you login to the server for the first time with your nickname, its being
 used by you, but it's still not registered yet.
@@ -76,7 +76,7 @@ address::
 
   /msg nickserv register mysecretpassword test@domain.com
 
-.. image:: _assets/irc/linux/4.png
+.. image:: /_assets/irc/linux/4.png
 
 If all goes well you should receive a message back instantly that the nick name
 is registered by you and an activation email will be sent to the email address
@@ -95,7 +95,7 @@ need to tell Hexchat to communicate our password over upon connecting.
 #. In the **Password** put in the password we picked in the previous
    step and click close.
 
-.. image:: _assets/irc/linux/5.png
+.. image:: /_assets/irc/linux/5.png
 
 
 Done
@@ -135,13 +135,13 @@ Add A New Connection
 #. For the **Chat Server Port** type in **6697** and check the **SSL
    Connection** box.
 
-.. image:: _assets/irc/macos/1.png
+.. image:: /_assets/irc/macos/1.png
     :width: 50%
 
 If all goes well in the second window we should see our our new connection and
 our client connected.
 
-.. image:: _assets/irc/macos/2.png
+.. image:: /_assets/irc/macos/2.png
     :width: 50%
 
 Troubleshooting
@@ -153,7 +153,7 @@ Troubleshooting
     * Click **disconnect** and click **connect** to retry connecting with the
       new nick name.
 
-.. image:: _assets/irc/macos/3.png
+.. image:: /_assets/irc/macos/3.png
     :width: 50%
 
 
@@ -179,7 +179,7 @@ your own password and email address::
 
   register mysecretpassword test@domain.com
 
-.. image:: _assets/irc/macos/4.png
+.. image:: /_assets/irc/macos/4.png
     :width: 90%
 
 If all goes well you should receive a message back instantly that the nick name
@@ -196,7 +196,7 @@ need to tell Colloquy to communicate our password over upon connecting.
    click the **info** icon.
 #. In the **Password** field type your password.
 
-.. image:: _assets/irc/macos/5.png
+.. image:: /_assets/irc/macos/5.png
     :width: 50%
 
 
