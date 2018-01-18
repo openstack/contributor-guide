@@ -10,5 +10,6 @@ Code & Documentation Contributor Guide
    /common/accounts
    /common/git
    /common/setup-gerrit
+   /code-and-documentation/using-gerrit
    /common/task-tracking
    /common/i18n
