@@ -15,9 +15,7 @@ The OpenStack Contributor Guide
    operators/index
    contributing/index
 
-Indices and tables
-==================
+Search in this guide
+--------------------
 
-* :ref:`genindex`
-* :ref:`modindex`
 * :ref:`search`
