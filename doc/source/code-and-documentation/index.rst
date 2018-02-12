@@ -11,3 +11,4 @@ Code & Documentation Contributor Guide
    /common/git
    /common/setup-gerrit
    /common/task-tracking
+   /common/i18n
