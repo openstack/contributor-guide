@@ -108,8 +108,7 @@ A good channel to join right away is the #openstack-dev channel. A lot of
 people hang around in that channel so come on in and say hello! If there is
 a specific project you are also interested in working on, feel free to join
 that one as well and introduce yourself there. Interested in joining more
-channels or need to look up what one is called? `Look Here
-<https://wiki.openstack.org/wiki/IRC>`__.
+channels or need to look up what one is called? Look :ref:`irc-channels`.
 
 It's also important to note that given that the majority of contributors
 reside in the United States, channels will likely be quieter outside of
@@ -210,9 +209,30 @@ A good channel to join right away is the #openstack-dev channel. A lot of
 people hang around in that channel so come on in and say hello! If there is
 a specific project you are also interested in working on, feel free to join
 that one as well and introduce yourself there. Interested in joining more
-channels or need to look up what one is called? `Look Here
-<https://wiki.openstack.org/wiki/IRC>`__.
+channels or need to look up what one is called? Look :ref:`irc-channels`.
 
 It's also important to note that given that the majority of contributors
 reside in the United States, channels will likely be quieter outside of
 United States work hours and it might be a while before they respond.
+
+.. _irc-channels:
+
+IRC Channels
+============
+
+The list of OpenStack related IRC channels is maintained on a
+`wiki page <https://wiki.openstack.org/wiki/IRC>`__.
+
+IRC Meetings
+============
+
+In OpenStack all the meetings are happening on a variety of IRC
+channels. Check the `list of meetings
+<http://eavesdrop.openstack.org/>`__ for meetings times, IRC channels,
+and archives of meetings.
+
+IRC Archives
+============
+
+Most IRC channels are archived, you can read the logs on the
+`eavesdrop <http://eavesdrop.openstack.org/irclogs/>`__.
