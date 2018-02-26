@@ -68,9 +68,9 @@ If you are contributing on behalf of a company or organization.
 #. In Gerrit's `settings <https://review.openstack.org/#/settings/agreements>`_
    click the **New Contributor Agreement** link and sign the agreement.
 
-.. image:: /_assets/account-setup/3.png
-   :scale: 70%
-   :align: center
+   .. image:: /_assets/account-setup/3.png
+     :scale: 70%
+     :align: center
 
 #. An employer with the appropriate signing rights of the company or
    organization needs to sign the `Corporate Contributor License Agreement
