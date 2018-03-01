@@ -245,3 +245,49 @@ IRC Archives
 
 Most IRC channels are archived, you can read the logs on the
 `eavesdrop <http://eavesdrop.openstack.org/irclogs/>`__.
+
+IRC bots
+========
+
+IRC allows different programs to listen to the IRC channels and do some
+actions. These programs are called IRC bots. There are several bots used
+in the OpenStack IRC channels, this section contains the ones which are
+useful from the first days of OpenStack development. A more
+comprehensive list can be found in the `Infrastructure team IRC page
+<https://docs.openstack.org/infra/system-config/irc.html>`__.
+
+Thanksbot
+---------
+This bot allows people to recognize each other and be thankful. Anyone
+can post a message in the OpenStack IRC channels to say thanks.
+The way to say thanks is:
+
+.. code::
+
+  #thanks <irc_nick> <message>
+
+The irc_nick is the IRC nick of the person who is receiving the thanks.
+The message is a short text to explain the reason for the thanks. The bot
+collects all thanks to a `wiki page
+<https://wiki.openstack.org/wiki/Thanks>`__.
+
+Statusbot
+----------
+
+Statusbot is used to distribute urgent information from the Infrastructure team
+to OpenStack channels.
+
+Successbot
+----------
+
+Succesbot is an IRC bot to express small successes in OpenStack
+development.
+To celebrate in the OpenStack IRC channel way just type:
+
+.. code::
+
+  #success <message>
+
+to any OpenStack IRC channel where the Statusbot is listening.
+The message will be posted to the `Successes wiki page
+<https://wiki.openstack.org/wiki/Successes>`__.
