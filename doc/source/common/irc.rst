@@ -1,3 +1,5 @@
+.. _setup-irc:
+
 #########
 Setup IRC
 #########
@@ -220,6 +222,8 @@ United States work hours and it might be a while before they respond.
 IRC Channels
 ============
 
+Each project and working group has its own IRC channel. The common syntax for
+naming the IRC channels is: #openstack-<name-of-project>.
 The list of OpenStack related IRC channels is maintained on a
 `wiki page <https://wiki.openstack.org/wiki/IRC>`__.
 
@@ -227,9 +231,14 @@ IRC Meetings
 ============
 
 In OpenStack all the meetings are happening on a variety of IRC
-channels. Check the `list of meetings
-<http://eavesdrop.openstack.org/>`__ for meetings times, IRC channels,
-and archives of meetings.
+channels (e.g. #openstack-meeting, #openstack-meeting-cp, etc.). Check the
+`list of meetings <http://eavesdrop.openstack.org/>`__ for meetings times, IRC
+channels, and archives of meetings.
+
+.. note::
+   There are a finite number of meeting channels so that meetings are
+   spread around. This is enforced by infra. The #openstack-meeting-cp
+   channel is special in that it is dedicated to cross project efforts.
 
 IRC Archives
 ============

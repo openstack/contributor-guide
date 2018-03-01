@@ -8,12 +8,17 @@ Operators have a Dedicated `mailing list
 <http://lists.openstack.org/cgi-bin/mailman/listinfo/openstack-operators>`_
 to subscribe. You can also read the archives which contain plenty
 of valuable information.
+More generic information about mailing lists can be found in the Communication
+page's :ref:`communication-mailing-lists` section.
 
 IRC Channels
 ============
 There is the #openstack-operators channel on Freenode IRC for live
 conversations and `Operators' team meeting
 <http://eavesdrop.openstack.org/#OpenStack_OSOps_Team>`_.
+On top of the #openstack-operators channel there are several others. More
+generic information about IRC channels can be found in the :ref:`irc-channels`
+section of the IRC page.
 
 Meet Ups
 ========

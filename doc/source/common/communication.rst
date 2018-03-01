@@ -1,0 +1,51 @@
+#############
+Communication
+#############
+
+IRC
+===
+While working with OpenStack, IRC is the best way to get help or support
+others. Details of IRC communication are described in :ref:`setup-irc`.
+
+Wiki Pages
+==========
+
+Each project and working group has its own `wiki page
+<https://wiki.openstack.org/wiki/Main_Page>`__.
+Wiki pages are a secondary source of information. They hold information that is
+subject to more change than the info provided in the project's documentation
+i.e. meeting agendas, team members, etc.
+
+Etherpads
+=========
+
+Etherpad is a simple collaborative text editor. It is used as a common place to
+have people in a project collaborate on larger projects and planning of events.
+There is no master list of etherpads - it is harder to find what you are
+looking for without having looked at it before or without asking for the URL.
+It is recommended to bookmark the important etherpads for later reference.
+The staring page of the OpenStack `Etherpad <https://etherpad.openstack.org>`_.
+
+.. _communication-mailing-lists:
+
+Mailing Lists (ML)
+==================
+
+There are more than 40 different ML's. These are listed in the `mailman page
+<http://lists.openstack.org/cgi-bin/mailman/listinfo>`__.
+Mailing lists are a way for people to communicate to a larger group than those
+that are on IRC. All emails on these lists are archived and available on the
+`Mailing Lists <https://wiki.openstack.org/wiki/Mailing_Lists>`_ wiki.
+The same page describes how to subscribe to a list and describes some popular
+lists.
+
+Ask OpenStack
+=============
+
+`Ask OpenStack <https://ask.openstack.org/>`__ is a question and answer site
+for OpenStack users and developers. It provides answer to almost every
+question a new contributor can run into. It is possible to collect karma points
+by asking or answering questions. The questions are moderated by Ask OpenStack
+users with high Karma points. More info about Ask OpenStack is available on
+its `about page <https://ask.openstack.org/en/about/>`__ and on the `ask
+moderators wiki <https://wiki.openstack.org/wiki/Community/AskModerators>`__.
