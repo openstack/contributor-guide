@@ -15,4 +15,5 @@ Code & Documentation Contributor Guide
    /common/task-tracking
    /common/i18n
    /common/governance
+   /common/zuul-status
    /common/patch-best-practices
