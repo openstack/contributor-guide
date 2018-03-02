@@ -16,16 +16,34 @@ Storyboard.
 Storyboard
 ==========
 
-Storyboard is kanban style task tracking system created and maintained by
+Storyboard is a kanban style task tracking system created and maintained by
 the community. It was designed API-first and was engineered to support the
 coordination of cross project work. Items tracked are stories and tasks.
 A story can be a bug or a new feature, while tasks are the smaller todo's
 required to complete the story.
 
-For information on how to use storyboard, please go `here <https://docs.openstack.org/infra/storyboard/index.html>`_.
+For information on how to use storyboard, please see `the GUI manual <https://docs.openstack.org/infra/storyboard/gui/manual.html>`_.
+
+For other information about the project itself, please check out `their documentation <https://docs.openstack.org/infra/storyboard/>`_.
 
 .. image:: /_assets/task_tracking/Storyboard.png
    :scale: 40
+
+Stories & Tasks
+---------------
+
+A story is a desired change. Whether it is a bug or a new feature, both are
+essentially a code change. Tasks are sub items of the story; they are tied
+to specific projects. As an example, a story could be to invent some new feature
+A, and tasks would be change in project X, change in project Y, and change in
+project Z. Those changes need to merge in order to complete feature A.
+
+Boards & Worklists
+------------------
+Worklists and Boards are different ways of organizing work. It is up to the project
+team how stories are organized. They could be sorted by milestone. A lane could
+have all the bugs or all the new features. It depends on the teams way of organizing
+and coordinating work. Order of stories in a worklist could convey priority as well.
 
 Launchpad
 =========
@@ -39,7 +57,8 @@ or blueprints.
    :scale: 40
 
 
-**Blueprints**
+Blueprints
+----------
 
 In Launchpad, a new feature is called a blueprint. To file a new blueprint, click the
 'Register a blueprint' button on the right.
@@ -53,10 +72,10 @@ These are different in that the name is what is used in the generated url and th
 title is what displays when blueprints are listed out (name: new_ibm_driver
 title: New IBM ISCSI Driver). The next most important part is the summary- a
 description of the code change, where most of the details about the implementation
-is. After that, there are several optional fields you may wish to fill in- a
+are. After that, there are several optional fields you may wish to fill in- a
 specification url, assignee, drafter, and approver. The last two fields before
 registering have default values- status and propose for a sprint. For most teams,
-its typical to leave the default values.
+it is typical to leave the default values.
 
 It is possible to update all of this information except the name and title after
 the blueprint is registered. When you have finished filling out all of the
@@ -67,13 +86,14 @@ team lead that you have filed a blueprint.
    :scale: 40
 
 
-**Bugs**
+Bugs
+----
 
 Bugs are pretty self explanitory- some unexpected or unintended behavior of the
 software. To report a bug you have found in Launchpad, click the 'Report a bug'
 button from the project's overview page.
 
-To get the details of reporting the bug you fill in the summary line and click
+To get to the details of reporting the bug you fill in the summary line and click
 'next'.
 
 .. image:: /_assets/task_tracking/LP-bug.png
@@ -106,3 +126,34 @@ about the full process for reporting security vulnerabilties, please continue re
 It is a good idea to check back on the bug routinely if you aren't actively working on
 solving it to make sure people haven't asked for more information about the issue. If
 someone has commented on the bug, try to respond with the details they need.
+
+**Bug Status**
+All bugs have a status lifecycle. They start as 'New' and move to other statuses from
+there depending on what all is included in the description and if others can duplicate
+the issue. Resolved statuses, meaning there is no more work to be done on the bug are:
+'Fix Released', 'Invalid', or 'Won't Fix'.
+
+.. list-table::
+   :widths: 20 100
+
+   - * `New`
+     * The bug was just created
+   - * `Incomplete`
+     * The bug is waiting on input from the reporter
+   - * `Confirmed`
+     * The bug was reproduced or confirmed as a genuine bug
+   - * `Triaged`
+     * The bug comments contain a full analysis on how to properly fix the
+       issue
+   - * `In Progress`
+     * Work on the fix is in progress, bug has an assignee
+   - * `Fix Committed`
+     * Not used
+   - * `Fix Released`
+     * The fix has been merged into an official branch
+   - * `Invalid`
+     * This is not a bug
+   - * `Opinion`
+     * This is a valid issue, but it is the way it should be
+   - * `Won't Fix`
+     * This is a valid issue, but we don't intend to fix that
