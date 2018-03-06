@@ -4,7 +4,7 @@ Setting Up Your Gerrit Account
 
 .. note::
 
-  This section assumes you have completed :doc:`git` guide.
+   This section assumes you have completed :doc:`git` guide.
 
 What is Gerrit?
 ===============
@@ -32,9 +32,9 @@ Sign Up
 
 .. note::
 
-  From here on out when you sign into Gerrit, you'll be prompted to enter your
-  your Launchpad login info. This is because Gerrit uses it as an OpenID single
-  sign on.
+   From here on out when you sign into Gerrit, you'll be prompted to enter your
+   your Launchpad login info. This is because Gerrit uses it as an OpenID
+   single sign on.
 
 
 Individual Contributor License Agreement
@@ -80,10 +80,10 @@ If you are contributing on behalf of a company or organization.
 
 .. note::
 
-  Employers can update the list of authorized employees by filling out and
-  signing an `Updated Schedule
-  A Form
-  <https://openstack.echosign.com/public/hostedForm?formid=56JUVP6K4Z6P4C>`_.
+   Employers can update the list of authorized employees by filling out and
+   signing an `Updated Schedule
+   A Form
+   <https://openstack.echosign.com/public/hostedForm?formid=56JUVP6K4Z6P4C>`_.
 
 Contributors From the U.S. Government
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -206,18 +206,18 @@ pip.
 
 .. note::
 
-  Mac OS X El Capitan and Mac OS Sierra users might see an error
-  message like "Operation not permitted" when installing with the command.
-  In this case, there are two options to successfully install git-review.
+   Mac OS X El Capitan and Mac OS Sierra users might see an error
+   message like "Operation not permitted" when installing with the command.
+   In this case, there are two options to successfully install git-review.
 
-  Option 1: install using pip with more options::
+   Option 1: install using pip with more options::
 
-    pip install --install-option '--install-data=/usr/local' git-review
+     pip install --install-option '--install-data=/usr/local' git-review
 
-  Option 2: Use the package manager `Homebrew <http://brew.sh>`_,
-  and type in a terminal::
+   Option 2: Use the package manager `Homebrew <http://brew.sh>`_,
+   and type in a terminal::
 
-    brew install git-review
+     brew install git-review
 
 Linux
 ^^^^^^

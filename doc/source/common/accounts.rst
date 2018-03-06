@@ -17,8 +17,8 @@ Sign Up
 -------
 .. note::
 
-  Make sure to use the same email address you'll want to use for code
-  contributions since it's important later that these match up.
+   Make sure to use the same email address you'll want to use for code
+   contributions since it's important later that these match up.
 
 #. Go to the `OpenStack Foundation sign up page
    <https://www.openstack.org/join>`_.
@@ -35,10 +35,10 @@ Setup Your Bug Tracker Account
 ==============================
 
 .. note::
-  The OpenStack community is currently in the process of moving from the bug
-  tracking software Launchpad to StoryBoard. Further in the project specific
-  on-boarding documentation, give special attention if the project is using
-  Launchpad or StoryBoard.
+   The OpenStack community is currently in the process of moving from the bug
+   tracking software Launchpad to StoryBoard. Further in the project specific
+   on-boarding documentation, give special attention if the project is using
+   Launchpad or StoryBoard.
 
 StoryBoard
 ----------

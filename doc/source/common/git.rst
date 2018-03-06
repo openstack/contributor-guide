@@ -4,7 +4,7 @@ Setup and Learn GIT
 
 .. note::
 
-  This section assumes you have completed :doc:`accounts` guide.
+   This section assumes you have completed :doc:`accounts` guide.
 
 Git
 ===
@@ -78,6 +78,10 @@ and email address. This is how your contributions will be identified::
 
   git config --global user.name "Firstname Lastname"
   git config --global user.email "your_email@youremail.com"
+
+.. note::
+
+   Use the same email address that was used during the account setup.
 
 Learning Git
 ============
