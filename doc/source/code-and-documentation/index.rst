@@ -12,3 +12,4 @@ Code & Documentation Contributor Guide
    /common/setup-gerrit
    /common/task-tracking
    /common/i18n
+   /common/governance

@@ -11,3 +11,4 @@ Operators' Contributor Guide
    /common/git
    /common/setup-gerrit
    /operators/participate
+   /common/governance
