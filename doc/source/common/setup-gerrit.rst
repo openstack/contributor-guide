@@ -53,9 +53,9 @@ Individual Contributors
 ^^^^^^^^^^^^^^^^^^^^^^^
 
 #. In Gerrit's `settings <https://review.openstack.org/#/settings/agreements>`_
-   click the **New Contributor Agreement** link and sign the agreement. You need
-   this to contribute code & documentation. You will not be able to push patches
-   to Gerrit without this.
+   click the **New Contributor Agreement** link and sign the
+   agreement. You need this to contribute code & documentation. You
+   will not be able to push patches to Gerrit without this.
 
 .. image:: /_assets/account-setup/3.png
    :scale: 70%
