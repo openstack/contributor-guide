@@ -34,9 +34,10 @@ Stories & Tasks
 
 A story is a desired change. Whether it is a bug or a new feature, both are
 essentially a code change. Tasks are sub items of the story; they are tied
-to specific projects. As an example, a story could be to invent some new feature
-A, and tasks would be change in project X, change in project Y, and change in
-project Z. Those changes need to merge in order to complete feature A.
+to specific projects. As an example, a story could be to invent some new
+feature A, and tasks would be change in project X, change in project Y, and
+change in project Z. Those changes need to merge in order to complete feature
+A.
 
 Boards & Worklists
 ------------------
