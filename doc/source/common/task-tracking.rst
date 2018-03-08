@@ -13,6 +13,15 @@ Each project is different in the process of reporting bugs and planning new
 features. There are however two main tools that projects use: Launchpad and
 Storyboard.
 
+.. note::
+
+   Before raising a bug, story or feature request it's important to note that not
+   all projects do the same thing. It's best to go check with the project to see
+   how they handle these requests. For details on how to contact
+   a project check the `project list`_.
+
+.. _project list: https://governance.openstack.org/tc/reference/projects/index.html
+
 Storyboard
 ==========
 
@@ -91,6 +100,11 @@ blueprint.
 .. image:: /_assets/task_tracking/LP-bp.png
    :scale: 40
 
+.. note::
+
+   Not all projects use the blueprints feature of Lauchpad, you should contact the
+   project to see how they handle feature requests. For details on how to contact
+   a project check the `project list`_.
 
 Bugs
 ----
