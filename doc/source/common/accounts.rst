@@ -2,6 +2,8 @@
 Account Setup
 #############
 
+.. _foundation account:
+
 Setup Your OpenStack Foundation Account
 =======================================
 
