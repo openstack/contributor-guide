@@ -8,6 +8,7 @@ Users' Contributor Guide
 
    /common/irc
    /common/accounts
+   /common/communication
    /common/git
    /common/setup-gerrit
    /common/governance

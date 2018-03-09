@@ -9,6 +9,7 @@ Code & Documentation Contributor Guide
    /common/irc
    /common/accounts
    /common/git
+   /common/communication
    /common/setup-gerrit
    /code-and-documentation/using-gerrit
    /common/task-tracking
