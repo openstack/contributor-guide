@@ -111,10 +111,14 @@ SSH keys are always generated in pairs:
 * **Public key** - Can be shared freely with any SSH server you wish to connect
   to.
 
-In summary, we will be generating these keys, and providing the Gerrit server
-with your public key. With your system holding the private key, it will have no
-problem replying to Gerrit during the challenge-response authentication.
+In summary, you will be generating a SSH key pair, and providing the Gerrit
+server with your public key. With your system holding the private key, it
+will have no problem replying to Gerrit during the challenge-response
+authentication.
 
+Some people choose to use one SSH key pair to access many systems while
+others prefer to use separate key pairs. Both options are covered in the
+following sections.
 
 Check For Existing Keys
 -----------------------
@@ -130,15 +134,18 @@ Typically public key filenames will look like:
 * id_ed25519.pub
 * id_rsa.pub
 
-If you don't see .pub extension file, you need to generate keys.
+If you don't see .pub extension file or want to generate a specific set
+for OpenStack Gerrit, you need to generate keys.
 
 
-Generate SSH Keys
------------------
+Generate SSH Key Pairs
+----------------------
 
-Assuming you weren't able to find keys in your ~/.ssh directory, you can
-generate a new SSH key using the provided email as a label by going into
-your terminal program and typing::
+Generating The Default Or Initial SSH Key Pair
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+You can generate a new SSH key pair using the provided email as a label by
+going into your terminal program and typing::
 
   ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 
@@ -147,12 +154,40 @@ This accepts the default location::
 
   Enter a file in which to save the key (/Users/you/.ssh/id_rsa): [Press enter]
 
-At the prompt, type a secure a passphrase, you may enter one or press Enter to
+At the prompt, type a secure passphrase, you may enter one or press Enter to
 have no passphrase::
 
   Enter passphrase (empty for no passphrase): [Type a passphrase]
   Enter same passphrase again: [Type passphrase again]
 
+Generating A Separate Key Pair For OpenStack Gerrit
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+You can generate a new SSH key using the provided email as a label by going
+into your terminal program and typing::
+
+  ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+
+When you're prompted to "Enter a file in which to save the key" you must
+specify the name of the new key pair and then press Enter::
+
+  Enter a file in which to save the key (/Users/you/.ssh/id_rsa): /Users/you/.ssh/id_openstack_rsa
+
+At the prompt, type a secure passphrase, you may enter one or press Enter to
+have no passphrase::
+
+  Enter passphrase (empty for no passphrase): [Type a passphrase]
+  Enter same passphrase again: [Type passphrase again]
+
+Finally you need to tell ssh what host(s) to associate SSH keys with. To do
+this open "~/.ssh/config" in an editor, create the file if it doesn't exist
+and add something like::
+
+  Host review.openstack.org review
+    Hostname review.openstack.org
+    Port 29418
+    User <your_gerrit_username>
+    IdentityFile ~/.ssh/id_openstack_rsa
 
 Copy Public Key
 ---------------
@@ -163,6 +198,11 @@ Mac OS & Linux
 From your terminal type::
 
   cat ~/.ssh/id_rsa.pub
+
+Or if you created a separate key pair, assuming the example
+name above::
+
+  cat ~/.ssh/id_openstack_rsa.pub
 
 Highlight and copy the output.
 
