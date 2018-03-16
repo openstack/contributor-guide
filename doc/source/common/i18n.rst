@@ -21,6 +21,7 @@ contribution. Our translation platform is reachable on
 `translate.openstack.org <https://translate.openstack.org/>`_
 
 .. image:: /_assets/i18n/zanata.png
+   :scale: 60 %
 
 Zanata Usage
 ============
@@ -28,9 +29,14 @@ Zanata Usage
 For registration and login you need an :doc:`OpenStack Foundation Account <accounts>`
 Click on *LogIn* on `translate.openstack.org <https://translate.openstack.org/>`_
 and follow the process for applying your Zanata profile.
+
+.. image:: /_assets/i18n/openstackid_service.png
+   :scale: 60 %
+
 Once registered, you can join a language team.
 
 .. image:: /_assets/i18n/zanata_language.png
+   :scale: 60 %
 
 Your membership application must be confirmed by the language
 coordinator. This may take some time. An e-mail with your request will
@@ -40,6 +46,7 @@ Choose a project where you want to contribute with translating. Usually
 there is a translation plan with priorities on the start page.
 
 .. image:: /_assets/i18n/zanata_workspace.png
+   :scale: 60 %
 
 This is the view of the Zanata workspace. On the left side you have the
 original text string, while you can enter the translation on the right.
