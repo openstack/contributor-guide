@@ -2,6 +2,11 @@
 Task Tracking
 #############
 
+This section provides information on Storyboard and Launchpad task trackers.
+You can learn about Storyboard stories and tasks, boards and worklists, and
+Launchpad blueprints and bugs.
+
+
 .. note::
 
    This section assumes you have completed :doc:`accounts` guide.
@@ -51,7 +56,7 @@ A.
 Boards & Worklists
 ------------------
 
-Worklists and Boards are different ways of organizing work. It is up
+Worklists and boards are different ways of organizing work. It is up
 to the project team how stories are organized. They could be sorted by
 milestone. A lane could have all the bugs or all the new features. It
 depends on the teams way of organizing and coordinating work. Order of
