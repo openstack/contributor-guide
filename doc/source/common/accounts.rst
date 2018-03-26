@@ -7,9 +7,7 @@ Account Setup
 Setup Your OpenStack Foundation Account
 =======================================
 
-What is the OpenStack Foundation Account?
------------------------------------------
-Allows you to:
+An OpenStack Foundation account allows you to:
 
 * Vote in elections.
 * Run for elected positions in the OpenStack project.
@@ -33,14 +31,21 @@ Sign Up
 .. image:: /_assets/account-setup/2.png
 
 
-Setup Your Bug Tracker Account
-==============================
+Setup Your Task Tracker Account
+===============================
 
 .. note::
    The OpenStack community is currently in the process of moving from the bug
    tracking software Launchpad to StoryBoard. Further in the project specific
    on-boarding documentation, give special attention if the project is using
    Launchpad or StoryBoard.
+
+A Task Tracker account allows you to:
+
+* Report bugs
+* Create stories for new features (Process varies per project)
+* Track progress on bugs and new features
+
 
 StoryBoard
 ----------

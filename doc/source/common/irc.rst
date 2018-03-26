@@ -4,6 +4,20 @@
 Setup IRC
 #########
 
+IRC
+===
+
+What is IRC?
+------------
+
+The OpenStack community uses IRC as its primary chat service.
+
+IRC allows you to:
+
+* Communicate with project teams, technical committee, SIGs,
+  and other Working Groups.
+* Participate in regular meetings with the above groups.
+
 Linux & Windows
 ===============
 

@@ -6,14 +6,21 @@ Setup and Learn GIT
 
    This section assumes you have completed :doc:`accounts` guide.
 
-Git
+GIT
 ===
 
-What is it?
------------
+What is Git?
+------------
 
 Git is a free and open source distributed version control system that the
-OpenStack community uses to manage changes to source code.
+OpenStack community uses to manage changes to source code and documentation.
+
+Git allows you to:
+
+* Push and test `code, docs, infrastructure changes, and CI configurations <http://git.openstack.org/cgit>`_
+* Push `Specifications <http://specs.openstack.org>`_
+* Push `Use cases for features <http://specs.openstack.org/openstack/openstack-user-stories/>`_
+
 
 Installation
 ------------
@@ -84,7 +91,7 @@ and email address. This is how your contributions will be identified::
    Use the same email address that was used during the account setup.
 
 Learning Git
-============
+------------
 
 You can use `Git Immersion <http://gitimmersion.com/lab_02.html>`_ to work
 through tutorials for learning git.
