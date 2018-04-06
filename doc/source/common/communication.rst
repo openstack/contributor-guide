@@ -16,15 +16,21 @@ Wiki pages are a secondary source of information. They hold information that is
 subject to more change than the info provided in the project's documentation
 i.e. meeting agendas, team members, etc.
 
-Etherpads
-=========
+Etherpads and Ethercalcs
+========================
 
 Etherpad is a simple collaborative text editor. It is used as a common place to
 have people in a project collaborate on larger projects and planning of events.
 There is no master list of etherpads - it is harder to find what you are
 looking for without having looked at it before or without asking for the URL.
 It is recommended to bookmark the important etherpads for later reference.
-The staring page of the OpenStack `Etherpad <https://etherpad.openstack.org>`_.
+The starting page of the OpenStack Etherpad is `this
+<https://etherpad.openstack.org>`_.
+
+Ethercalc is a simple collaborative spreadsheet. It works in a similar way as
+Etherpad, but it is more useful to facilitate distributed booking or
+scheduling of resources. The starting page of OpenStack Ethercalc is `here
+<https://ethercalc.openstack.org/>`_.
 
 .. _communication-mailing-lists:
 
