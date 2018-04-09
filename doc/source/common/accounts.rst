@@ -25,12 +25,20 @@ Sign Up
 #. Go to the `OpenStack Foundation sign up page
    <https://www.openstack.org/join>`_.
 #. Under individual members, click the **Foundation Member** button.
+
+   .. image:: /_assets/account-setup/2.png
+
 #. Read through the presented individual member terms of service and our
    `Community Code of Conduct
    <https://www.openstack.org/legal/community-code-of-conduct/>`_.
-#. Complete the application.
-
-.. image:: /_assets/account-setup/2.png
+#. Fill in your name, e-mail address, and gender. Use the same e-mail address
+   at every step of the registration procedure. This address will also be used
+   as your login. Your gender information is available via public API.
+#. Add your affiliation information and statement of interest. This will be
+   visible only to foundation members.
+#. Fill in your home address. This will be only visible to foundation members.
+#. Fill in your password and check the box next to 'I'm not a robot'.
+#. Submit your application.
 
 
 Setup Your Bug Tracker Account
