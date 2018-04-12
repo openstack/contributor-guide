@@ -24,7 +24,7 @@ Set up IRC on Linux & Windows
 Install an IRC Program
 ----------------------
 
-We will install an IRC program called Hexchat.
+This section explains how you can install an IRC program called Hexchat.
 
 For a Linux distributions like Debian, Ubuntu, or Mint open a terminal and
 type::
@@ -78,17 +78,17 @@ Troubleshooting
 Register Your Nick Name
 -----------------------
 
-If all goes well we should get a dialog window indicating the connection to
-freenode has completed, and what to do next.. For now we'll select "Nothing,
+If all goes well you will get a dialog window indicating the connection to
+Freenode has completed, and what to do next. For now, select "Nothing,
 I'll join a channel later."
 
 .. image:: /_assets/irc/linux/3.png
 
-When you login to the server for the first time with your nickname, its being
-used by you, but it's still not registered yet.
+When you login to the server for the first time with your nickname, it
+will be used by you, but it's still not registered yet.
 
-In order to register we need to send a message to nickserv on freenode, which
-is a bot that allows us to register and identify ourselves as the owner of
+In order to register you need to send a message to nickserv on Freenode, which
+is a bot that allows you to register and identify yourselves as the owner of
 a nick name.
 
 Type the following to register your nick name with nickserv replacing
@@ -108,13 +108,14 @@ you provided.
 Auto-Login On Connecting To Freenode
 ------------------------------------
 
-In order to identify ourselves that we own the nick name upon logging in, we
-need to tell Hexchat to communicate our password over upon connecting.
+In order to identify yourselves that you own the nick name upon
+logging in, you need to tell Hexchat to communicate your password over
+upon connecting.
 
-#. Click **Hexchat** from the menu and then click **Network List**. We will see
-   a familiar first screen of servers listed. Make sure freenode is highlighted
-   and click **edit**.
-#. In the **Password** put in the password we picked in the previous
+#. Click **Hexchat** from the menu and then click **Network List**.
+   You will see a familiar first screen of servers listed. Make sure
+   Freenode is highlighted and click **edit**.
+#. In the **Password** put in the password you picked in the previous
    step and click close.
 
 .. image:: /_assets/irc/linux/5.png
@@ -143,7 +144,7 @@ Set up IRC on Mac OS
 Install an IRC Program
 ----------------------
 
-We'll install an IRC program called Colloquy.
+This section explains how you can install an IRC program called Colloquy.
 
 #. Go to http://colloquy.info and follow the download link.
 #. From your downloads folder, drag the Colloquy application icon to your
@@ -153,8 +154,8 @@ We'll install an IRC program called Colloquy.
 Add A New Connection
 --------------------
 
-#. Lets first fill out the **Nickname** and **User name** field with our
-   choice of a nickname:
+#. First fill out the **Nickname** and **User name** field with your
+   choice of a nickname.
 #. For the **Chat server** type in **irc.freenode.net**.
 #. For the **Chat Server Port** type in **6697** and check the **SSL
    Connection** box.
@@ -162,8 +163,8 @@ Add A New Connection
 .. image:: /_assets/irc/macos/1.png
     :width: 50%
 
-If all goes well in the second window we should see our our new connection and
-our client connected.
+If all goes well in the second window you will see your new connection
+and your client connected.
 
 .. image:: /_assets/irc/macos/2.png
     :width: 50%
@@ -171,7 +172,8 @@ our client connected.
 Troubleshooting
 ^^^^^^^^^^^^^^^
 
-* If you get a notice that the nick name is already taken
+* If you get a notice that the nick name is already taken:
+
     * Click **cancel**.
     * Click the **info** icon.
     * Type in a different user/nick name as shown in the previous step.
@@ -185,15 +187,15 @@ Troubleshooting
 Register Your Nick Name
 -----------------------
 
-If all goes well we should be connected and no pop ups as indicted in the
-previous step's Troubleshooting section.
+If all goes well you should be connected and no get any pop ups as
+indicated in the previous step's Troubleshooting section.
 
-When you login to the server for the first time with your nickname, its being
-used by you, but it's still not registered yet.
+When you login to the server for the first time with your nickname, it
+will be used by you, but it's still not registered yet.
 
-In order to register we need to send a message to nickserv on Freenode, which
-is a bot that allows us to register and identify ourselves as the owner of
-a nick name.
+In order to register you need to send a message to nickserv on
+Freenode, which is a bot that allows you to register and identify
+yourselves as the owner of a nick name.
 
 Click the **message user** icon and type::
 
@@ -216,10 +218,11 @@ you provided.
 Auto-Login On Connecting To Freenode
 ------------------------------------
 
-In order to identify ourselves that we own the nick name upon logging in, we
-need to tell Colloquy to communicate our password over upon connecting.
+In order to identify yourselves that you own the nick name upon
+logging in, you need to tell Colloquy to communicate our password over
+upon connecting.
 
-#. Going back to your connection window, highlight your freenode connection and
+#. Going back to your connection window, highlight your Freenode connection and
    click the **info** icon.
 #. In the **Password** field type your password.
 
