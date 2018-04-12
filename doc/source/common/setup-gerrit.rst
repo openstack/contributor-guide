@@ -9,17 +9,18 @@ Setting Up Your Gerrit Account
 What is Gerrit?
 ===============
 
-This is the review system the OpenStack community uses. Here are just some of
-the things we use Gerrit for reviewing:
+This is the review system the OpenStack community uses.
 
-* `Code <http://git.openstack.org/cgit>`_
+Gerrit allows you to review:
+
+* `Code, docs, infrastructure changes, and CI configurations <http://git.openstack.org/cgit>`_
 * `Specifications <http://specs.openstack.org>`_
 * `Translations <http://git.openstack.org/cgit/openstack/i18n/tree/>`_
-* `Use cases for features
-  <http://specs.openstack.org/openstack/openstack-user-stories/>`_
+* `Use cases for features <http://specs.openstack.org/openstack/openstack-user-stories/>`_
 
 Sign Up
 =======
+
 #. Visit `OpenStack's Gerrit page <https://review.openstack.org>`_ and click
    the **sign in** link.
 #. You will be prompted to select a username. You can enter the same one you
@@ -38,10 +39,11 @@ Sign Up
 
 
 Individual Contributor License Agreement
-----------------------------------------
+========================================
 
 What is it?
-^^^^^^^^^^^
+-----------
+
 An agreement to clarify intellectual property rights granted with
 contributions from a person or entity. `Preview the full agreement
 <https://review.openstack.org/static/cla.html>`_.
@@ -63,6 +65,7 @@ Individual Contributors
 
 Contributors From a Company or Organization
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 If you are contributing on behalf of a company or organization.
 
 #. In Gerrit's `settings <https://review.openstack.org/#/settings/agreements>`_
@@ -87,6 +90,7 @@ If you are contributing on behalf of a company or organization.
 
 Contributors From the U.S. Government
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 #. Someone of authority needs to sign the `U.S. Government Contributor License
    Agreement <https://wiki.openstack.org/wiki/GovernmentCLA>`_. Contact the
    `OpenStack Foundation <mailto:communitymngr@openstack.org>`_ to initiate
