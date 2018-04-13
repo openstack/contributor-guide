@@ -77,7 +77,38 @@ dashboard of "Outgoing reviews" for changes you have proposed,
 "Incoming reviews" for changes you are reviewing, and "Recently
 closed" changes for which you were either a reviewer or owner.
 
+Adding Reviewers
+================
+Sometimes there might be people you need to weigh in on your patch
+because they have a vested interest or are helping mentor you. The
+easiest way of letting them know you have uploaded a new patch or
+patchset is to add them as reviewers in the gerrit web-ui. You can
+look them up by name, gerrit email address, ssh user name, or
+gerrit id.
 
+.. image:: /_assets/using-gerrit/invite-reviewers.png
+
+In general, its best to avoid over using this gerrit capability
+because each interaction with the patch- new patchsets, comments,
+CI system votes, etc.- will send an email notification to every
+reviewer on the patch.
+
+.. note::
+   If you review a patch you are automatically added to the list
+   of reviewers.
+
+
+Gerrit Web Editor
+=================
+It is possible to edit your patch in the gerrit web interface and
+publish the change without making the change locally. This is not
+generally advised for larger code updates since it doesn't
+automatically update your local working branch. In some cases,
+where the patch is basically ready to merge aside from a small
+pep8 failure- whitespace at the end of line, needing to wrap a
+line, etc- this gerrit feature can be convenient to make a quick
+edit and publish the change without having to go through the entire
+'git add', 'git commit --amend', 'git review' process.
 
 Reviewing Changes
 =================
@@ -103,6 +134,8 @@ and add your vote on the patchset.
 The basic set of values contributors have to vote with on a patch
 is: -1, 0, or +1. These values correspond to a relatively simple
 system.
+
+.. image:: /_assets/using-gerrit/regular-reviewer.png
 
 -1: This patch needs further work before it can be merged. A -1 is
 usually given when the reviewer sees some issue that needs to be
@@ -134,6 +167,9 @@ patchset.
 
 Core reviewers have additional voting choices aside from the basic set.
 Like the basic set, the numbers map to a simple system of meaning:
+
+
+.. image:: /_assets/using-gerrit/core-reviewer.png
 
 -2: Do not merge. This score does not often appear and when it does,
 it's for a good reason:
