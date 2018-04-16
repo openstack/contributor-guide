@@ -15,3 +15,4 @@ Code & Documentation Contributor Guide
    /common/task-tracking
    /common/i18n
    /common/governance
+   /common/patch-best-practices
