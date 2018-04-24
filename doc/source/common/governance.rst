@@ -75,6 +75,8 @@ Project Team Leads are `elected
 for each release cycle by Active Project Contributors: individuals who have
 contributed to the project in the last two release cycles.
 
+.. _special-interest-groups:
+
 Special Interest Groups
 -----------------------
 
