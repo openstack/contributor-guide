@@ -9,6 +9,7 @@ Users' Contributor Guide
    /common/irc
    /common/accounts
    /common/communication
+   /common/events
    /common/git
    /common/setup-gerrit
    /common/governance
