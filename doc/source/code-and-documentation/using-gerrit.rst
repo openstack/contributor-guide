@@ -200,3 +200,35 @@ before it is merged into the repository.
   specific hardware needed, but in general you should be able to test the
   changes or look at the zuul build of the documentation so that you are
   doing more than just looking at the code or documentation change.
+
+Checking Out Others' Changes
+============================
+
+It is possible to check out other contributors' patches from Gerrit and even
+make changes to them; however, you should always discuss any changes with
+the contributor before you start working on their patch.
+
+.. code-block:: console
+
+  git-review -d <change ID>
+
+The change ID can be found on the web UI of Gerrit:
+
+.. image:: /_assets/using-gerrit/change-id.png
+  :scale: 80%
+
+After checking out the patch, you will be switched to a new branch
+automatically, on which you can make your changes.
+
+Cherry-picking
+==============
+
+If your commit depends on a change which has been updated since you started
+your work, and you need to get the latest patchset from that change,
+you can cherry-pick your own changes on top of it:
+
+.. code-block:: console
+
+  git review -x <change ID>
+
+The change ID is the same as in the previous case.
