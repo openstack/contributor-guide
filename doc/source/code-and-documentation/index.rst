@@ -18,3 +18,4 @@ Code & Documentation Contributor Guide
    /common/governance
    /common/zuul-status
    /common/patch-best-practices
+   /code-and-documentation/elastic-recheck
