@@ -2,12 +2,12 @@
 OpenStack Governance
 ####################
 
-The OpenStack community has a few different systems for `governance
-<https://governance.openstack.org/>_`, leadership, and community participation.
+The OpenStack community has a few different groups and roles for `governance
+<https://governance.openstack.org/>`_, leadership, and community participation.
 Each operates in a different sector of the community but being aware of each of
 them is useful.
 
-Governance
+Committees
 ==========
 
 Foundation Board of Directors
@@ -36,11 +36,8 @@ decisions. The `Technical Committee Charter
 in more detail.
 
 The 13 Members of the TC are elected for one year terms, six at one election,
-seven at another election six months later. They are elected by `Active
-Technical Contributors
-<https://governance.openstack.org/tc/reference/charter.html#voters-for-tc-seats-atc>`_
-(ATC): Individual Members of the Foundation who have contributed to any of the
-Official OpenStack Project Teams.
+seven at another election six months later. They are elected by
+:ref:`Active Technical Contributors <atc>`.
 
 User Committee
 --------------
@@ -52,28 +49,11 @@ community. The `User Committee Charter
 in more detail.
 
 The 5 members of the UC are elected to one year terms, three at one election,
-two at another election six months later. They are elected by `Active User
-Contributors
-<https://governance.openstack.org/uc/reference/charter.html#active-user-contributors-auc>`_
-(AUC): community members who have engaged in at least one of several community
-functions.
+two at another election six months later. They are elected by :ref:`
+Active User Contributors <auc>`.
 
-Other Leadership
-================
-
-Project Team Leads
-------------------
-
-Official project teams within OpenStack have a `Project Team Lead
-<https://governance.openstack.org/tc/reference/charter.html#project-team-leads>`_
-(PTL). These individuals coordinate the day to day operation of the project,
-resolve technical disputes within the project, and operate as the spokesperson
-and ambassador for the project.
-
-Project Team Leads are `elected
-<https://governance.openstack.org/tc/reference/charter.html#election-for-ptl-seats>`_
-for each release cycle by Active Project Contributors: individuals who have
-contributed to the project in the last two release cycles.
+Groups
+======
 
 .. _special-interest-groups:
 
@@ -83,3 +63,79 @@ Special Interest Groups
 OpenStack `Special Interest Groups <https://governance.openstack.org/sigs/>`_
 are working groups that operate within the entire OpenStack community to
 address interests and concerns of all participants with a shared interest.
+
+Roles
+=====
+
+.. _atc:
+
+Active Technical Contributor (ATC)
+----------------------------------
+
+Individual Members of the Foundation who have contributed to any of the
+official OpenStack project repositories over the last two 6-month release
+cycles are automatically considered as ATCs.
+
+In specific cases you can apply for an exception to become an ATC, for further
+information please see the `relevant section of the Technical Committee Charter
+<https://governance.openstack.org/tc/reference/charter.html#voters-for-tc-seats-atc>`_.
+
+Active Project Contributor (APC)
+--------------------------------
+
+If you have the ATC status, in the official OpenStack project where you
+contributed over the last two 6-month release cycles you are considered being
+an Active Project Contributor.
+
+Only APCs can participate in the election process to vote for the next PTL of
+the team.
+
+Project Team Lead (PTL)
+-----------------------
+
+Official project teams within OpenStack have a `Project Team Lead
+<https://governance.openstack.org/tc/reference/charter.html#project-team-leads>`_.
+These individuals coordinate the day to day operation of the project, resolve
+technical disputes within the project, and operate as the spokesperson and
+ambassador for the project.
+
+Project Team Leads are `elected
+<https://governance.openstack.org/tc/reference/charter.html#election-for-ptl-seats>`_
+for each release cycle by Active Project Contributors: individuals who have
+contributed to the project in the last two release cycles.
+
+Core Reviewer
+-------------
+
+Official OpenStack projects have a project team consisting of core reviewers
+and contributors.
+
+Core reviewers are responsible for:
+
+* Define and maintain the project mission
+* Review bug reprots and decide about their priority
+* Review changes and approve them when it meets the design and coding or
+  documentation standards of the project
+
+Core reviewers have '+/-2' and 'W+1' rights in Gerrit that is required for
+blocking or approving a patch.
+
+New core reviewers are nominated by someone from the existing team on the
+Developer Mailing List and/or in Gerrit and elected by voting from the members
+of the core team of the project.
+
+.. _auc:
+
+Active User Contributor (AUC)
+-----------------------------
+
+The user community is crucial for OpenStack and their participation is highly
+encouraged.
+
+
+Community members who have engaged in community functions listed in the
+`related section of the User Committee Charter
+<https://governance.openstack.org/uc/reference/charter.html#active-user-contributors-auc>`_
+are considered to be Active User Contributors.
+
+The User Committee chairs are elected from and by the group of AUCs.
