@@ -52,6 +52,40 @@ The 5 members of the UC are elected to one year terms, three at one election,
 two at another election six months later. They are elected by :ref:`
 Active User Contributors <auc>`.
 
+Official OpenStack projects
+===========================
+
+Official OpenStack projects are the projects under the governance of the
+Technical Commitee. Official OpenStack projects are listed in the
+`OpenStack Project Teams page
+<https://governance.openstack.org/tc/reference/projects/index.html>`_.
+Most well-known official OpenStack projects are listed in the `project
+navigator <https://www.openstack.org/software/project-navigator>`_. It
+is not mandatory for a project to become an official OpenStack project.
+
+Requirements for the official OpenStack projects are listed
+`in the wiki of the Technical Commitee
+<https://governance.openstack.org/tc/reference/new-projects-requirements.html>`_.
+
+Benefits of the official OpenStack projects:
+
+* Contributors get to vote in the Technical Committee election
+* Can publish to `docs.openstack.org <https://docs.openstack.org/>`_ and
+  `developer.openstack.org <https://developer.openstack.org/>`_
+* The teams get space at `OpenStack Summits
+  <https://www.openstack.org/summit/>`_ and `Project Team Gatherings (PTG)
+  <https://www.openstack.org/ptg/>`_
+* Get marketing from the OpenStack Foundation
+* Can participate in common programs, like `mentoring
+  <https://wiki.openstack.org/wiki/Mentors>`_ and `internship
+  <https://wiki.openstack.org/wiki/Outreachy>`_ to help with on boarding
+* Get guidance from community members and leaders
+* Its activities are under the oversight of the Technical Committee
+
+To propose a project to be an official OpenStack project the projects
+information should be added to the *reference/projects.yaml* file of the
+*openstack/governance* repository. Anyone can propose changes to the file.
+
 Groups
 ======
 
