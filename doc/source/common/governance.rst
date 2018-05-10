@@ -7,6 +7,12 @@ The OpenStack community has a few different groups and roles for `governance
 Each operates in a different sector of the community but being aware of each of
 them is useful.
 
+This section allows you to:
+
+* Understand the governance model of OpenStack
+* Know how to participate in groups that interest you and influence the future
+  of OpenStack
+
 Committees
 ==========
 
