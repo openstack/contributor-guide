@@ -13,10 +13,10 @@ Code & Documentation Contributor Guide
    /common/communication
    /common/events
    /common/setup-gerrit
+   /code-and-documentation/patch-best-practices
    /code-and-documentation/using-gerrit
    /common/task-tracking
    /common/i18n
    /common/governance
    /common/zuul-status
-   /common/patch-best-practices
    /code-and-documentation/elastic-recheck
