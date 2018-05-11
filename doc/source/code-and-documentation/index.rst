@@ -19,4 +19,5 @@ Code & Documentation Contributor Guide
    /common/i18n
    /common/governance
    /common/zuul-status
+   /code-and-documentation/devstack
    /code-and-documentation/elastic-recheck
