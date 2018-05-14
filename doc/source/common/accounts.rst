@@ -25,6 +25,7 @@ Sign Up
 #. Under individual members, click the **Foundation Member** button.
 
    .. image:: /_assets/account-setup/2.png
+     :scale: 80%
 
 #. Read through the presented individual member terms of service and our
    `Community Code of Conduct
