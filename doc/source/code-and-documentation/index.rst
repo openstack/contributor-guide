@@ -8,16 +8,16 @@ Code & Documentation Contributor Guide
 
    /common/introduction
    /common/irc
-   /common/accounts
-   /common/git
    /common/communication
+   /common/accounts
+   /common/governance
+   /common/git
+   /common/task-tracking
    /common/events
    /common/setup-gerrit
    /code-and-documentation/patch-best-practices
-   /code-and-documentation/using-gerrit
-   /common/task-tracking
-   /common/i18n
-   /common/governance
-   /common/zuul-status
    /code-and-documentation/devstack
+   /code-and-documentation/using-gerrit
+   /common/zuul-status
    /code-and-documentation/elastic-recheck
+   /common/i18n
