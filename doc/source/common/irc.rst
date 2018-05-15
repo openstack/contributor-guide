@@ -10,7 +10,8 @@ IRC
 What is IRC?
 ------------
 
-The OpenStack community uses IRC as its primary chat service.
+The OpenStack community uses Internet Relay Chat (IRC) as its primary chat
+service.
 
 IRC allows you to:
 
@@ -109,7 +110,7 @@ Auto-Login On Connecting To Freenode
 ------------------------------------
 
 In order to identify yourselves that you own the nick name upon
-logging in, you need to tell Hexchat to communicate your password over
+logging in, you need to tell Hexchat to communicate your password
 upon connecting.
 
 #. Click **Hexchat** from the menu and then click **Network List**.
@@ -132,7 +133,8 @@ A good channel to join right away is the #openstack-dev channel. A lot of
 people hang around in that channel so come on in and say hello! If there is
 a specific project you are also interested in working on, feel free to join
 that one as well and introduce yourself there. Interested in joining more
-channels or need to look up what one is called? Look :ref:`irc-channels`.
+channels or need to look up what one is called? Check out
+:ref:`irc-channels` for more information.
 
 It's also important to note that given that the majority of contributors
 reside in the United States, channels will likely be quieter outside of
@@ -187,7 +189,7 @@ Troubleshooting
 Register Your Nick Name
 -----------------------
 
-If all goes well you should be connected and no get any pop ups as
+If all goes well you should be connected and not get any pop ups as
 indicated in the previous step's Troubleshooting section.
 
 When you login to the server for the first time with your nickname, it
@@ -219,7 +221,7 @@ Auto-Login On Connecting To Freenode
 ------------------------------------
 
 In order to identify yourselves that you own the nick name upon
-logging in, you need to tell Colloquy to communicate our password over
+logging in, you need to tell Colloquy to communicate your password
 upon connecting.
 
 #. Going back to your connection window, highlight your Freenode connection and
@@ -241,7 +243,8 @@ A good channel to join right away is the #openstack-dev channel. A lot of
 people hang around in that channel so come on in and say hello! If there is
 a specific project you are also interested in working on, feel free to join
 that one as well and introduce yourself there. Interested in joining more
-channels or need to look up what one is called? Look :ref:`irc-channels`.
+channels or need to look up what one is called? Check out
+:ref:`irc-channels` for more information.
 
 It's also important to note that given that the majority of contributors
 reside in the United States, channels will likely be quieter outside of
@@ -273,7 +276,7 @@ channels, and archives of meetings.
 IRC Archives
 ============
 
-Most IRC channels are archived, you can read the logs on the
+Most IRC channels are archived, you can read the logs on
 `eavesdrop <http://eavesdrop.openstack.org/irclogs/>`__.
 
 IRC bots
