@@ -46,8 +46,10 @@ Setup Your Task Tracker Account
 .. note::
    The OpenStack community is currently in the process of moving from the bug
    tracking software Launchpad to StoryBoard. Further in the project specific
-   on-boarding documentation, give special attention if the project is using
-   Launchpad or StoryBoard.
+   on-boarding documentation, give special attention to if the project is
+   using Launchpad or StoryBoard. If your project is still using Launchpad
+   you will want to take notice of the Launchpad section later in this
+   document.
 
 A Task Tracker account allows you to:
 
