@@ -6,6 +6,7 @@ Users' Contributor Guide
    :caption: User Contributors
    :maxdepth: 2
 
+   /users/introduction
    /common/irc
    /common/accounts
    /common/communication
