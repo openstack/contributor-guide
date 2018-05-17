@@ -27,6 +27,8 @@ Storyboard.
 
 .. _project list: https://governance.openstack.org/tc/reference/projects/index.html
 
+.. _storyboard:
+
 Storyboard
 ==========
 
@@ -61,6 +63,8 @@ to the project team how stories are organized. They could be sorted by
 milestone. A lane could have all the bugs or all the new features. It
 depends on the teams way of organizing and coordinating work. Order of
 stories in a worklist could convey priority as well.
+
+.. _launchpad:
 
 Launchpad
 =========
