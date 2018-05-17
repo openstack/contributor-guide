@@ -225,8 +225,8 @@ Git Review
 What is it?
 -----------
 
-Git review is tool maintained by the OpenStack community. It adds an additional
-sub-command to 'git' like so::
+Git review is a tool maintained by the OpenStack community. It adds an
+additional sub-command to 'git' like so::
 
   git review
 
@@ -294,3 +294,18 @@ username. If it's not, you can tell it by setting this git config setting::
 If you don't know what your Gerrit username is, you can check the `Gerrit
 settings <https://review.openstack.org/#/settings/>`_.
 
+Preparing to Send a Review
+--------------------------
+
+Before doing **git commit** on your patch it is important to initialize
+git review. Use the following command to do the initial git review
+configuration in your repository::
+
+  git review -s
+
+The command sets up the necessary remote hosts and commit hooks
+to enable pushing changes to Gerrit.
+
+.. note::
+
+  Git reviews only needs to be initialized once in a repository.
