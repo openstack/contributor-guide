@@ -9,6 +9,12 @@ forget about the unwritten rules of constructing your changes.
 This section will guide you through how to create patches that people will want
 to review.
 
+Allows you to:
+
+* Know how to structure a patch that makes it easier to maintain throughout
+  the review process
+* Know how to structure a patch that is easier for community members to review
+
 The Right Size
 ==============
 

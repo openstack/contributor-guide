@@ -11,6 +11,11 @@ Launchpad blueprints and bugs.
 
    This section assumes you have completed :doc:`accounts` guide.
 
+This section allows you to:
+
+* Understand the different tools OpenStack uses for task management
+* Know how to report bugs and propose features
+
 What Task Trackers does OpenStack use?
 ======================================
 

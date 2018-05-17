@@ -4,6 +4,12 @@ Using Elastic Recheck
 
 .. note:: This section assumes you have completed :doc:`/common/zuul-status`
 
+Allows you to:
+
+* Enhance the automatic testing the community does on every patch submitted
+  to gerrit
+* Report recurring bugs so that you don't need to manually 'recheck'
+
 What to do if a test job fails
 ==============================
 

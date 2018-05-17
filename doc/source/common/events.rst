@@ -9,6 +9,11 @@ The OpenStack Foundation organizes multiple events per year to bring together
 the community as well as companies and individuals interested in the technology
 and to embrace and encourage open collaboration.
 
+This section allows you to:
+
+* Understand the differences between the different in-person OpenStack events
+* Know which events are valuable to you
+
 OpenStack/Open Infrastructure Summit
 ------------------------------------
 

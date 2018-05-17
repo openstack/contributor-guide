@@ -6,6 +6,12 @@ Using Gerrit
 
   This section assumes you have completed :doc:`../common/setup-gerrit` guide.
 
+Gerrit allows you:
+
+* Get reviews on your changes proposed to OpenStack repositories
+* Request reviews from specific community members
+* Make quick changes to your patches in the webui
+
 Pushing A Change
 ================
 

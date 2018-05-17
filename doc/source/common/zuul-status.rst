@@ -6,6 +6,12 @@ Checking Status in Zuul
 
    This section assumes you have completed :doc:`/code-and-documentation/using-gerrit`.
 
+This section allows you to:
+
+* Monitor your patches as they get tested by Zuul
+* Understand the underlying infrastructure and gating processes that
+  OpenStack uses
+
 What is Zuul
 ============
 

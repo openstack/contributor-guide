@@ -2,6 +2,12 @@
 Communication
 #############
 
+This sections allows you to:
+
+* Ask questions and get prompt responses from the community
+* Build up your persona in the community as a contributing member
+* Stay up to date on the active discussions in the community
+
 IRC
 ===
 While working with OpenStack, IRC is the best way to get help or support
@@ -45,8 +51,8 @@ that are on IRC. All emails on these lists are archived and available on the
 The same page describes how to subscribe to a list and describes some popular
 lists.
 
-Ask OpenStack
-=============
+ask.openstack.org
+=================
 
 `Ask OpenStack <https://ask.openstack.org/>`__ is a question and answer site
 for OpenStack users and developers. It provides answer to almost every
