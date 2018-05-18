@@ -55,8 +55,8 @@ community. The `User Committee Charter
 in more detail.
 
 The 5 members of the UC are elected to one year terms, three at one election,
-two at another election six months later. They are elected by :ref:`
-Active User Contributors <auc>`.
+two at another election six months later. They are elected by
+:ref:`Active User Contributors <auc>`.
 
 Official OpenStack projects
 ===========================
@@ -73,7 +73,7 @@ Requirements for the official OpenStack projects are listed
 `in the wiki of the Technical Commitee
 <https://governance.openstack.org/tc/reference/new-projects-requirements.html>`_.
 
-Benefits of the official OpenStack projects:
+Benefits for official OpenStack projects:
 
 * Contributors get to vote in the Technical Committee election
 * Can publish to `docs.openstack.org <https://docs.openstack.org/>`_ and
@@ -88,7 +88,7 @@ Benefits of the official OpenStack projects:
 * Get guidance from community members and leaders
 * Its activities are under the oversight of the Technical Committee
 
-To propose a project to be an official OpenStack project the projects
+To propose a project to be an official OpenStack project the project's
 information should be added to the *reference/projects.yaml* file of the
 *openstack/governance* repository. Anyone can propose changes to the file.
 
@@ -124,7 +124,7 @@ Active Project Contributor (APC)
 --------------------------------
 
 If you have the ATC status, in the official OpenStack project where you
-contributed over the last two 6-month release cycles you are considered being
+contributed over the last two 6-month release cycles you are considered to be
 an Active Project Contributor.
 
 Only APCs can participate in the election process to vote for the next PTL of
@@ -152,9 +152,9 @@ and contributors.
 
 Core reviewers are responsible for:
 
-* Define and maintain the project mission
-* Review bug reprots and decide about their priority
-* Review changes and approve them when it meets the design and coding or
+* Defining and maintaining the project mission
+* Reviewing bug reports and deciding about their priority
+* Reviewing changes and approving them when it meets the design and coding or
   documentation standards of the project
 
 Core reviewers have '+/-2' and 'W+1' rights in Gerrit that is required for
@@ -189,10 +189,10 @@ projects can choose to follow.
 Release Models
 --------------
 
-OpenStack consists of a high number of projects from the main components of an
-OpenStack cloud, through client libraries to lifecycle management services. The
-different projects are different in nature which implies different
-`release models
+OpenStack consists of a large number of projects that form the main components
+of an OpenStack cloud, from client libraries to lifecycle management
+services. The different projects are different in nature which implies
+different `release models
 <https://releases.openstack.org/reference/release_models.html>`_ to follow.
 
 The currently available options are the following:
@@ -211,8 +211,8 @@ The currently available options are the following:
 Release Schedule and Planning
 -----------------------------
 
-Majority of the official OpenStack projects follow the release schedule set by
-the Release Management Team.
+The majority of the official OpenStack projects follow the release schedule
+set by the Release Management Team.
 
 The 6-month cycle is divided into three milestones and a usually one-month long
 stabilization period with release candidates.
@@ -222,7 +222,7 @@ PTGs are scheduled right after the releases. This is the phase when you should
 upload your specs for review and use the mailing list, project channels and
 meetings on IRC to discuss any parts of your design that might be in question.
 
-After the first milestone some projects focus more on the developemtn and bug
+After the first milestone, some projects focus more on the development and bug
 fixing activities, while other projects might still accept new ideas to
 implement in that cycle.
 
@@ -231,7 +231,7 @@ testing of new functionality added during the release. You need to esnure to
 add new tests in Tempest and have documentation covered as well before the
 third milestone. During this phase the core review team can choose to focus on
 higher priority features only. They make their decision about priorities either
-on the PTG or soon after some time before the first milestone of a release.
+at the PTG or soon after, some time before the first milestone of a release.
 
 Some projects also have different dates through a release cycles as internal,
 project-specific deadlines, like spec-freeze or code-freeze. You need to make
@@ -245,6 +245,6 @@ milestone. There are no limits to release candidates, but the goal is to keep
 the number low and fix all the critical issues that got identified by
 milestone-3.
 
-Having the main projects following the release cycle ensure that all these
-projects release at the same so these can be picked up by downstream teams to
-package and further distribute.
+Having the main projects following the release cycle ensures that all these
+projects release at the same time so these can be picked up by downstream
+teams to package and further distribute.
