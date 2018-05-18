@@ -21,3 +21,4 @@ Code & Documentation Contributor Guide
    /common/zuul-status
    /code-and-documentation/elastic-recheck
    /common/i18n
+   /code-and-documentation/sandbox-house-rules
