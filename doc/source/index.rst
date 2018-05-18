@@ -10,6 +10,7 @@ The OpenStack Contributor Guide
 .. toctree::
    :maxdepth: 1
 
+   common/introduction
    code-and-documentation/index
    users/index
    operators/index

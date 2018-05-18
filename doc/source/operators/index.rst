@@ -6,6 +6,7 @@ Operators' Contributor Guide
    :caption: Operator Contributors
    :maxdepth: 2
 
+   /operators/introduction
    /common/introduction
    /common/irc
    /common/accounts
