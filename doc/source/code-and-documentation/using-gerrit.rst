@@ -39,7 +39,7 @@ commit hook. You only need to do this once per repository you clone::
     git review -s
 
 To create your development branch (substitute branch_name for a name
-of your choice). Its better to create a new branch for each patch than
+of your choice). It's better to create a new branch for each patch than
 working from master::
 
     git checkout -b <branch_name>
@@ -62,7 +62,7 @@ your changes for review use::
 
     git review
 
-If successful, Git response message will contain a URL you can use to
+If successful, the Git response message will contain a URL you can use to
 track your changes.
 
 If you need to make further changes to the same review, you can commit them
@@ -117,6 +117,14 @@ pep8 failure- whitespace at the end of line, needing to wrap a
 line, etc- this gerrit feature can be convenient to make a quick
 edit and publish the change without having to go through the entire
 'git add', 'git commit --amend', 'git review' process.
+
+To access the Gerrit Web Editor click on the icon that looks
+like a pencil writing on paper next to the patch set number
+at the top of a Gerrit Code Review page for a file.
+
+.. image:: /_assets/using-gerrit/web-editor.png
+   :scale: 75
+
 
 Reviewing Changes
 =================
