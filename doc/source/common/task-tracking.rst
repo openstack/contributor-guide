@@ -43,7 +43,7 @@ coordination of cross project work. Items tracked are stories and tasks.
 A story can be a bug or a new feature, while tasks are the smaller todo's
 required to complete the story.
 
-For information on how to use storyboard, please see `the GUI manual <https://docs.openstack.org/infra/storyboard/gui/manual.html>`_.
+For information on how to use storyboard, please see `the user interface manual <https://docs.openstack.org/infra/storyboard/gui/tasks_stories_tags.html>`_.
 
 For other information about the project itself, please check out `their documentation <https://docs.openstack.org/infra/storyboard/>`_.
 
