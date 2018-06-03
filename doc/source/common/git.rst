@@ -113,7 +113,12 @@ Format:
 - Summary Line
 - Empty line
 - Body
+- Empty line
 - Tags
+
+.. note::
+
+  Tags should be entered one per line.
 
 Summary Line
 ------------
