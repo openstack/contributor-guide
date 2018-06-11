@@ -131,7 +131,9 @@ Reviewing Changes
 
 Reviewing changes is often suggested as a way to get started on a
 project. Whether this is how you choose to get started or not, it's
-an important community activity.
+an important community activity. See `How to Review Changes the
+OpenStack Way`_ for more detailed guidance on when to use which votes
+on a change review.
 
 **Inline Comments**
 
@@ -153,28 +155,29 @@ system.
 
 .. image:: /_assets/using-gerrit/regular-reviewer.png
 
--1: This patch needs further work before it can be merged. A -1 is
-usually given when the reviewer sees some issue that needs to be
-fixed before the patch can be merged.  The issues the author needs
-to address would, ideally, have inline comments posted on them
-unless there is some larger issue. If there is something wrong with
-the overall approach, you are able to leave an overall comment with
-the vote to raise your concerns.
+`-1`_: This patch needs further work before it can be merged.
+A -1 is usually given when the reviewer sees some issue that needs to be
+fixed before the patch can be merged.  The issues the author needs to
+address would, ideally, have inline comments posted on them unless there
+is some larger issue. If there is something wrong with the overall
+approach, you are able to leave an overall comment with the vote to
+raise your concerns.
 
 .. note::
    If your patch gets a -1 it is not bad news, it just means you
    need to do a little more work.
 
-0: No score. This is the default score when replying to a patchset.
-Generally its kept as the vote when someone has a question about
-the patchset or doesn't have a fully formed opinion of the patchset
-yet- it requires more time, testing, or investigation.
+`0`_: No score.
+This is the default score when replying to a patchset. Generally it's
+kept as the vote when someone has a question about the patchset or
+doesn't have a fully formed opinion of the patchset yet - it requires
+more time, testing, or investigation.
 
-+1: Looks good to me, but someone else must approve. This does not
-mean that there is nothing to comment on, just that there aren't
-any issues that would block the merging of the patch. You can still
-make comments on nitpicky things the patch owner can address if
-others find issues with the patch. These comments might also be
+`+1`_: Looks good to me, but someone else must approve.
+This does not mean that there is nothing to comment on, just that
+there aren't any issues that would block the merging of the patch. You
+can still make comments on nitpicky things the patch owner can address
+if others find issues with the patch. These comments might also be
 something to address in a followup patch as opposed to another
 patchset.
 
@@ -187,12 +190,12 @@ Like the basic set, the numbers map to a simple system of meaning:
 
 .. image:: /_assets/using-gerrit/core-reviewer.png
 
--2: Do not merge. This score does not often appear and when it does,
-it's for a good reason:
+`-2`_: Do not merge.
+This score does not often appear and when it does, it's for a good reason:
 
 * Most often, some deadline has passed and since no more changes are
   being accepted till the new release development begins, the patch
-  is being held.
+  is `being held`.
 * There is an issue with the approach taken in the patch and it needs
   to be discussed with a larger group, likely in a meeting.
 * The patch submitted is a duplicate or at odds with another patch
@@ -202,9 +205,9 @@ it's for a good reason:
    Only the person that voted the -2 can remove the vote and it will persist
    on all new patchsets.
 
-+2: Looks good to me (core reviewer). Depending on the project team and
-repository, merging a patch will require at least one +2 vote if not
-two +2 votes.
+`+2`_: Looks good to me (core reviewer).
+Depending on the project team and repository, merging a patch will
+require at least one +2 vote if not two +2 votes.
 
 +W: Approved. This patch will now be run through a final round of checks
 before it is merged into the repository.
@@ -221,7 +224,7 @@ Checking Out Others' Changes
 ============================
 
 It is possible to check out other contributors' patches from Gerrit and even
-make changes to them; however, you should always discuss any changes with
+`make changes to them`_; however, you should always discuss any changes with
 the contributor before you start working on their patch.
 
 .. code-block:: console
@@ -248,3 +251,13 @@ you can cherry-pick your own changes on top of it:
   git review -x <change ID>
 
 The change ID is the same as in the previous case.
+
+
+.. _How to Review Changes the OpenStack Way: https://docs.openstack.org/project-team-guide/review-the-openstack-way.html
+.. _+2: https://docs.openstack.org/project-team-guide/review-the-openstack-way.html#code-review-plus-2
+.. _+1: https://docs.openstack.org/project-team-guide/review-the-openstack-way.html#code-review-plus-1
+.. _0: https://docs.openstack.org/project-team-guide/review-the-openstack-way.html#code-review-0
+.. _-1: https://docs.openstack.org/project-team-guide/review-the-openstack-way.html#code-review-minus-1
+.. _-2: https://docs.openstack.org/project-team-guide/review-the-openstack-way.html#code-review-minus-2
+.. _being held: https://docs.openstack.org/project-team-guide/review-the-openstack-way.html#procedural-minus-2
+.. _make changes to them: https://docs.openstack.org/project-team-guide/review-the-openstack-way.html#modifying-a-change
