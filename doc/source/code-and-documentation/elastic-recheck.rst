@@ -42,7 +42,7 @@ queries the elastic-search cluster for the fingerprints.
 .. _Kibana dashboard: http://logstash.openstack.org/
 
 You can see the current status of the bugs being tracked by elastic recheck at:
-http://status.openstack.org/elastic-recheck/index.html
+`Elastic Recheck <http://status.openstack.org/elastic-recheck/index.html>`_
 
 .. image:: /_assets/elastic_recheck/er_status.png
    :scale: 65
