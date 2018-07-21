@@ -58,9 +58,11 @@ uncategorized the more unstable the gate is (and OpenStack as a whole).
 
 You can find these pages at:
 
-http://status.openstack.org/elastic-recheck/data/integrated_gate.html
+`Unclassified failed integrated gate jobs
+<http://status.openstack.org/elastic-recheck/data/integrated_gate.html>`_
 and
-http://status.openstack.org/elastic-recheck/data/others.html
+`Unclassified failed jobs
+<http://status.openstack.org/elastic-recheck/data/others.html>`_
 
 depending on which jobs you're interested in.
 
