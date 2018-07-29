@@ -7,13 +7,13 @@ Code & Documentation Contributor Guide
    :maxdepth: 2
 
    /code-and-documentation/introduction
-   /common/irc
    /common/communication
+   /common/irc
    /common/accounts
    /common/governance
-   /common/git
-   /common/task-tracking
    /common/events
+   /common/task-tracking
+   /common/git
    /common/setup-gerrit
    /code-and-documentation/patch-best-practices
    /code-and-documentation/devstack
