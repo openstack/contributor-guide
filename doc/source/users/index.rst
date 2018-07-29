@@ -14,3 +14,4 @@ Users' Contributor Guide
    /common/git
    /common/setup-gerrit
    /common/governance
+   /common/releases

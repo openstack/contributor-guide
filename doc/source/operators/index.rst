@@ -16,3 +16,4 @@ Operators' Contributor Guide
    /common/setup-gerrit
    /operators/participate
    /common/governance
+   /common/releases

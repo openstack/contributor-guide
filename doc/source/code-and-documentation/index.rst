@@ -11,6 +11,7 @@ Code & Documentation Contributor Guide
    /common/irc
    /common/accounts
    /common/governance
+   /common/releases
    /common/events
    /common/task-tracking
    /common/git
