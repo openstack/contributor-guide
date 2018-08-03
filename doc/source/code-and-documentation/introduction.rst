@@ -15,3 +15,7 @@ communication, which we encourage you to use.
 We do not differentiate between the different types of contributions such as
 code or documentation therefore you will find guidance in this chapter for all
 types.
+
+A detailed description of the documentation tools and processes can be found
+in the
+`OpenStack Documentation Contributor Guide <https://docs.openstack.org/doc-contrib-guide/index.html>`_.
