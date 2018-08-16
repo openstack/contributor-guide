@@ -85,16 +85,17 @@ This guide won't go into the details of tracing through the logs of a run
 and finding a good fingerprint, since that's quite involved, dependent on the
 job you're looking at, and already documented in a few places including:
 
- * https://www.openstack.org/videos/vancouver-2015/tales-from-the-gate-how-debugging-the-gate-helps-your-enterprise
- * https://docs.openstack.org/infra/elastic-recheck/readme.html#queries
+ * `Tales From the Gate: How Debugging the Gate Helps Your Enterprise
+   <https://www.openstack.org/videos/vancouver-2015/tales-from-the-gate-how-debugging-the-gate-helps-your-enterprise>`_
+ * `elastic-recheck queries <https://docs.openstack.org/infra/elastic-recheck/readme.html#queries>`_
 
 Once you've identified a message in the logs that can be used for
 fingerprinting you need to turn that into an elastic-search query. You can
 use any of the existing fingerprints as an example:
-https://git.openstack.org/cgit/openstack-infra/elastic-recheck/tree/queries
+`openstack-infra/elastic-recheck <https://git.openstack.org/cgit/openstack-infra/elastic-recheck/tree/queries>`_
 
 You should also check any elastic search queries using kibana at:
-http://logstash.openstack.org/
+`Logstash Search <http://logstash.openstack.org/>`_
 
 Once you've constructed a query and checked in on elastic-search you should
 create a yaml file in the queries directory of the elastic-recheck git repo.
