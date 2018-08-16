@@ -63,7 +63,7 @@ The 'Depends-On' tag is a marker on your changes and when used
 a patch cannot be merged until all its dependencies are landed.
 
 The tag can be applied to patches proposed for the same repository as well. In
-that case the changes are separate enough to be kept indenependent which means
+that case the changes are separate enough to be kept independent which means
 that if you need to fix changes from review comments you can do it on a per
 patch basis. It is also true for rebasing each patch.
 
