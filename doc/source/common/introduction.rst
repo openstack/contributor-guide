@@ -68,7 +68,7 @@ Groups
 ------
 
 There are lots of people working on OpenStack organized into different groups.
-These are described in the the :ref:`special-interest-groups` section of
+These are described in the :ref:`special-interest-groups` section of
 the Governance chapter.
 
 What is a contribution?
