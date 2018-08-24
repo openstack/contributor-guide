@@ -30,7 +30,7 @@ To clone a copy of some repository::
 
 .. note::
    You can find the same respositories using the search function here:
-   https://git.openstack.org/cgit
+   `OpenStack git repository browser <https://git.openstack.org/cgit>`_
 
 After you've completed the Setup and Learn GIT section, the following command
 configures the repository to know about Gerrit and installs the ``Change-Id``
