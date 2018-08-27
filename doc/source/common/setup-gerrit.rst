@@ -164,8 +164,8 @@ have no passphrase::
   Enter passphrase (empty for no passphrase): [Type a passphrase]
   Enter same passphrase again: [Type passphrase again]
 
-Generating A Separate Key Pair For OpenStack Gerrit
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Generating A Separate Key Pair For OpenStack Gerrit (optional)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 You can generate a new SSH key using the provided email as a label by going
 into your terminal program and typing::

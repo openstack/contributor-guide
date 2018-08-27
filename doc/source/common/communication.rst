@@ -8,10 +8,11 @@ This sections allows you to:
 * Build up your persona in the community as a contributing member
 * Stay up to date on the active discussions in the community
 
-IRC
-===
-While working with OpenStack, IRC is the best way to get help or support
-others. Details of IRC communication are described in :ref:`setup-irc`.
+Internet Relay Chat (IRC)
+=========================
+While working with OpenStack, IRC is the best way to get real time help
+or support others. Details of how to get on IRC are described in
+:ref:`setup-irc`.
 
 Wiki Pages
 ==========
