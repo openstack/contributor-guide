@@ -71,7 +71,8 @@ depending on which jobs you're interested in.
 
 If you're interested in more of the theory and history behind the project, this
 talk from the Juno OpenStack Summit provides a good overview:
-https://www.youtube.com/watch?v=Byo26Pioq1Y
+`Elastic Recheck - Tools for Finding Race Conditions in OpenStack
+<https://www.youtube.com/watch?v=Byo26Pioq1Y>`_
 
 Tracking a new bug in elastic-recheck
 =====================================
