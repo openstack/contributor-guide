@@ -144,7 +144,7 @@ could be used:
 
 A more complete reference of using systemd to interact with DevStack
 can be found on the `Using Systemd in DevStack
-<https://docs.openstack.org/DevStack/latest/systemd.html>`_ page.
+<https://docs.openstack.org/devstack/latest/systemd.html>`_ page.
 
 Testing Changes with DevStack
 =============================
