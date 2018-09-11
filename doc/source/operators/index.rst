@@ -7,7 +7,6 @@ Operators' Contributor Guide
    :maxdepth: 2
 
    /operators/introduction
-   /common/introduction
    /common/irc
    /common/accounts
    /common/communication
