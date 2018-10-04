@@ -33,7 +33,7 @@ Sign Up
 
 .. note::
 
-   From here on out when you sign into Gerrit, you'll be prompted to enter your
+   From here on out when you sign into Gerrit, you'll be prompted to enter
    your Launchpad login info. This is because Gerrit uses it as an OpenID
    single sign on.
 
