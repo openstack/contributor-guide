@@ -52,7 +52,7 @@ fixing activities, while other projects might still accept new ideas to
 implement in that cycle.
 
 The third period of a release is focusing on finishing the implementation and
-testing of new functionality added during the release. You need to esnure to
+testing of new functionality added during the release. You need to ensure to
 add new tests in Tempest and have documentation covered as well before the
 third milestone. During this phase the core review team can choose to focus on
 higher priority features only. They make their decision about priorities either
