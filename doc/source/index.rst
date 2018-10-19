@@ -12,6 +12,7 @@ The OpenStack Contributor Guide
 
    common/introduction
    code-and-documentation/index
+   non-code-contribution/index
    users/index
    operators/index
    contributing/index
