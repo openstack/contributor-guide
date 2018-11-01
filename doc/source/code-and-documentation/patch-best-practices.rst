@@ -116,7 +116,7 @@ only the commit message and a few more for more advanced changes, like
 modifying the author.
 
 * To download the full chain you need to download the top patch and Git will
-  automatically dowloand all the dependent patches in the chain.
+  automatically download all the dependent patches in the chain.
 
 * If you only need to modify the top patch in the chain that can be done the
   same way as you update individual patches.
@@ -155,7 +155,7 @@ Compute.
 
 By grouping the changes per module you can also construct the chain or
 dependencies by the hierarchy of the components and always keep the API changes
-last as that will ebable the new functionality and that change will depend on
+last as that will enable the new functionality and that change will depend on
 everything else you needed to touch for your design.
 
 Beyond this you can also look into the functionality to find smaller building
