@@ -22,7 +22,7 @@ format in the ``doc/build/`` directory.
 
 
 * Free software: Apache license
-* Documentation: http://docs.openstack.org/contributors
-* Source: http://git.openstack.org/cgit/openstack/contributor-guide
+* Documentation: https://docs.openstack.org/contributors
+* Source: https://git.openstack.org/cgit/openstack/contributor-guide
 * Bugs: https://storyboard.openstack.org/#!/project/913
 * Release Notes: https://docs.openstack.org/releasenotes/openstack-manuals/
