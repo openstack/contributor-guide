@@ -6,6 +6,8 @@ Setting Up Your Gerrit Account
 
    This section assumes you have completed :doc:`git` guide.
 
+.. _what_is_gerrit:
+
 What is Gerrit?
 ===============
 

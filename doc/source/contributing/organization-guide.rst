@@ -112,8 +112,8 @@ Code
 
   * For more information on how we use gerrit see:
 
-    * https://docs.openstack.org/contributors/common/setup-gerrit.html#what-is-gerrit
-    * https://docs.openstack.org/contributors/code-and-documentation/using-gerrit.html
+    * :ref:`what_is_gerrit`
+    * :doc:`../code-and-documentation/using-gerrit`
 
 Internet Relay Chat (IRC)
 ^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -121,7 +121,7 @@ Internet Relay Chat (IRC)
 * Access to chat.freenode.net port 6697/tcp (IRC communication)
 
   * If utilizing an IRC bouncer port 443, to the bouncer, may be used.
-  * See https://docs.openstack.org/contributors/common/communication.html#irc
+  * See :ref:`setup-irc`.
 
 Suggestions
 ~~~~~~~~~~~
@@ -143,7 +143,7 @@ Email Consideration
 
 * Consider an exception for standard email footers on emails being sent to the
   community mailing lists
-* See https://docs.openstack.org/contributors/common/communication.html#mailing-lists-ml
+* See :ref:`communication-mailing-lists`.
 
 Operating System (OS) Considerations
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
