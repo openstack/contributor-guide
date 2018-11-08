@@ -51,7 +51,7 @@ How long they should be there?
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The ideal answer is to give the technical people as much percentage of their
-time you can give, and for as long as possible.
+time as you can give, and for as long as possible.
 
 If your company is large enough to have the choice, giving engineers more time
 to specialise and concentrate on specific areas tend to be more efficient than
@@ -60,10 +60,16 @@ wear multiple hats.
 
 Having engineers spending more time upstream helps everyone by providing
 continuous input and feedback to tasks that you set as high priority.
+But it's more then that, OpenStack relies on peer review. Be it landing code
+and features to its governance, and therefore to function the community as a
+whole needs people in the community reviewing.
 
 Further, having engineers in the community long term will also keep the
 company ahead of the curve as they are embedded and engaged in the community
 rather then popping in and out.
+
+To put more simply, the more invested a company is in the community, the more
+likely they are to earn a place of influence.
 
 Why you need to sync with the technical community?
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -121,15 +127,19 @@ Suggestions
 ~~~~~~~~~~~
 
 There are browser based IRC services, like irccloud, that will keep users
-connected and use the standard HTTPS (443/tcp)
+connected and use the standard HTTPS (443/tcp).
+
+If connectivity to certain ports are locked down or are a problem,
+a socks server can be used to provide access.
 
 Email Consideration
 ^^^^^^^^^^^^^^^^^^^
+
 * Ability to receive E-mail from and send E-mail to addresses at
   lists.openstack.org (mailing lists)
 
   * Mailing list can be high traffic, consider permitting use of external mail
-    services to handle the intake from community mailing lists
+    services to handle the intake from community mailing lists.
 
 * Consider an exception for standard email footers on emails being sent to the
   community mailing lists
@@ -144,6 +154,22 @@ OpenStack all of which run on top of Linux. So a developer will need:
 * Permission to run Linux and install other open source software on
   employer-supplied hardware.
 
+Technical Events
+^^^^^^^^^^^^^^^^
+
+There are a number of technical events that are held where community,
+project, and cross-project planning and networking happen in person. Although
+this planning and networking does happen online outside these these events you
+should consider sending developers along to be involved.
+
+Some technical events include:
+
+* Project Technical Gatherings (PTGs)
+* Summits and Forums
+* Operator meetups
+
+For more information on such events see: https://www.openstack.org/community/events/
+
 Non-Technical
 -------------
 
@@ -151,7 +177,7 @@ OpenStack is a global community. Interaction with the community means working
 and interacting with people from different timezones and cultures, as such
 there are other non-technical recommendations that help
 facilitate engagement in the OpenStack community, these can be broken down into
-3 areas, communication, culture and expectations
+three areas: communication, culture and expectations.
 
 Communication
 ^^^^^^^^^^^^^
@@ -161,7 +187,7 @@ to occasionally work, talk or meet outside of typical office hours is
 paramount.
 
 Some asynchronous communication mediums, such as email and gerrit, are
-heavely used, but at times these discussions can to be sped up by using more
+heavily used, but at times these discussions can to be sped up by using more
 synchronous mediums such as:
 
 * IRC conversations
@@ -196,7 +222,7 @@ Community Culture
     communication system to make feature/project decisions, make sure you make
     it possible for asynchronous input from members in other timezones.
   * Different timezones means different cultures, so be sensitive to
-    these cultural differences. One example is to give non native english
+    these cultural differences. One example is to give non-native English
     speakers a chance to think and speak and if using a voice medium, please
     slow down.
 
@@ -213,9 +239,9 @@ Community Culture
     painful process (via links to further reading on effective open source
     community involvement)
 
-* Good metrics are hard https://en.wikipedia.org/wiki/Goodhart%27s_law
+* Good metrics are hard https://en.wikipedia.org/wiki/Goodhart%27s_law .
 * Focusing staff on particular project areas, or towards particular goals is
-  more effective than asking them to track activity over many projects
+  more effective than asking them to track activity over many projects.
 
 Expectations
 ^^^^^^^^^^^^
@@ -224,7 +250,7 @@ Expectations
 * Permission to occasionally work outside typical office hours
 * A process to clear contributions from IP point of view
 * Permission and budget to send contributors to events
-* Expectation of travel to at least some events- doesn't need to be all
+* Expectation of travel to at least some events - does not need to be all
 
   * Should be prepared to write permission letter/visa letters/necessary
     letters for getting visas

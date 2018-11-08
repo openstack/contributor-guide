@@ -15,8 +15,8 @@ The OpenStack Contributor Guide
    non-code-contribution/index
    users/index
    operators/index
-   contributing/index
    contributing/organization-guide
+   contributing/index
 
 Search in this guide
 --------------------
