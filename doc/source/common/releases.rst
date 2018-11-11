@@ -22,8 +22,8 @@ different `release models
 
 The currently available options are the following:
 
-* `cycle-with-milestones
-  <https://releases.openstack.org/reference/release_models.html#cycle-with-milestones>`_
+* `cycle-with-rc
+  <https://releases.openstack.org/reference/release_models.html#cycle-with-rc>`_
 * `cycle-with-intermediary
   <https://releases.openstack.org/reference/release_models.html#cycle-with-intermediary>`_
 * `cycle-trailing
