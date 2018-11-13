@@ -161,7 +161,7 @@ Technical Events
 
 There are a number of technical events that are held where community,
 project, and cross-project planning and networking happen in person. Although
-this planning and networking does happen online outside these these events you
+this planning and networking does happen online outside these events you
 should consider sending developers along to be involved.
 
 Some technical events include:
