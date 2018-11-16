@@ -28,7 +28,7 @@ Tracking Changes in Zuul status page
 ====================================
 
 You can check the status of those jobs at any time by navigating to:
-http://zuul.openstack.org/
+https://zuul.openstack.org/
 
 .. image:: /_assets/zuul_status/zuul_status.png
    :scale: 65

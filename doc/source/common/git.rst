@@ -19,9 +19,9 @@ OpenStack community uses to manage changes to source code and documentation.
 
 Git allows you to:
 
-* Push and test `code, docs, infrastructure changes, and CI configurations <http://git.openstack.org/cgit>`_
-* Push `Specifications <http://specs.openstack.org>`_
-* Push `Use cases for features <http://specs.openstack.org/openstack/openstack-user-stories/>`_
+* Push and test `code, docs, infrastructure changes, and CI configurations <https://git.openstack.org/cgit>`_
+* Push `Specifications <https://specs.openstack.org>`_
+* Push `Use cases for features <https://specs.openstack.org/openstack/openstack-user-stories/>`_
 
 
 Installation

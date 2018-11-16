@@ -15,10 +15,10 @@ This is the review system the OpenStack community uses.
 
 Gerrit allows you to review:
 
-* `Code, docs, infrastructure changes, and CI configurations <http://git.openstack.org/cgit>`_
-* `Specifications <http://specs.openstack.org>`_
-* `Translations <http://git.openstack.org/cgit/openstack/i18n/tree/>`_
-* `Use cases for features <http://specs.openstack.org/openstack/openstack-user-stories/>`_
+* `Code, docs, infrastructure changes, and CI configurations <https://git.openstack.org/cgit>`_
+* `Specifications <https://specs.openstack.org>`_
+* `Translations <https://git.openstack.org/cgit/openstack/i18n/tree/>`_
+* `Use cases for features <https://specs.openstack.org/openstack/openstack-user-stories/>`_
 
 Sign Up
 =======

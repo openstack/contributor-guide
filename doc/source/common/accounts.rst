@@ -69,7 +69,7 @@ What is StoryBoard?
 OpenStack community is `developing
 <https://wiki.openstack.org/wiki/StoryBoard>`_, and in the progress of
 `migrating towards
-<http://superuser.openstack.org/articles/openstack-gerrit-storyboard-integration/>`_.
+<https://superuser.openstack.org/articles/openstack-gerrit-storyboard-integration/>`_.
 Some `projects are already using it
 <https://storyboard.openstack.org/#!/project/list>`_.
 
@@ -93,7 +93,7 @@ What is Launchpad?
 ^^^^^^^^^^^^^^^^^^
 `Launchpad <https://launchpad.net/openstack>`_ is the legacy way the OpenStack
 community does bug tracking since we started `moving towards StoryBoard
-<http://superuser.openstack.org/articles/openstack-gerrit-storyboard-integration>`_.
+<https://superuser.openstack.org/articles/openstack-gerrit-storyboard-integration>`_.
 
 Sign Up
 ^^^^^^^
