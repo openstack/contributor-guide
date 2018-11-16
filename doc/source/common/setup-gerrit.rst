@@ -260,7 +260,7 @@ pip.
 
      pip install --install-option '--install-data=/usr/local' git-review
 
-   Option 2: Use the package manager `Homebrew <http://brew.sh>`_,
+   Option 2: Use the package manager `Homebrew <https://brew.sh>`_,
    and type in a terminal::
 
      brew install git-review

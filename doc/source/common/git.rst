@@ -64,7 +64,7 @@ For SUSE distributions open a terminal and type::
 Windows
 ^^^^^^^
 
-`Windows Subsystem for Linux (WSL) <https://msdn.microsoft.com/en-us/commandline/wsl/about>`_
+`Windows Subsystem for Linux (WSL) <https://docs.microsoft.com/en-us/windows/wsl/about>`_
 is available in Windows 10 Anniversary Update or later (build 1607+).
 There is the possibility to install and run modern Linux Operating Systems:
 
