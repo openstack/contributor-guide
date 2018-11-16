@@ -60,9 +60,11 @@ wear multiple hats.
 
 Having engineers spending more time upstream helps everyone by providing
 continuous input and feedback to tasks that you set as high priority.
-But it's more then that, OpenStack relies on peer review. Be it landing code
-and features to its governance, and therefore to function the community as a
-whole needs people in the community reviewing.
+But it's more then that, OpenStack relies on `peer review`_. From landing code
+to its governance, to function the project needs people in the community
+reviewing.
+
+.. _peer review: https://governance.openstack.org/tc/reference/principles.html#we-value-constructive-peer-review
 
 Further, having engineers in the community long term will also keep the
 company ahead of the curve as they are embedded and engaged in the community
@@ -130,7 +132,7 @@ There are browser based IRC services, like irccloud, that will keep users
 connected and use the standard HTTPS (443/tcp).
 
 If connectivity to certain ports are locked down or are a problem,
-a socks server can be used to provide access.
+a SOCKS server can be used to provide access.
 
 Email Consideration
 ^^^^^^^^^^^^^^^^^^^
