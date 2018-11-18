@@ -4,7 +4,7 @@ Introduction and Goals
 
 What is the Contributor Guide?
 ==============================
-First it’s important to note that we’re not just talking about code projects.
+First it's important to note that we're not just talking about code projects.
 OpenStack contributions come in different forms such as running meet ups,
 identifying use cases (Product Working Group), documentation, testing, etc. Our
 goal is to have these contributions valued equally.
