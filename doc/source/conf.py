@@ -37,8 +37,7 @@ copyright = u'2017, OpenStack Developers'
 
 # openstackdocstheme options
 repository_name = 'openstack/contributor-guide'
-bug_project = 'openstack-contributor-guide'
-bug_tag = ''
+use_storyboard = True
 
 # No need to show a version number
 version = ''
