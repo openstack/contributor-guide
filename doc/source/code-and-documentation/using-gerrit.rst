@@ -157,7 +157,7 @@ system.
 
 `-1`_: This patch needs further work before it can be merged.
 A -1 is usually given when the reviewer sees some issue that needs to be
-fixed before the patch can be merged.  The issues the author needs to
+fixed before the patch can be merged. The issues the author needs to
 address would, ideally, have inline comments posted on them unless there
 is some larger issue. If there is something wrong with the overall
 approach, you are able to leave an overall comment with the vote to

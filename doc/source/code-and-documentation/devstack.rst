@@ -91,7 +91,7 @@ quite easy.
   the root directory of your DevStack clone.
 
 At this point DevStack takes over preparing your node to function as an
-OpenStack cloud.  The following is done:
+OpenStack cloud. The following is done:
 
 * Required packages (like mysql and rabbitmq) are installed
 * mysql and rabbitmq are configured
@@ -195,7 +195,7 @@ node.  This includes:
 * Clearing temporary LVM mounts
 
 Running ``unstack.sh`` is the first thing to try in the case that a DevStack
-run fails.  If subsequent runs fail a more thorough removal of DevStack
+run fails. If subsequent runs fail a more thorough removal of DevStack
 components may be done with the following command:
 
 .. code-block:: console
