@@ -12,4 +12,4 @@ contribute to OpenStack documentation. It contains information on
 `reviewing
 <https://docs.openstack.org/doc-contrib-guide/docs-review.html>`_ documents,
 as well as best practices and `API documentation guidelines
-<https://docs.openstack.org/doc-contrib-guide/api-guides.html>`_`.
+<https://docs.openstack.org/doc-contrib-guide/api-guides.html>`_.
