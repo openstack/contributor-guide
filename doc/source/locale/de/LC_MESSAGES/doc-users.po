@@ -1,0 +1,48 @@
+# Andreas Jaeger <jaegerandi@gmail.com>, 2018. #zanata
+# Frank Kloeker <eumel@arcor.de>, 2018. #zanata
+msgid ""
+msgstr ""
+"Project-Id-Version: contributor-guide\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-11-25 19:09+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2018-11-25 06:01+0000\n"
+"Last-Translator: Frank Kloeker <eumel@arcor.de>\n"
+"Language-Team: German\n"
+"Language: de\n"
+"X-Generator: Zanata 4.3.3\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Introduction"
+msgstr "Einführung"
+
+msgid ""
+"OpenStack is running in production all around the globe addressing use cases "
+"from all parts of the industry."
+msgstr ""
+"OpenStack wird weltweit in der Produktion eingesetzt und adressiert "
+"Anwendungsfälle aus allen Bereichen der Industrie."
+
+msgid ""
+"To find documentation on how to deploy and run OpenStack you can look up the "
+"`OpenStack Manuals <https://docs.openstack.org/>`_ web page."
+msgstr ""
+"Eine Dokumentation zur Bereitstellung und Ausführung von OpenStack finden "
+"Sie auf der Webseite `OpenStack Manuals <https://docs.openstack.org/>`_."
+
+msgid "User Contributors"
+msgstr " Benutzer Mitwirkende"
+
+msgid "Users' Contributor Guide"
+msgstr "Mitwirkendenleitfaden für Benutzer"
+
+msgid ""
+"We actively encourage operators to participate and engage with the community "
+"to share feedback and views on emerging use cases and requirements to "
+"address."
+msgstr ""
+"Wir ermutigen die Betreiber aktiv, sich an der Community zu beteiligen und "
+"mit ihr zusammenzuarbeiten, um Feedback und Meinungen zu neuen "
+"Anwendungsfällen und Anforderungen auszutauschen."
