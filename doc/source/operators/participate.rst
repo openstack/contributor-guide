@@ -4,10 +4,13 @@ Participating
 
 Mailing List
 =============
-Operators have a Dedicated `mailing list
-<http://lists.openstack.org/cgi-bin/mailman/listinfo/openstack-operators>`_
-to subscribe. You can also read the archives which contain plenty
-of valuable information.
+Operators have used a dedicated mailing list until November 2018. You
+can read the `openstack.operators archive
+<http://lists.openstack.org/pipermail/openstack-operators/>`_
+which contain plenty of valuable information.
+Currently there is a `joint mailing list
+<http://lists.openstack.org/cgi-bin/mailman/listinfo/openstack-discuss>`_
+for developer and operator to subscribe.
 More generic information about mailing lists can be found in the Communication
 page's :ref:`communication-mailing-lists` section.
 

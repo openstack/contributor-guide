@@ -161,7 +161,7 @@ Core reviewers have '+/-2' and 'W+1' rights in Gerrit that is required for
 blocking or approving a patch.
 
 New core reviewers are nominated by someone from the existing team on the
-Developer Mailing List and/or in Gerrit and elected by voting from the members
+Discuss Mailing List and/or in Gerrit and elected by voting from the members
 of the core team of the project.
 
 .. _auc:
