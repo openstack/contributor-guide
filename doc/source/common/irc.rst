@@ -263,8 +263,7 @@ IRC Meetings
 ============
 
 In OpenStack all the meetings are happening either on generic meeting channels
-channels, like #openstack-meeting or #openstack-meeting-cp, or on specific
-project channels. Check the
+channels like #openstack-meeting, or on specific project channels. Check the
 `list of meetings <http://eavesdrop.openstack.org/#meetings>`__ for meetings
 times, IRC channels, and archives of meetings.
 
