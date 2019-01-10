@@ -116,7 +116,7 @@ blueprint.
 
 .. note::
 
-   Not all projects use the blueprints feature of Lauchpad, you should contact the
+   Not all projects use the blueprints feature of Launchpad, you should contact the
    project to see how they handle feature requests. For details on how to contact
    a project check the `project list`_.
 
