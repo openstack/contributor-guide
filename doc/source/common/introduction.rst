@@ -12,6 +12,12 @@ OpenStack is a software package that provides a cloud platform for Public and
 Private cloud covering various use cases including Enterprise and Telecom.
 The main focus is on Infrastructure as a Service (IaaS) cloud and additional
 services built upon IaaS.
+The Technical Committee maintains an evolving `vision for OpenStack clouds`_
+describing the overall design scope for an OpenStack cloud and the principles
+of cloud platforms in general, and OpenStack in particular, that each service
+within OpenStack is expected to follow.
+
+.. _vision for OpenStack clouds: https://governance.openstack.org/tc/reference/technical-vision.html
 
 As a software, OpenStack is built from a set of microservices which can be
 combined into different setups based on the actual need.
