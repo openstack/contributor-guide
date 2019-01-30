@@ -241,7 +241,18 @@ Community Culture
     painful process (via links to further reading on effective open source
     community involvement)
 
-* Good metrics are hard https://en.wikipedia.org/wiki/Goodhart%27s_law .
+* The community does not officially endorse Stackalytics, a contribution
+  statistics gathering service hosted by Mirantis. The community does not
+  encourage attempting to boost one's contribution statistics by
+  proposing large quantities of low-value commits or voting on large
+  numbers of change proposals without providing thoughtful reviews.
+  Activities like this appear to other members of the community as an
+  attempt to game the system and contributors who engage in this will
+  often lose credibility for themselves and their employers in the community.
+  Instead, contributors should try to engage deeply with a single project or a
+  small number of projects to gain understanding of the software component and
+  build relationships with the other contributors for that project.
+
 * Focusing staff on particular project areas, or towards particular goals is
   more effective than asking them to track activity over many projects.
 
