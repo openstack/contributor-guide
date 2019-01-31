@@ -17,6 +17,7 @@ Code & Documentation Contributor Guide
    /common/git
    /common/setup-gerrit
    /code-and-documentation/patch-best-practices
+   /code-and-documentation/patch-series-tutorial
    /code-and-documentation/devstack
    /code-and-documentation/using-gerrit
    /common/zuul-status
