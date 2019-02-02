@@ -195,7 +195,7 @@ This score does not often appear and when it does, it's for a good reason:
 
 * Most often, some deadline has passed and since no more changes are
   being accepted till the new release development begins, the patch
-  is `being held`.
+  is `being held <https://docs.openstack.org/project-team-guide/review-the-openstack-way.html#procedural-minus-2>`_.
 * There is an issue with the approach taken in the patch and it needs
   to be discussed with a larger group, likely in a meeting.
 * The patch submitted is a duplicate or at odds with another patch
@@ -223,9 +223,11 @@ before it is merged into the repository.
 Checking Out Others' Changes
 ============================
 
-It is possible to check out other contributors' patches from Gerrit and even
-`make changes to them`_; however, you should always discuss any changes with
-the contributor before you start working on their patch.
+It is possible to check out other contributors' patches from Gerrit and
+even `make changes to them
+<https://docs.openstack.org/project-team-guide/review-the-openstack-way.html#modifying-a-change>`_;
+however, you should always discuss any changes with the contributor
+before you start working on their patch.
 
 .. code-block:: console
 
@@ -259,5 +261,3 @@ The change ID is the same as in the previous case.
 .. _0: https://docs.openstack.org/project-team-guide/review-the-openstack-way.html#code-review-0
 .. _-1: https://docs.openstack.org/project-team-guide/review-the-openstack-way.html#code-review-minus-1
 .. _-2: https://docs.openstack.org/project-team-guide/review-the-openstack-way.html#code-review-minus-2
-.. _being held: https://docs.openstack.org/project-team-guide/review-the-openstack-way.html#procedural-minus-2
-.. _make changes to them: https://docs.openstack.org/project-team-guide/review-the-openstack-way.html#modifying-a-change
