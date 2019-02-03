@@ -1,16 +1,17 @@
 # Andreas Jaeger <jaegerandi@gmail.com>, 2018. #zanata
 # Frank Kloeker <eumel@arcor.de>, 2018. #zanata
+# Andreas Jaeger <jaegerandi@gmail.com>, 2019. #zanata
 # Frank Kloeker <eumel@arcor.de>, 2019. #zanata
 msgid ""
 msgstr ""
 "Project-Id-Version: contributor-guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-01 14:07+0000\n"
+"POT-Creation-Date: 2019-02-02 15:11+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2019-02-01 09:41+0000\n"
-"Last-Translator: Frank Kloeker <eumel@arcor.de>\n"
+"PO-Revision-Date: 2019-02-02 03:14+0000\n"
+"Last-Translator: Andreas Jaeger <jaegerandi@gmail.com>\n"
 "Language-Team: German\n"
 "Language: de\n"
 "X-Generator: Zanata 4.3.3\n"
@@ -1550,6 +1551,21 @@ msgstr ""
 
 msgid "OpenStack is a community working towards one mission:"
 msgstr "OpenStack ist eine Gemeinschaft, die sich für eine Mission einsetzt:"
+
+msgid ""
+"OpenStack is a software package that provides a cloud platform for Public "
+"and Private cloud covering various use cases including Enterprise and "
+"Telecom. The main focus is on Infrastructure as a Service (IaaS) cloud and "
+"additional services built upon IaaS. The Technical Committee maintains an "
+"evolving `vision for OpenStack clouds`_ describing the overall design scope "
+"for an OpenStack cloud and the principles of cloud platforms in general, and "
+"OpenStack in particular, that each service within OpenStack is expected to "
+"follow."
+msgstr ""
+"OpenStack ist ein Softwarepaket, das eine Cloud-Plattform für Public und "
+"Private Cloud bietet und verschiedene Anwendungsfälle wie Enterprise und "
+"Telekom abdeckt. Der Schwerpunkt liegt auf der Infrastructure as a Service "
+"(IaaS)-Cloud und zusätzlichen Services auf Basis von IaaS."
 
 msgid ""
 "OpenStack provides an ecosystem for collaboration. It has infrastructure for"
