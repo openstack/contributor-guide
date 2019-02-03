@@ -30,16 +30,12 @@ It is then used to both track the rates those bugs are being found and also to
 leave comments in gerrit and in IRC when it has found a known bug fingerprint
 in a failure.
 
-elastic-recheck is built on top of an ELK (`Elastic Search`_, `Logstash`_,
-`Kibana`_) stack where we use Logstash to store all logs from CI jobs in an
-Elastic Search cluster. We also host a `Kibana dashboard`_ which can be used
+elastic-recheck is built on top of an ELK (`Elastic Search
+<https://github.com/elastic/elasticsearch>`_, `Logstash <https://github.com/elastic/logstash>`_,
+`Kibana <https://github.com/elastic/kibana>`_) stack where we use Logstash to store all logs from CI jobs in an
+Elastic Search cluster. We also host a `Kibana dashboard <http://logstash.openstack.org/>`_ which can be used
 to run queries on the cluster and interacts with the data. elastic-recheck
 queries the elastic-search cluster for the fingerprints.
-
-.. _Elastic Search: https://github.com/elastic/elasticsearch
-.. _Logstash: https://github.com/elastic/logstash
-.. _Kibana: https://github.com/elastic/kibana
-.. _Kibana dashboard: http://logstash.openstack.org/
 
 You can see the current status of the bugs being tracked by elastic recheck at:
 `Elastic Recheck <http://status.openstack.org/elastic-recheck/index.html>`_

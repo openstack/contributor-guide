@@ -28,9 +28,8 @@ Storyboard.
    Before raising a bug, story or feature request it's important to note that not
    all projects do the same thing. It's best to go check with the project to see
    how they handle these requests. For details on how to contact
-   a project check the `project list`_.
-
-.. _project list: https://governance.openstack.org/tc/reference/projects/index.html
+   a project check the `project list
+   <https://governance.openstack.org/tc/reference/projects/index.html>`_.
 
 .. _storyboard:
 

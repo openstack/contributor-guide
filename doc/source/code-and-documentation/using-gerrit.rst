@@ -132,7 +132,9 @@ Reviewing Changes
 Reviewing changes is often suggested as a way to get started on a
 project. Whether this is how you choose to get started or not, it's
 an important community activity. See `How to Review Changes the
-OpenStack Way`_ for more detailed guidance on when to use which votes
+OpenStack Way
+<https://docs.openstack.org/project-team-guide/review-the-openstack-way.html>`_
+for more detailed guidance on when to use which votes
 on a change review.
 
 **Inline Comments**
@@ -254,8 +256,6 @@ you can cherry-pick your own changes on top of it:
 
 The change ID is the same as in the previous case.
 
-
-.. _How to Review Changes the OpenStack Way: https://docs.openstack.org/project-team-guide/review-the-openstack-way.html
 .. _+2: https://docs.openstack.org/project-team-guide/review-the-openstack-way.html#code-review-plus-2
 .. _+1: https://docs.openstack.org/project-team-guide/review-the-openstack-way.html#code-review-plus-1
 .. _0: https://docs.openstack.org/project-team-guide/review-the-openstack-way.html#code-review-0
