@@ -23,7 +23,8 @@ The OpenStack Foundation is a non-profit "whose purpose is to develop, support,
 protect, and promote" OpenStack. It has a set of `bylaws
 <https://www.openstack.org/legal/bylaws-of-the-openstack-foundation/>`_ and a
 board of directors. The Foundation has three types of members, defined by the
-bylaws. Each of the types—Platinum, Gold and Individual—are represented on a
+bylaws. Each of the types -- Platinum, Gold and Individual -- are
+represented on a
 Board of Directors. Currently there are 24 directors, eight of each type.
 
 Individual members of the foundation vote once a year (usually near the start

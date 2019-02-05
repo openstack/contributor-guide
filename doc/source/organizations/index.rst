@@ -60,11 +60,10 @@ wear multiple hats.
 
 Having engineers spending more time upstream helps everyone by providing
 continuous input and feedback to tasks that you set as high priority.
-But it's more then that, OpenStack relies on `peer review`_. From landing code
-to its governance, to function the project needs people in the community
-reviewing.
-
-.. _peer review: https://governance.openstack.org/tc/reference/principles.html#we-value-constructive-peer-review
+But it's more then that, OpenStack relies on `peer review
+<https://governance.openstack.org/tc/reference/principles.html#we-value-constructive-peer-review>`_.
+From landing code to its governance, to function the project needs
+people in the community reviewing.
 
 Further, having engineers in the community long term will also keep the
 company ahead of the curve as they are embedded and engaged in the community
