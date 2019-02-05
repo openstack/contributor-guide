@@ -27,7 +27,8 @@ contribution. Our translation platform is reachable on
 Zanata Usage
 ============
 
-For registration and login you need an :doc:`OpenStack Foundation Account <accounts>`
+For registration and login you need an :doc:`OpenStack Foundation Account
+<accounts>`.
 Click on *LogIn* on `translate.openstack.org <https://translate.openstack.org/>`_
 and follow the process for applying your Zanata profile.
 
