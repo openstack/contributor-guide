@@ -117,7 +117,8 @@ blueprint.
 
    Not all projects use the blueprints feature of Launchpad, you should contact the
    project to see how they handle feature requests. For details on how to contact
-   a project check the `project list`_.
+   a project check the `project list
+   <https://governance.openstack.org/tc/reference/projects/index.html>`_.
 
 Bugs
 ----
