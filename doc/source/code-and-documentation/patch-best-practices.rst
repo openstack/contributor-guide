@@ -111,9 +111,13 @@ A patch chain is easy to handle if you keep in mind a few recommendations:
    git rebase -i HEAD^
 
 You need as many '^' as the number of the patch you want to edit first from the
-top of the chain. Gerrit also provides you options to edit the patch itself or
-only the commit message and a few more for more advanced changes, like
-modifying the author.
+top of the chain. Alternatively you may wish to use `git-restack
+<https://docs.openstack.org/infra/git-restack/>`_, which figures out the
+appropriate ``git rebase`` command for you.
+
+Gerrit also provides you options to edit the patch itself or only the
+commit message and a few more for more advanced changes, like modifying
+the author.
 
 * To download the full chain you need to download the top patch and Git will
   automatically download all the dependent patches in the chain.
@@ -128,6 +132,9 @@ modifying the author.
 * Always check the changes you made to each patch and be careful that you
   applied the changes in the right one as patches still get merged individually
   and there is no guarantee that the whole chain gets landed at the same time.
+
+For a more in-depth look at managing patch chains, see
+:doc:`/code-and-documentation/patch-series-tutorial`.
 
 Gerrit Topics
 -------------
