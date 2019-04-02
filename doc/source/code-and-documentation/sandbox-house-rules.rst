@@ -30,7 +30,7 @@ occasional cleanup. Please help us with the housekeeping and clean up your
 work, when you are finished with your practice and feel comfortable using the
 tool.
 
-SandBox Git Repository
+Sandbox Git Repository
 ======================
 
 Git is a version control system that we use to track changes to our source code
@@ -57,12 +57,12 @@ You can find a `Sandbox <https://storyboard-dev.openstack.org/#!/project/2>`_
 project in the tool that provides all the functionalities to you as any of the
 other active projects.
 
-SandBox Project on Launchpad
+Sandbox Project on Launchpad
 ============================
 
 :ref:`launchpad` is one of the task tracking tools that the community is using.
 
-.. note:: Launchpad is deprecated and will be superseeded by StoryBoard.
+.. note:: Launchpad is deprecated and will be superceded by StoryBoard.
 
 There is a `Sandbox project <https://launchpad.net/openstack-dev-sandbox>`_
 available there which is created to track bugs and issues related to the
