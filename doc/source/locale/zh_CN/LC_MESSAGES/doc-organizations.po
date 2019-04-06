@@ -1,15 +1,16 @@
+# Frank Kloeker <eumel@arcor.de>, 2019. #zanata
 # Rico Lin <rico.lin.guanyu@gmail.com>, 2019. #zanata
 # vuuv <froms2008@gmail.com>, 2019. #zanata
 msgid ""
 msgstr ""
 "Project-Id-Version: contributor-guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-16 09:41+0000\n"
+"POT-Creation-Date: 2019-04-03 10:19+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2019-04-02 05:39+0000\n"
-"Last-Translator: vuuv <froms2008@gmail.com>\n"
+"PO-Revision-Date: 2019-04-05 09:53+0000\n"
+"Last-Translator: Frank Kloeker <eumel@arcor.de>\n"
 "Language-Team: Chinese (China)\n"
 "Language: zh_CN\n"
 "X-Generator: Zanata 4.3.3\n"
@@ -213,7 +214,7 @@ msgstr ""
 "往往比工程师身兼多职不断上下文切换更有效。"
 
 msgid "Internet Relay Chat (IRC)"
-msgstr " IRC （因特网中继聊天，Internet Relay Chat）"
+msgstr "IRC （因特网中继聊天，Internet Relay Chat)"
 
 msgid ""
 "It will also be better tested than anything developed internally because it "
