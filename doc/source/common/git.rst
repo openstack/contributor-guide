@@ -149,8 +149,16 @@ The following tags are required:
   changed when rebasing a commit following review feedback, since it is used
   by Gerrit, to track versions of a patch.
 
-The following tags are optional; however, their use is recommended if they are
-applicable to the patch:
+StoryBoard specific tags:
+
+- ``Task``: 1234: the number of the task in Storyboard implemented by the
+  change. This will auto update the task to 'Review' status and assign it
+  to you when you push the patch.
+- ``Story``: 1234567: the number of the story in Storyboard to which the task
+  being implemented belongs. This will post a comment on the story with a
+  link to your patch.
+
+Launchpad specific tags:
 
 - ``Closes-Bug``: #123456789: use ``Closes-Bug`` if the commit is intended to
   fully fix and close the bug being referenced. Use the Launchpad ID of the bug
@@ -165,6 +173,11 @@ applicable to the patch:
   a Launchpad blueprint. Use the name of the blueprint as an ID.
 - ``Implements``: Use this tag if the change fully implements
   a Launchpad blueprint. Use the name of the blueprint as an ID.
+
+
+The following tags are optional; however, their use is recommended if they are
+applicable to the patch:
+
 - The ``DocImpact`` tag contains a comment about why
   the change impacts documentation. Put DocImpact on a line by itself.
   Use this tag to indicate that documentation is either contained in the
@@ -186,7 +199,4 @@ applicable to the patch:
   notes for the affected project.
 - The ``Depends-On``: <gerrit-change-url> tag is used to refer to a change
   the current one depends on. Use the permalink of the change.
-- ``Task``: 1234: the number of the task in Storyboard implemented by the
-  change.
-- ``Story``: 1234567: the number of the story in Storyboard to which the task
-  being implemented belongs.
+
