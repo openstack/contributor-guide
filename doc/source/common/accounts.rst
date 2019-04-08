@@ -26,7 +26,7 @@ Sign Up
    <https://www.openstack.org/join>`_.
 #. Under individual members, click the **Foundation Member** button.
 
-   .. image:: /_assets/account-setup/2.png
+   .. image:: /_assets/account-setup/memberships.png
      :scale: 80%
 
 #. Read through the presented individual member terms of service and our
