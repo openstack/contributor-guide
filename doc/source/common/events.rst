@@ -14,8 +14,8 @@ This section allows you to:
 * Understand the differences between the different in-person OpenStack events
 * Know which events are valuable to you
 
-OpenStack/Open Infrastructure Summit
-------------------------------------
+Open Infrastructure Summit
+--------------------------
 
 The `Summits <https://www.openstack.org/summit/other-summits/>`_ are bi-annual
 events with thousands of attendees from all around the globe. The event in
@@ -26,8 +26,8 @@ The event is designed to bring together users, operators and developers to
 discuss feedback and future plans and you will also find a lot of options to
 collaborate with representatives from adjacent communities.
 
-To see how OpenStack and further OpenStack Foundation projects are utilized you
-will find exhibitors at the Market Place area.
+To see how OpenStack and further OpenStack Foundation projects are utilized
+you will find exhibitors at the Market Place area.
 
 The sessions are grouped into two major parts, the conference and the Forum.
 
@@ -53,8 +53,8 @@ The purpose of the Forum is to provide space for the developer and user
 community to get together and discuss feedback and find solutions to problems
 and new challenges and requirements.
 
-The Forum sessions are proposed by the community through a proposal period and
-the final sessions are selected by a committee.
+The Forum sessions are proposed by the community through a proposal period
+and the final sessions are selected by a committee.
 
 You can find both the conference and Forum sessions on the Summit schedule.
 
@@ -64,9 +64,9 @@ Project Teams Gathering (PTG)
 This event is created to provide space and time for developers and operators to
 get together and have detailed technical discussions.
 
-The `PTG <https://www.openstack.org/ptg/>`_ is one week long with working
-sessions organized in parallel tracks. The week is devided between Working
-Group, SIG, cross-project and project team sessions and further sessions
+The `PTG <https://www.openstack.org/ptg/>`_ sessions are organized into
+parallel tracks. The time is divided between Working Groups, SIGs,
+cross-project and project team sessions and further sessions
 dedicated to operations related discussions.
 
 PTGs are scheduled at the beginning of each release cycle which makes it
@@ -77,16 +77,6 @@ This event is recommended to developers, operators and end users who are
 already involved in community activities. If you are a new comer you might
 want to consider one of the OpenStack Summits first where you can find several
 sessions to help you find your way within the community.
-
-OpenDev
--------
-
-`OpenDev <http://opendevconf.com>`_ is a small event designed for discussing new
-innovative technologies and use cases that are relevant to open infrastructure
-like Edge Computing or CI/CD.
-
-The event is occasionally co-located with the OpenStack Summit, in which case
-it is accessible to Summit attendees as well as a standalone event.
 
 Community-organized Events
 ==========================
@@ -99,21 +89,25 @@ OpenStack/OpenInfra Days
 ------------------------
 
 `OpenStack Days <https://www.openstack.org/community/events/openstackdays>`_
-events are similar to the OpenStack Summits that are organized by the local
-community, users groups and companies.
+events are similar to the Open Infrastructure Summits that are organized by
+the local community, users groups and companies.
 
 The events are one or two days long and filled with mainly presentations and
 panel discussions about the latest hot topics in the community's life.
 It gives you a great opportunity to meet the local community and find people
 who are interested in the same challenges and technology as you are.
-Connecting with people in the same region where you are gives you the advantage
-to be able to reach out easier to them later as they are in the same time zone,
-maybe even in the same city.
+Connecting with people in the same region where you are gives you the
+advantage to be able to reach out easier to them later as they are in the
+same time zone, maybe even in the same city.
 
 In some cases there are training sessions and workshops as well and you may see
 the `OpenStack Upstream Institute
 <https://docs.openstack.org/upstream-training/>`_ training on the agenda as
 well.
+
+OpenInfra Days are essentially the same in format and benefit to attendees,
+but are broader in scope. OpenInfra Days are focused on being more open
+and welcoming of adjacent infrastructure technologies.
 
 Meet-ups
 --------
@@ -121,5 +115,5 @@ Meet-ups
 Meet-ups are organized by local user groups with different cadences. They are a
 few hours long with a few presentations, discussion topics and some snacks.
 
-Look for meet-ups in your area and if you cannot find one you can go ahead and
-organize!
+Look for `meetups in your area <http://meetup.com/pro/osf>`_  and if you
+cannot find one you are welcome to organize one yourself!
