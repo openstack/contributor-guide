@@ -11,8 +11,14 @@ This sections allows you to:
 Internet Relay Chat (IRC)
 =========================
 While working with OpenStack, IRC is the best way to get real time help
-or support others. Details of how to get on IRC are described in
+or support others. Details of how to get on IRC, channel lists, how meetings
+are run, where to find logs, and our IRC bots are described in
 :ref:`setup-irc`.
+
+.. note::
+   Depending on what time zone you are based in there might be more traffic
+   on some channels than others. Have a little patience when waiting for
+   people to respond.
 
 Wiki Pages
 ==========
