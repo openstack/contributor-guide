@@ -14,6 +14,8 @@ This section allows you to:
 * Understand the differences between the different in-person OpenStack events
 * Know which events are valuable to you
 
+.. _summit:
+
 Open Infrastructure Summit
 --------------------------
 
@@ -42,6 +44,8 @@ There is a Call For Papers (CFP) process before each Summit where anyone can
 propose sessions for the upcoming event. After the CFP deadline the proposals
 go through a community vote after which a group of track chairs decide about
 the final content for each track.
+
+.. _events-forum:
 
 Forum
 +++++
@@ -117,3 +121,12 @@ few hours long with a few presentations, discussion topics and some snacks.
 
 Look for `meetups in your area <http://meetup.com/pro/osf>`_  and if you
 cannot find one you are welcome to organize one yourself!
+
+Operators Meetup
+-------------------
+
+Aside from the Forum, the other operator focused event is the operator
+meetup. You can read general information about it here :ref:`ops-meetup`.
+It's organized by the operator community biannually in locations all over
+the world.
+

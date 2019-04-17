@@ -4,13 +4,19 @@ Participating
 
 Mailing List
 =============
-Operators have used a dedicated mailing list until November 2018. You
+Operators had previously used a dedicated mailing list until November 2018. You
 can read the `openstack.operators archive
 <http://lists.openstack.org/pipermail/openstack-operators/>`_
-which contain plenty of valuable information.
-Currently there is a `joint mailing list
+which contains plenty of valuable information.
+
+To unify our community, we have replaced the operator and developer
+specific mailing lists with a `joint mailing list
 <http://lists.openstack.org/cgi-bin/mailman/listinfo/openstack-discuss>`_
-for developer and operator to subscribe.
+for developers and operators to subscribe to and converse on together.
+
+.. note::
+   To get more operator attention, prepend '[ops]' to your email subject lines.
+
 More generic information about mailing lists can be found in the Communication
 page's :ref:`communication-mailing-lists` section.
 
@@ -19,9 +25,15 @@ IRC Channels
 There is the #openstack-operators channel on Freenode IRC for live
 conversations and `Operators' team meeting
 <http://eavesdrop.openstack.org/#OpenStack_OSOps_Team>`_.
-On top of the #openstack-operators channel there are several others. More
-generic information about IRC channels can be found in the :ref:`irc-channels`
-section of the IRC page.
+On top of the #openstack-operators channel there are many others that you
+might find useful. More generic information about IRC channels can be found
+in the :ref:`irc-channels` section of the IRC page.
+
+In the :ref:`setup-irc` section of this guide, there are instructions on how
+to setup a desktop client and register your irc nickname so that you can
+join these channels.
+
+.. _ops-meetup:
 
 Meet Ups
 ========
@@ -36,10 +48,5 @@ with only a small number of presentations, with the following aims:
    interested parties
 3. Increase constructive, proactive involvement from those running clouds
 
-Share and Learn From Real Configurations
-========================================
-Example configurations for various OpenStack services are provided in the `openstack/osops-example-configs
-repository
-<https://opendev.org/x/osops-example-configs/src/README.md>`_.
-Operators can share their configuration files to help others, and review how
-others setup and tune their configurations.
+There are other events relevant to operators besides just the meetup,
+:ref:`events-forum` and the rest of the :ref:`summit`

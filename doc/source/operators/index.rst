@@ -7,12 +7,13 @@ Operators' Contributor Guide
    :maxdepth: 2
 
    /operators/introduction
+   /operators/participate
+   /common/communication
    /common/irc
    /common/accounts
-   /common/communication
    /common/events
    /common/git
    /common/setup-gerrit
-   /operators/participate
    /common/governance
    /common/releases
+   /operators/resources
