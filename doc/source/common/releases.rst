@@ -73,3 +73,58 @@ milestone-3.
 Having the main projects following the release cycle ensures that all these
 projects release at the same time so these can be picked up by downstream
 teams to package and further distribute.
+
+Stable Branches
+---------------
+
+Once a 6-month development cycle is completed the code for that release
+is branched, in git, to a stable branch. For instance, when the Stein
+release was completed a new branch in git, ``stable/stein`` was created.
+
+Stable branches are kept as a safe source of fixes for high impact
+bugs and security issues which have been fixed, on master, since the
+release occurred. Given the stable nature of these branches, backports
+to stable branches undergo additional scrutiny when they are proposed.
+Proposed changes should:
+
+* Have a low risk of introducing a regression
+* Have a user visible benefit
+* Be self contained
+* Be included in master and backported to all releases between master
+  and the stable branch in question
+
+Project teams do point releases off stable branches when enough
+changes accumulate in the stable branch to justify creating another release for
+their project.
+
+Stable branches proceed through different levels of maintenance as they
+age.
+
++--------------+--------------------+--------------------------------------+
+| State        | Time frame         | Summary                              |
++==============+====================+======================================+
+| Maintained   | Approximately 18   | All appropriate bug fixes accepted   |
+|              | months             | and releases are produced.           |
++--------------+--------------------+--------------------------------------+
+| Extended     | While there are    | All appropriate bug fixes accepted.  |
+| Maintenance  | community members  | No releases are produced and there   |
+|              | maintaining it.    | is reduced CI commitment.            |
++--------------+--------------------+--------------------------------------+
+| Unmaintained | 6 months from the  | The branch is under Extended         |
+|              | time the branch is | Maintenance rules, but there are no  |
+|              | made unmaintained. | maintainers.                         |
++--------------+--------------------+--------------------------------------+
+| End of Life  | N/A                | Branch is no longer accepting        |
+| (EOL)        |                    | Changes.                             |
++--------------+--------------------+--------------------------------------+
+
+Before the Ocata release the Maintained and Extended Maintenance phases were
+only 6 months long. This meant that each release went End of Life after
+18 months. It was determined that this practice was not beneficial for
+distributors or users of OpenStack. As a result the Maintained state
+was updated to last 18 months and the Extended Maitenance time frame
+was made flexible increasing the number of stable branches still accepting
+fixes.
+
+The state of all OpenStack releases may be seen on the
+`OpenStack Releases <https://releases.openstack.org>`_ web page.
