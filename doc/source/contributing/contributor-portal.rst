@@ -26,10 +26,10 @@ Proposing a Project Team Under Code & Documentation
 ===================================================
 The project teams listed under the 'Code & Documentation' section come from
 OpenStack's governance repository `project.yaml file
-<http://git.openstack.org/cgit/openstack/governance/tree/reference/projects.yaml>`_.
+<https://opendev.org/openstack/governance/src/reference/projects.yaml>`_.
 This file is a list of projects that are recognized by the
 `Technical Committee <https://governance.openstack.org/tc/>`_. Project teams
 under this category should make sure their 'contributor' field is set to the
 URL of their specific contributor guide. See the `project.yaml file
-<http://git.openstack.org/cgit/openstack/governance/tree/reference/projects.yaml>`_
+<https://opendev.org/openstack/governance/src/reference/projects.yaml>`_
 file for examples.

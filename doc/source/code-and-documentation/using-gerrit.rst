@@ -26,11 +26,11 @@ contribution:
 
 To clone a copy of some repository::
 
-    git clone https://git.openstack.org/openstack/<PROJECT_NAME>
+    git clone https://opendev.org/openstack/<PROJECT_NAME>
 
 .. note::
-   You can find the same respositories using the search function here:
-   `OpenStack git repository browser <https://git.openstack.org/cgit>`_
+   You can find the same repositories using the search function here:
+   `OpenDev git repository browser <https://opendev.org/explore/repos>`_
 
 After you've completed the Setup and Learn GIT section, the following command
 configures the repository to know about Gerrit and installs the ``Change-Id``
@@ -80,7 +80,7 @@ Tracking your Changes
 =====================
 
 After proposing changes, you can track them at
-`Code Review <https://review.openstack.org>`_. After logging in, you
+`Code Review <https://review.opendev.org>`_. After logging in, you
 will see a dashboard of "Outgoing reviews" for changes you have proposed,
 "Incoming reviews" for changes you are reviewing, and "Recently
 closed" changes for which you were either a reviewer or owner.

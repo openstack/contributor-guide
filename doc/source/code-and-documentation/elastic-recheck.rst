@@ -89,7 +89,7 @@ job you're looking at, and already documented in a few places including:
 Once you've identified a message in the logs that can be used for
 fingerprinting you need to turn that into an elastic-search query. You can
 use any of the existing fingerprints as an example:
-`openstack-infra/elastic-recheck <https://git.openstack.org/cgit/openstack-infra/elastic-recheck/tree/queries>`_
+`opendev/elastic-recheck <https://opendev.org/opendev/elastic-recheck/src/queries>`_
 
 You should also check any elastic search queries using kibana at:
 `Logstash Search <http://logstash.openstack.org/>`_

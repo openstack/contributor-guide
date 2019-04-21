@@ -101,7 +101,7 @@ Technical
 Code
 ^^^^
 
-* Access to review.openstack.org for code review and code submission.
+* Access to review.opendev.org for code review and code submission.
 
   * Port 29428/tcp is the Gerrit SSH API.
   * Port 443/tcp is also available to access gerrit but only recommended if

@@ -15,15 +15,15 @@ This is the review system the OpenStack community uses.
 
 Gerrit allows you to review:
 
-* `Code, docs, infrastructure changes, and CI configurations <https://git.openstack.org/cgit>`_
+* `Code, docs, infrastructure changes, and CI configurations <https://opendev.org/explore/repos>`_
 * `Specifications <https://specs.openstack.org>`_
-* `Translations <https://git.openstack.org/cgit/openstack/i18n/tree/>`_
+* `Translations <https://opendev.org/openstack/i18n/>`_
 * `Use cases for features <https://specs.openstack.org/openstack/openstack-user-stories/>`_
 
 Sign Up
 =======
 
-#. Visit `OpenStack's Gerrit page <https://review.openstack.org>`_ and click
+#. Visit `OpenStack's Gerrit page <https://review.opendev.org>`_ and click
    the **sign in** link.
 #. You will be prompted to select a username. You can enter the same one you
    did for Launchpad, or something else.
@@ -48,7 +48,7 @@ What is it?
 
 An agreement to clarify intellectual property rights granted with
 contributions from a person or entity. `Preview the full agreement
-<https://review.openstack.org/static/cla.html>`_.
+<https://review.opendev.org/static/cla.html>`_.
 
 Signing it
 ----------
@@ -56,7 +56,7 @@ Signing it
 Individual Contributors
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-#. In Gerrit's `settings <https://review.openstack.org/#/settings/agreements>`_
+#. In Gerrit's `settings <https://review.opendev.org/#/settings/agreements>`_
    click the **New Contributor Agreement** link and sign the
    agreement. You need this to contribute code & documentation. You
    will not be able to push patches to Gerrit without this.
@@ -70,7 +70,7 @@ Contributors From a Company or Organization
 
 If you are contributing on behalf of a company or organization.
 
-#. In Gerrit's `settings <https://review.openstack.org/#/settings/agreements>`_
+#. In Gerrit's `settings <https://review.opendev.org/#/settings/agreements>`_
    click the **New Contributor Agreement** link and sign the agreement.
 
    .. image:: /_assets/account-setup/3.png
@@ -104,7 +104,7 @@ Setup SSH Keys
 What are they?
 --------------
 
-In order to push things to `Gerrit <https://review.openstack.org>`_ we need to
+In order to push things to `Gerrit <https://review.opendev.org>`_ we need to
 have a way to identify ourselves. We will do this using SSH keys which allows
 us to have our machine we're pushing a change from to perform
 a `challenge-response authentication
@@ -189,8 +189,8 @@ Finally you need to tell ssh what host(s) to associate SSH keys with. To do
 this open "~/.ssh/config" in an editor, create the file if it doesn't exist
 and add something like::
 
-  Host review.openstack.org review
-    Hostname review.openstack.org
+  Host review.opendev.org review
+    Hostname review.opendev.org
     Port 29418
     User <your_gerrit_username>
     IdentityFile ~/.ssh/id_openstack_rsa
@@ -216,7 +216,7 @@ Import Public Key Into Gerrit
 -----------------------------
 
 #. Go to `Gerrit's SSH Public Keys settings
-   <https://review.openstack.org/#/settings/ssh-keys>`_.
+   <https://review.opendev.org/#/settings/ssh-keys>`_.
 #. Click the 'Add Key' button.
 #. Paste the public key into the **Add SSH Public Key** text box and click
    **Add**.
@@ -234,7 +234,7 @@ additional sub-command to 'git' like so::
 
 When you have changes in an OpenStack project repository, you can use this
 sub-command to have the changes posted to
-`Gerrit <https://review.openstack.org/>`__ so that they can be reviewed.
+`Gerrit <https://review.opendev.org/>`__ so that they can be reviewed.
 
 Installation
 ------------
@@ -294,7 +294,7 @@ username. If it's not, you can tell it by setting this git config setting::
   git config --global gitreview.username <username>
 
 If you don't know what your Gerrit username is, you can check the `Gerrit
-settings <https://review.openstack.org/#/settings/>`_.
+settings <https://review.opendev.org/#/settings/>`_.
 
 Preparing to Send a Review
 --------------------------

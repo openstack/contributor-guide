@@ -45,7 +45,7 @@ for getting started.
 Once you've read through the guide, use git to clone the Contributor Guide
 repository::
 
-  git clone https://git.openstack.org/openstack/contributor-guide
+  git clone https://opendev.org/openstack/contributor-guide
 
 
 Content Guidelines

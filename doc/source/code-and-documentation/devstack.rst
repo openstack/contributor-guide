@@ -40,7 +40,7 @@ repository under ``openstack-dev``.
 
 .. code-block::  console
 
-  git clone https://git.openstack.org/openstack-dev/devstack
+  git clone https://opendev.org/openstack/devstack
 
 It is recommended before proceeding further to set-up passwords and IP
 addresses for the environment in which you are running DevStack. This is

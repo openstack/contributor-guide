@@ -37,7 +37,7 @@ Git is a version control system that we use to track changes to our source code
 and documentation.
 
 You can find a `sandbox Git repository
-<https://git.openstack.org/cgit/openstack-dev/sandbox>`_ where you can practice
+<https://opendev.org/openstack-dev/sandbox>`_ where you can practice
 the Git commands before you put together a patch to resolve a bug or implement
 a new functionality.
 
