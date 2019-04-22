@@ -128,3 +128,8 @@ fixes.
 
 The state of all OpenStack releases may be seen on the
 `OpenStack Releases <https://releases.openstack.org>`_ web page.
+
+For more detailed information on Stable Branches and their
+maintenance phases see the `Stable Branches
+<https://docs.openstack.org/project-team-guide/stable-branches.html>`_
+page.
