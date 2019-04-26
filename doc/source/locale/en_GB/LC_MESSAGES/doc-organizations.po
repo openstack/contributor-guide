@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: contributor-guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-11 21:21+0000\n"
+"POT-Creation-Date: 2019-04-22 19:12+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -39,9 +39,6 @@ msgstr ""
 
 msgid "Access to chat.freenode.net port 6697/tcp (IRC communication)"
 msgstr "Access to chat.freenode.net port 6697/TCP (IRC communication)"
-
-msgid "Access to review.openstack.org for code review and code submission."
-msgstr "Access to review.openstack.org for code review and code submission."
 
 msgid ""
 "All projects have regular meetings on IRC. Most these meetings alternate "

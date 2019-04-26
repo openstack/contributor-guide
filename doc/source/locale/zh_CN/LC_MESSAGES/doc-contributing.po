@@ -1,0 +1,278 @@
+# vuuv <froms2008@gmail.com>, 2019. #zanata
+msgid ""
+msgstr ""
+"Project-Id-Version: contributor-guide\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-22 19:12+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2019-04-26 04:19+0000\n"
+"Last-Translator: vuuv <froms2008@gmail.com>\n"
+"Language-Team: Chinese (China)\n"
+"Language: zh_CN\n"
+"X-Generator: Zanata 4.3.3\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+
+msgid ":doc:`/common/git`"
+msgstr ":doc:`/common/git`"
+
+msgid ":doc:`/common/irc`"
+msgstr ":doc:`/common/irc`"
+
+msgid ":doc:`/common/setup-gerrit`"
+msgstr ":doc:`/common/setup-gerrit`"
+
+msgid "Adding/Updating Content"
+msgstr "添加/更新内容"
+
+msgid ""
+"After running ``tox -e docs``, the guide will be available for viewing in "
+"HTML format in the ``doc/build/`` directory."
+msgstr ""
+"在运行 ``tox -e docs`` 之后，该指南将可以在 ``doc/build/`` 目录中以HTML格式查"
+"看。"
+
+msgid ""
+"At various OpenStack events, the Contributor Guide is used to help various "
+"on-boarding programs:"
+msgstr "在各种OpenStack活动中，“贡献者指南”用于帮助各种入门计划："
+
+msgid ""
+"Before you modify or add new content first get familiar with OpenStack's "
+"code/documentation practices. You can read the :doc:`/code-and-documentation/"
+"index` for getting started."
+msgstr ""
+"在修改或添加新内容之前，首先要熟悉OpenStack的代码/文档实践。 您可以阅读 :doc:"
+"`/code-and-documentation/index` 以便入门。"
+
+msgid ""
+"Bug reports and tasks are all recorded in `Storyboard <https://storyboard."
+"openstack.org/#!/project/913>`_. If something isn't assigned, it's available "
+"for you to take."
+msgstr ""
+"bug报告和任务都记录在 `Storyboard <https://storyboard.openstack.org/#!/"
+"project/913>`_ 中。 如果某些任务没有分配出去，那么你可以领取。"
+
+msgid "Bugs: https://storyboard.openstack.org/#!/project/913"
+msgstr "Bugs: https://storyboard.openstack.org/#!/project/913"
+
+msgid "Common Content Only"
+msgstr "仅限通用内容"
+
+msgid "Content Guidelines"
+msgstr "内容指南"
+
+msgid "Contributing to the Contributor Guide"
+msgstr "参与贡献者指南"
+
+msgid "Documentation: https://docs.openstack.org/contributors"
+msgstr "文档: https://docs.openstack.org/contributors"
+
+msgid "Examples of Common Documentation"
+msgstr "通用文档的示例"
+
+msgid "Examples of Documentation that's NOT Common"
+msgstr "不通用的文档示例"
+
+msgid "Examples of Good Documentation"
+msgstr "好文档的示例"
+
+msgid ""
+"Experienced contributors can find helpful reference links listed here too."
+msgstr "有经验的贡献者也可以在这里找到有用的参考链接。"
+
+msgid ""
+"First it's important to note that we're not just talking about code "
+"projects. OpenStack contributions come in different forms such as running "
+"meet ups, identifying use cases (Product Working Group), documentation, "
+"testing, etc. Our goal is to have these contributions valued equally."
+msgstr ""
+"首先，重要的是要注意我们不只是谈论代码项目。 OpenStack贡献有不同的形式，例如"
+"举办聚会、识别用例（产品工作组）、文档、测试等等。我们的目标是使这些贡献具有"
+"同等价值。"
+
+msgid "Free software: Apache license"
+msgstr "自由软件：Apache许可证"
+
+msgid "Get Help Contributing"
+msgstr "获取帮助"
+
+msgid ""
+"Having the common documentation worked on by various projects will better "
+"help prevent duplicated efforts, inconsistent documentation, and will also "
+"provide more accurate information. Projects that have zero/outdated "
+"documentation can also just use the Contributor Guide."
+msgstr ""
+"通过各种项目整理的通用文档将更好地帮助防止重复工作及不一致的文档，并且还将提"
+"供更准确的信息。 没有文档或者文档过时的项目也可以使用“贡献者指南”。"
+
+msgid "How Can I Start Helping?"
+msgstr "我该如何开始帮助？"
+
+msgid "How to vote in elections."
+msgstr "如何在选举中投票。"
+
+msgid "Introduction and Goals"
+msgstr "介绍和目标"
+
+msgid "No videos please. They're way too complicated to keep updated."
+msgstr "请不要使用视频。 它们太复杂而无法保持更新。"
+
+msgid ""
+"No wall of text. The reader should feel like they can finish things on the "
+"page in five minutes, instead of having yet another forgotten tab that "
+"they'll never get back to."
+msgstr ""
+"不要长篇大论。如果能在5分钟看完页面，那么读者会感觉良好，否则只会关掉页面，再"
+"也不会回顾。"
+
+msgid ""
+"Once you've read through the guide, use git to clone the Contributor Guide "
+"repository::"
+msgstr "阅读完指南后，使用git克隆贡献者指南仓库::"
+
+msgid "Project Specific Contributor Guides"
+msgstr "特定项目的贡献者指南"
+
+msgid "Project team on-boarding sessions"
+msgstr "项目团队入职培训"
+
+msgid "Proposing a New Contribution Category"
+msgstr "提出新的贡献类别"
+
+msgid "Proposing a Project Team Under Code & Documentation"
+msgstr "根据代码和文档提出项目团队"
+
+msgid ""
+"Release Notes: https://docs.openstack.org/releasenotes/openstack-manuals/"
+msgstr "发行说明: https://docs.openstack.org/releasenotes/openstack-manuals/"
+
+msgid ""
+"Send your proposal to the `OpenStack Discuss List <http://lists.openstack."
+"org/cgi-bin/mailman/listinfo/openstack-discuss>`_ with the email subject "
+"prefixed with [contributor-portal]. This will start discussions on accepting "
+"the new contribution category."
+msgstr ""
+"将您的提案发送到 `OpenStack讨论列表 <http://lists.openstack.org/cgi-bin/"
+"mailman/listinfo/openstack-discuss>`_ ，其电子邮件主题前缀为[contributor-"
+"portal]。 这将开始讨论接受新的贡献类别。"
+
+msgid "Setting up Git."
+msgstr "设置Git。"
+
+msgid "Setting up IRC to communicate."
+msgstr "设置IRC进行通信。"
+
+msgid "Setting up Mailing Lists to communicate."
+msgstr "设置邮件列表进行通信。"
+
+msgid ""
+"Setting up appropriate accounts to contribute like Gerrit, Storyboard and "
+"Launchpad."
+msgstr "设置适当的帐户以贡献Gerrit，Storyboard和Launchpad。"
+
+msgid "Some specific software tool only your project team uses."
+msgstr "只有您的项目团队使用的一些特定的软件工具。"
+
+msgid "Source: https://git.openstack.org/cgit/openstack/contributor-guide"
+msgstr "源代码: https://git.openstack.org/cgit/openstack/contributor-guide"
+
+msgid "Specific procedures for doing things like bug triage."
+msgstr "做某事的具体过程（如处理bug分类）。"
+
+msgid "Team and repository tags"
+msgstr "团队和仓库标签"
+
+msgid ""
+"The Contributor Guide aims to provide common documentation for all OpenStack "
+"Contributors and help with on-boarding efforts."
+msgstr ""
+"“贡献者指南”旨在为所有OpenStack贡献者提供通用文档，并帮助进行入门工作。"
+
+msgid "The Contributor Guide for the OpenStack project."
+msgstr "OpenStack项目的贡献者指南。"
+
+msgid "The Contributor Portal"
+msgstr "贡献者门户网站"
+
+msgid "The OpenStack Contributor Guide"
+msgstr "OpenStack贡献者指南"
+
+msgid ""
+"The `Contributor Portal <https://www.openstack.org/community/>`_  provides "
+"the community with a landing page for new contributors to discover different "
+"ways to contribute to OpenStack."
+msgstr ""
+"`贡献者门户网站 <https://www.openstack.org/community/>`_  为社区提供了一个引"
+"导页(landing page)，供新贡献者发现不同的方式来贡献OpenStack。"
+
+msgid ""
+"The project teams listed under the 'Code & Documentation' section come from "
+"OpenStack's governance repository `project.yaml file <https://opendev.org/"
+"openstack/governance/src/reference/projects.yaml>`_. This file is a list of "
+"projects that are recognized by the `Technical Committee <https://governance."
+"openstack.org/tc/>`_. Project teams under this category should make sure "
+"their 'contributor' field is set to the URL of their specific contributor "
+"guide. See the `project.yaml file <https://opendev.org/openstack/governance/"
+"src/reference/projects.yaml>`_ file for examples."
+msgstr ""
+"“代码和文档”部分下列出的项目团队来自OpenStack的治理库的 `project.yaml 文件 "
+"<https://opendev.org/openstack/governance/src/reference/projects.yaml>`_ 。该"
+"文件是被 `技术委员会  <https://governance.openstack.org/tc/>`_ 所承认项目的清"
+"单。 此类别下的项目团队应确保其“贡献者”字段设置为其特定贡献者指南的URL。 有关"
+"示例，请参阅 `project.yaml 文件 <https://opendev.org/openstack/governance/src/"
+"reference/projects.yaml>`_ 。"
+
+msgid ""
+"There are different contribution categories listed, such as Code & "
+"Documentation and Users. Each one of these has their own contributor guide "
+"listed on the main page of the :doc:`../index`."
+msgstr ""
+"列出了不同的贡献类别，例如代码和文档以及用户。 其中每个都有自己的贡献者指南列"
+"在 :doc:`../index` 的主页上。"
+
+msgid "To build the guide, execute the following command::"
+msgstr "要构建指南，请执行以下命令::"
+
+msgid ""
+"Use chapters that have already been accepted to get a feel of what we're "
+"looking for."
+msgstr "使用已被接受的章节来了解我们正在寻找的内容。"
+
+msgid "Use screen shots."
+msgstr "使用屏幕截图。"
+
+msgid ""
+"We want you to succeed! You can ask for help on `IRC Freenode <https://"
+"webchat.freenode.net/>`_ in channel #openstack-doc. You can also ask for "
+"help on the `OpenStack Discuss Mailing list <http://lists.openstack.org/cgi-"
+"bin/mailman/listinfo/openstack-discuss>`_ prefixing your email subject with "
+"'[contributor-guide]'. If you're not familiar with these ways of "
+"communicating, read the :doc:`/code-and-documentation/index`."
+msgstr ""
+"我们希望你成功！ 你可以在 `IRC Freenode <https://webchat.freenode.net/>`_ 的 "
+"#openstack-doc 频道中寻求帮助。你也可以在 `OpenStack讨论邮件列表 <http://"
+"lists.openstack.org/cgi-bin/mailman/listinfo/openstack-discuss>`_ 上寻求帮"
+"助，请给你的电子邮件主题添加前缀“[contributor-guide]”。如果你不熟悉这些沟通方"
+"式，请阅读 :doc:`/code-and-documentation/index`."
+
+msgid "What is the Contributor Guide?"
+msgstr "什么是贡献者指南？"
+
+msgid "What is the Contributor Portal?"
+msgstr "什么是贡献者门户网站？"
+
+msgid "Where the Guide Is Used"
+msgstr "使用指南的地方"
+
+msgid ""
+"`The Certified OpenStack Administrator Exam <https://www.openstack.org/coa>`_"
+msgstr ""
+"`OpenStack认证管理员(COA, Certified OpenStack Administrator)考试 <https://"
+"www.openstack.org/coa>`_"
+
+msgid ""
+"`The OpenStack Upstream Institute <https://docs.openstack.org/upstream-"
+"training/>`_"
+msgstr "`OpenStack 上游学院 <https://docs.openstack.org/upstream-training/>`_"
