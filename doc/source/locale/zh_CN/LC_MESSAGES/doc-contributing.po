@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: contributor-guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-26 07:52+0000\n"
+"POT-Creation-Date: 2019-05-05 20:06+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -175,9 +175,6 @@ msgstr "设置适当的帐户以贡献Gerrit，Storyboard和Launchpad。"
 
 msgid "Some specific software tool only your project team uses."
 msgstr "只有您的项目团队使用的一些特定的软件工具。"
-
-msgid "Source: https://git.openstack.org/cgit/openstack/contributor-guide"
-msgstr "源代码: https://git.openstack.org/cgit/openstack/contributor-guide"
 
 msgid "Specific procedures for doing things like bug triage."
 msgstr "做某事的具体过程（如处理bug分类）。"
