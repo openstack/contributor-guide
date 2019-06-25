@@ -20,19 +20,19 @@ Architecture Guides
 =====================
 `The Architecture Guide <https://docs.openstack.org/arch-design/>`_ provides
 basic information about designing an OpenStack cloud. This guide discusses the
-basiscs, common use cases, and architecture design requirements.
+basics, common use cases, and architecture design requirements.
 
 Virtual Machine Image Guides
 =================================
 `The VM Image Guide <https://docs.openstack.org/image-guide/>`_ explains how
-to 'obtain, create and modify vm images that are compatible with OpenStack.'
+to 'obtain, create and modify VM images that are compatible with OpenStack.'
 
 Operations Guide
 ================
-`The Operations Guide <https://docs.openstack.org/arch-design/>`_  is
+`The Operations Guide <https://docs.openstack.org/operations-guide>`_  is
 generally focused on what happens after day 1 of spinning up an
-OpenStack Cloud. It offers some basic setup infromation, but the
-majority of the content is about maintenence, troubleshooting, user
+OpenStack Cloud. It offers some basic setup information, but the
+majority of the content is about maintenance, troubleshooting, user
 facing capabilities, and scaling.
 
 Security Guide
@@ -40,7 +40,7 @@ Security Guide
 `The Security Guide <https://docs.openstack.org/security-guide/>`_ provides information about ways
 to keep your cloud secure. It covers everything from identity and secrets
 management to per service security options (compute, networking, storage,
-messaging, etc)
+messaging, etc.)
 
 Share and Learn From Real Configurations
 ========================================
@@ -49,4 +49,3 @@ Example configurations for various OpenStack services are provided in the
 <https://git.openstack.org/cgit/openstack/osops-example-configs/tree/README.md>`_.
 Operators can share their configuration files to help others, and review
 how others setup and tune their configurations.
-
