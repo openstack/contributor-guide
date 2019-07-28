@@ -13,7 +13,6 @@ An OpenStack Foundation account allows you to:
 * Run for elected positions in the OpenStack project.
 * Submit presentations to OpenStack conferences.
 * Vote on presentations at OpenStack conferences.
-* Commit code to OpenStack via Gerrit.
 
 Sign Up
 -------
