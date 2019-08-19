@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: contributor-guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-13 09:30+0000\n"
+"POT-Creation-Date: 2019-07-28 00:24+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -230,9 +230,6 @@ msgstr "代码审查"
 
 msgid "Commit Messages"
 msgstr "提交(commit)消息"
-
-msgid "Commit code to OpenStack via Gerrit."
-msgstr "通过Gerrit向OpenStack提交代码。"
 
 msgid ""
 "Commit messsages are the first things a reviewer sees and are used as "

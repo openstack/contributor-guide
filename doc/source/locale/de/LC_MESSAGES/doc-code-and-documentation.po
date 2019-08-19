@@ -6,11 +6,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: contributor-guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-22 19:12+0000\n"
+"POT-Creation-Date: 2019-07-28 00:24+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2019-04-25 07:03+0000\n"
+"PO-Revision-Date: 2019-08-18 09:00+0000\n"
 "Last-Translator: Andreas Jaeger <jaegerandi@gmail.com>\n"
 "Language-Team: German\n"
 "Language: de\n"
@@ -94,6 +94,9 @@ msgstr "ADMIN_PASSWORD"
 
 msgid "Adding Reviewers"
 msgstr "Hinzufügen von Reviewern"
+
+msgid "Administrator guide"
+msgstr "Administrator Guide"
 
 msgid ""
 "After checking out the patch, you will be switched to a new branch "
@@ -241,6 +244,9 @@ msgstr ""
 "ermöglicht und diese Änderung von allem abhängt, was Sie sonst noch für Ihr "
 "Design benötigen."
 
+msgid "CLI reference"
+msgstr "Kommandozeilenreferenz"
+
 msgid ""
 "Changes that are not related to any feature implementation or bug report can "
 "be uploaded but are less welcomed by reviewers."
@@ -276,6 +282,12 @@ msgstr ""
 "Teilnahme an einer Open-Source-Community geht. Wir haben mehrere Tools, die "
 "wir für die Online- und Offline-Kommunikation verwenden und die wir Ihnen "
 "empfehlen."
+
+msgid "Configuration reference"
+msgstr "Konfigurationsreferenz"
+
+msgid "Contributor guide"
+msgstr "Beitragsleitfaden"
 
 msgid ""
 "Core reviewers have additional voting choices aside from the basic set. Like "
@@ -338,6 +350,12 @@ msgstr ""
 "Entwickler benötigen eine einfache Möglichkeit, eine OpenStack-Cloud "
 "bereitzustellen, um Funktions- und Interoperabilitätstests von Änderungen "
 "durchzuführen. Dies ist der Zweck von DevStack."
+
+msgid "Documentation"
+msgstr "Dokumentation"
+
+msgid "Documents in project repositories"
+msgstr "Dokumentation in Projekt Repositories"
 
 msgid ""
 "Each graph shows how many matches were found for that fingerprint over the "
@@ -615,6 +633,9 @@ msgstr ""
 "müssen, müssen Sie sehr sorgfältig mit der Verwaltung der Abhängigkeiten "
 "umgehen."
 
+msgid "Installation guide"
+msgstr "Installationsanleitung"
+
 msgid "Introduction"
 msgstr "Einführung"
 
@@ -840,6 +861,9 @@ msgstr ""
 "%20message%20structure%22#Summary_of_Git_commit_message_structure>`_ für "
 "Best Practices beim Schreiben der Commit-Nachricht. Wenn Sie bereit sind, "
 "Ihre Änderungen zur Überprüfung zu senden, verwenden Sie::"
+
+msgid "Reference documents"
+msgstr "Referenzdokumente"
 
 msgid "Removal of .pyc files"
 msgstr "Entfernen von .pyc-Dateien"
@@ -1229,6 +1253,9 @@ msgid ""
 msgstr ""
 "Bis Sie auf 'Reply' klicken und über den Patch abstimmen, existieren alle "
 "Inline-Kommentare, die Sie gemacht haben, als Entwürfe."
+
+msgid "User guide"
+msgstr "Benutzerhandbuch"
 
 msgid ""
 "Using DevStack to develop and test changes is easy. Development can be done "
