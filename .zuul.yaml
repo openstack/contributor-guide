@@ -7,6 +7,6 @@
     gate:
       jobs:
         - openstack-tox-pep8
-    post:
+    promote:
       jobs:
-        - publish-openstack-contributor-guide
+        - promote-openstack-contributor-guide
