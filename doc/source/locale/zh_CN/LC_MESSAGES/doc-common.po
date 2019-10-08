@@ -1,15 +1,16 @@
 # Franco Tseng <francotseng18@gmail.com>, 2019. #zanata
+# Shaoman Zhang <zhang.shaoman@zte.com.cn>, 2019. #zanata
 # vuuv <froms2008@gmail.com>, 2019. #zanata
 msgid ""
 msgstr ""
 "Project-Id-Version: contributor-guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-28 00:24+0000\n"
+"POT-Creation-Date: 2019-08-23 19:03+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2019-05-13 09:34+0000\n"
-"Last-Translator: Franco Tseng <francotseng18@gmail.com>\n"
+"PO-Revision-Date: 2019-10-08 02:21+0000\n"
+"Last-Translator: Shaoman Zhang <zhang.shaoman@zte.com.cn>\n"
 "Language-Team: Chinese (China)\n"
 "Language: zh_CN\n"
 "X-Generator: Zanata 4.3.3\n"
@@ -1380,7 +1381,7 @@ msgid ""
 "event in Spring is located in North America and the Fall occasions are "
 "alternating somewhere between Europe and Asia."
 msgstr ""
-"`峰会 <https://www.openstack.org/summit/other-summits/>`_ 是两年一度的活动，"
+"`峰会 <https://www.openstack.org/summit/other-summits/>`_ 是一年两次的活动，"
 "来自全球各地的数千名与会者。 春季活动位于北美，秋季时期在欧洲和亚洲之间交替。"
 
 msgid ""
