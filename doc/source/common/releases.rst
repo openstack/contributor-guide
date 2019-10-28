@@ -28,6 +28,8 @@ The currently available options are the following:
   <https://releases.openstack.org/reference/release_models.html#cycle-with-intermediary>`_
 * `cycle-trailing
   <https://releases.openstack.org/reference/release_models.html#cycle-trailing>`_
+* `cycle-automatic
+  <https://releases.openstack.org/reference/release_models.html#cycle-automatic>`_
 * `independent
   <https://releases.openstack.org/reference/release_models.html#independent>`_
 * `untagged
