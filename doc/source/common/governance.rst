@@ -96,6 +96,11 @@ information should be added to the *reference/projects.yaml* file of the
 Groups
 ======
 
+.. note::
+    You can reference `Comparison of Official Group Structures page
+    <https://governance.openstack.org/tc/reference/comparison-of-official-group-structures.html>`_
+    to see the difference between group structures.
+
 .. _special-interest-groups:
 
 Special Interest Groups
