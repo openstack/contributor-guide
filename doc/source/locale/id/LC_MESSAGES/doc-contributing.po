@@ -1,14 +1,15 @@
 # Andreas Jaeger <jaegerandi@gmail.com>, 2019. #zanata
 # suhartono <cloudsuhartono@gmail.com>, 2019. #zanata
+# suhartono <cloudsuhartono@gmail.com>, 2020. #zanata
 msgid ""
 msgstr ""
 "Project-Id-Version: contributor-guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-13 09:30+0000\n"
+"POT-Creation-Date: 2020-01-22 13:20+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2019-05-14 04:26+0000\n"
+"PO-Revision-Date: 2020-01-22 03:15+0000\n"
 "Last-Translator: suhartono <cloudsuhartono@gmail.com>\n"
 "Language-Team: Indonesian\n"
 "Language: id\n"
@@ -80,6 +81,9 @@ msgstr ""
 
 msgid "Bugs: https://storyboard.openstack.org/#!/project/913"
 msgstr "Bugs: https://storyboard.openstack.org/#!/project/913"
+
+msgid "Bulding the guide"
+msgstr "Membangun panduan"
 
 msgid "Common Content Only"
 msgstr "Hanya Konten Umum"

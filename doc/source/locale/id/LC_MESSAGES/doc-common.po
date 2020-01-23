@@ -1,15 +1,16 @@
 # suhartono <cloudsuhartono@gmail.com>, 2018. #zanata
 # Andreas Jaeger <jaegerandi@gmail.com>, 2019. #zanata
 # suhartono <cloudsuhartono@gmail.com>, 2019. #zanata
+# suhartono <cloudsuhartono@gmail.com>, 2020. #zanata
 msgid ""
 msgstr ""
 "Project-Id-Version: contributor-guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-28 15:46+0000\n"
+"POT-Creation-Date: 2020-01-22 13:20+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2019-11-06 02:29+0000\n"
+"PO-Revision-Date: 2020-01-22 03:14+0000\n"
 "Last-Translator: suhartono <cloudsuhartono@gmail.com>\n"
 "Language-Team: Indonesian\n"
 "Language: id\n"
@@ -2921,6 +2922,15 @@ msgid ""
 msgstr ""
 "Anda dapat membuat kunci SSH baru menggunakan email yang disediakan sebagai "
 "label dengan masuk ke program terminal Anda dan mengetik ::"
+
+msgid ""
+"You can reference `Comparison of Official Group Structures page <https://"
+"governance.openstack.org/tc/reference/comparison-of-official-group-"
+"structures.html>`_ to see the difference between group structures."
+msgstr ""
+"Anda bisa referensi `Comparison of Official Group Structures page <https://"
+"governance.openstack.org/tc/reference/comparison-of-official-group-"
+"structures.html>`_ untuk melihat perbedaan antara struktur kelompok."
 
 msgid ""
 "You can use `Git Immersion <http://gitimmersion.com/lab_02.html>`_ to work "
