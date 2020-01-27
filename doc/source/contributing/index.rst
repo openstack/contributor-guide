@@ -7,5 +7,5 @@ Contributing to the Contributor Guide
    :maxdepth: 2
 
    intro
-   Bulding the guide <readme>
+   Building the guide <readme>
    contributor-portal
