@@ -7,6 +7,7 @@ Code & Documentation Contributor Guide
    :maxdepth: 2
 
    /code-and-documentation/introduction
+   /code-and-documentation/quick-start
    /common/communication
    /common/irc
    /common/accounts
