@@ -1,14 +1,15 @@
 # Andreas Jaeger <jaegerandi@gmail.com>, 2019. #zanata
 # suhartono <cloudsuhartono@gmail.com>, 2019. #zanata
+# suhartono <cloudsuhartono@gmail.com>, 2020. #zanata
 msgid ""
 msgstr ""
 "Project-Id-Version: contributor-guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-15 21:00+0000\n"
+"POT-Creation-Date: 2020-02-24 22:47+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2019-07-17 07:26+0000\n"
+"PO-Revision-Date: 2020-02-27 06:43+0000\n"
 "Last-Translator: suhartono <cloudsuhartono@gmail.com>\n"
 "Language-Team: Indonesian\n"
 "Language: id\n"
@@ -40,6 +41,12 @@ msgstr "... dan  *amend*  komit saat ini"
 msgid "...and tell ``git-restack`` to proceed"
 msgstr "... dan beri tahu ``git-restack`` untuk melanjutkan"
 
+msgid ":doc:`../common/git`"
+msgstr ":doc:`../common/git`"
+
+msgid ":doc:`../common/setup-gerrit`"
+msgstr ":doc:`../common/setup-gerrit`"
+
 msgid ""
 ":ref:`launchpad` is one of the task tracking tools that the community is "
 "using."
@@ -62,15 +69,6 @@ msgid ""
 msgstr ""
 "Jalankan ``clean.sh`` melakukan langkah-langkah untuk ``unstack.sh`` plus "
 "pembersihan tambahan:"
-
-msgid ""
-"A detailed description of the documentation tools and processes can be found "
-"in the `OpenStack Documentation Contributor Guide <https://docs.openstack."
-"org/doc-contrib-guide/index.html>`_."
-msgstr ""
-"Penjelasan terperinci tentang alat dan proses dokumentasi dapat ditemukan di "
-"`OpenStack Documentation Contributor Guide <https://docs.openstack.org/doc-"
-"contrib-guide/index.html>`_."
 
 msgid "A log of the stack.sh run is kept in ``/opt/stack/logs/stack.sh.log``."
 msgstr "Log run stack.sh disimpan ``/opt/stack/logs/stack.sh.log``."
@@ -429,6 +427,9 @@ msgstr ""
 msgid "Find your project in the file."
 msgstr "Temukan proyek Anda di file."
 
+msgid "First-timers can refer to the :doc:`quick-start` Guide."
+msgstr "First-timers dapat merujuk  :doc:`quick-start` Guide."
+
 msgid ""
 "Following is a list of the commands that you need to know for your first "
 "contribution:"
@@ -442,6 +443,13 @@ msgid ""
 msgstr ""
 "Untuk melihat lebih dalam tentang mengelola rantai tambalan, lihat :doc:`/"
 "code-and-documentation/patch-series-tutorial`."
+
+msgid ""
+"For further details on contributing to the OpenStack community, please refer "
+"to :doc:`../index`."
+msgstr ""
+"Untuk detail lebih lanjut tentang kontribusi ke komunitas OpenStack, silakan "
+"merujuk ke :doc:`../index`."
 
 msgid ""
 "For the project documents to be linked to on the `OpenStack documentation "
@@ -501,6 +509,13 @@ msgid ""
 msgstr ""
 "Git adalah sistem kontrol versi yang kami gunakan untuk melacak perubahan "
 "pada kode sumber dan dokumentasi kami."
+
+msgid ""
+"Here is a quick overview of the `Gerrit Workflow <https://docs.openstack.org/"
+"infra/manual/developers.html#quick-reference>`_"
+msgstr ""
+"Berikut ini adalah ikhtisar singkat dari `Gerrit Workflow <https://docs."
+"openstack.org/infra/manual/developers.html#quick-reference>`_"
 
 msgid ""
 "Here is an example of what that process would look like. In this example a "
@@ -982,14 +997,23 @@ msgstr ""
 "Hanya orang yang memilih -2 yang dapat menghapus suara dan itu akan tetap "
 "ada pada semua patchset baru."
 
+msgid "OpenStack :doc:`../common/accounts`"
+msgstr "OpenStack :doc:`../common/accounts`"
+
 msgid "OpenStack Documentation Contributor Guide"
 msgstr "Panduan Kontributor Dokumentasi OpenStack"
+
+msgid "OpenStack uses Gerrit to propose and review the code."
+msgstr "OpenStack menggunakan Gerrit untuk mengusulkan dan meninjau kode."
 
 msgid "Patch Chains"
 msgstr "Rantai patch"
 
 msgid "Patch Chains, Depends-On Tag and Gerrit Topics"
 msgstr "Patch Chains, Depends-On Tag dan Gerrit Topics"
+
+msgid "Practice the workflow using Sandbox Project"
+msgstr "Praktikkan alur kerja menggunakan Sandbox Project"
 
 msgid ""
 "Project services are all registered with systemd. Each service is prefixed "
@@ -1003,8 +1027,17 @@ msgstr ""
 msgid "Publishing documents in project repositories"
 msgstr "Menerbitkan dokumen dalam repositori proyek"
 
+msgid "Push your change"
+msgstr "Dorong perubahan Anda"
+
+msgid "Push your change and review :doc:`using-gerrit`"
+msgstr "Dorong perubahan Anda dan tinjau :doc:`using-gerrit`"
+
 msgid "Pushing A Change"
 msgstr "Mendorong Perubahan"
+
+msgid "Quick Start"
+msgstr "Quick Start (mulai cepat)"
 
 msgid "RABBIT_PASSWORD"
 msgstr "RABBIT_PASSWORD"
@@ -1091,6 +1124,9 @@ msgstr "Simpan dan keluar dari editor, dan saya melihat:"
 
 msgid "Set to 'true' all document options that apply. For example::"
 msgstr "Setel ke 'true' semua opsi dokumen yang berlaku. Sebagai contoh::"
+
+msgid "Set up accounts and configure environment"
+msgstr "Siapkan akun dan konfigurasikan lingkungan"
 
 msgid ""
 "Since systemd accepts wildcards, the status of all services associated with "
@@ -1371,6 +1407,13 @@ msgstr ""
 "termasuk:"
 
 msgid ""
+"This guide is to list the minimal steps you need to do to push your first "
+"patch in OpenStack."
+msgstr ""
+"Panduan ini berisi daftar langkah-langkah minimal yang perlu Anda lakukan "
+"untuk mendorong patch pertama Anda di OpenStack."
+
+msgid ""
 "This guide won't go into the details of tracing through the logs of a run "
 "and finding a good fingerprint, since that's quite involved, dependent on "
 "the job you're looking at, and already documented in a few places including:"
@@ -1492,6 +1535,18 @@ msgid ""
 msgstr ""
 "Untuk mendapatkan DevStack Anda harus mengkloningnya dari repositori "
 "``devstack`` di bawah ``openstack-dev``."
+
+msgid "To get started, first setup required accounts."
+msgstr "Untuk memulai, pertama-tama siapkan akun yang diperlukan."
+
+msgid ""
+"To make sure everything is set up correctly or to understand the workflow "
+"without trying it on actual projects, you can practice in a Sandbox using "
+"the :doc:`sandbox-house-rules` Guide."
+msgstr ""
+"Untuk memastikan semuanya diatur dengan benar atau untuk memahami alur kerja "
+"tanpa mencobanya pada proyek yang sebenarnya, Anda dapat berlatih di Sandbox "
+"menggunakan :doc:`sandbox-house-rules` Guide."
 
 msgid ""
 "To modify a patch within a chain you will need to use interactive rebase:"
