@@ -1,14 +1,15 @@
 # Andi Chandler <andi@gowling.com>, 2018. #zanata
 # Andi Chandler <andi@gowling.com>, 2019. #zanata
+# Andi Chandler <andi@gowling.com>, 2020. #zanata
 msgid ""
 msgstr ""
 "Project-Id-Version: contributor-guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-24 22:47+0000\n"
+"POT-Creation-Date: 2020-02-28 12:09+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2019-12-22 08:10+0000\n"
+"PO-Revision-Date: 2020-02-28 02:29+0000\n"
 "Last-Translator: Andi Chandler <andi@gowling.com>\n"
 "Language-Team: English (United Kingdom)\n"
 "Language: en_GB\n"
@@ -39,6 +40,12 @@ msgstr "...and *amend* the current commit"
 
 msgid "...and tell ``git-restack`` to proceed"
 msgstr "...and tell ``git-restack`` to proceed"
+
+msgid ":doc:`../common/git`"
+msgstr ":doc:`../common/git`"
+
+msgid ":doc:`../common/setup-gerrit`"
+msgstr ":doc:`../common/setup-gerrit`"
 
 msgid ""
 ":ref:`launchpad` is one of the task tracking tools that the community is "
@@ -412,6 +419,9 @@ msgstr ""
 msgid "Find your project in the file."
 msgstr "Find your project in the file."
 
+msgid "First-timers can refer to the :doc:`quick-start` Guide."
+msgstr "First-timers can refer to the :doc:`quick-start` Guide."
+
 msgid ""
 "Following is a list of the commands that you need to know for your first "
 "contribution:"
@@ -425,6 +435,13 @@ msgid ""
 msgstr ""
 "For a more in-depth look at managing patch chains, see :doc:`/code-and-"
 "documentation/patch-series-tutorial`."
+
+msgid ""
+"For further details on contributing to the OpenStack community, please refer "
+"to :doc:`../index`."
+msgstr ""
+"For further details on contributing to the OpenStack community, please refer "
+"to :doc:`../index`."
 
 msgid ""
 "For the project documents to be linked to on the `OpenStack documentation "
@@ -483,6 +500,13 @@ msgid ""
 msgstr ""
 "Git is a version control system that we use to track changes to our source "
 "code and documentation."
+
+msgid ""
+"Here is a quick overview of the `Gerrit Workflow <https://docs.openstack.org/"
+"infra/manual/developers.html#quick-reference>`_"
+msgstr ""
+"Here is a quick overview of the `Gerrit Workflow <https://docs.openstack.org/"
+"infra/manual/developers.html#quick-reference>`_"
 
 msgid ""
 "Here is an example of what that process would look like. In this example a "
@@ -951,14 +975,23 @@ msgstr ""
 "Only the person that voted the -2 can remove the vote and it will persist on "
 "all new patchsets."
 
+msgid "OpenStack :doc:`../common/accounts`"
+msgstr "OpenStack :doc:`../common/accounts`"
+
 msgid "OpenStack Documentation Contributor Guide"
 msgstr "OpenStack Documentation Contributor Guide"
+
+msgid "OpenStack uses Gerrit to propose and review the code."
+msgstr "OpenStack uses Gerrit to propose and review the code."
 
 msgid "Patch Chains"
 msgstr "Patch Chains"
 
 msgid "Patch Chains, Depends-On Tag and Gerrit Topics"
 msgstr "Patch Chains, Depends-On Tag and Gerrit Topics"
+
+msgid "Practice the workflow using Sandbox Project"
+msgstr "Practice the workflow using Sandbox Project"
 
 msgid ""
 "Project services are all registered with systemd. Each service is prefixed "
@@ -972,8 +1005,17 @@ msgstr ""
 msgid "Publishing documents in project repositories"
 msgstr "Publishing documents in project repositories"
 
+msgid "Push your change"
+msgstr "Push your change"
+
+msgid "Push your change and review :doc:`using-gerrit`"
+msgstr "Push your change and review :doc:`using-gerrit`"
+
 msgid "Pushing A Change"
 msgstr "Pushing A Change"
+
+msgid "Quick Start"
+msgstr "Quick Start"
 
 msgid "RABBIT_PASSWORD"
 msgstr "RABBIT_PASSWORD"
@@ -1058,6 +1100,9 @@ msgstr "Save and quit the editor, and I see:"
 
 msgid "Set to 'true' all document options that apply. For example::"
 msgstr "Set to 'true' all document options that apply. For example::"
+
+msgid "Set up accounts and configure environment"
+msgstr "Set up accounts and configure environment"
 
 msgid ""
 "Since systemd accepts wildcards, the status of all services associated with "
@@ -1333,6 +1378,13 @@ msgstr ""
 "node.  This includes:"
 
 msgid ""
+"This guide is to list the minimal steps you need to do to push your first "
+"patch in OpenStack."
+msgstr ""
+"This guide is to list the minimal steps you need to do to push your first "
+"patch in OpenStack."
+
+msgid ""
 "This guide won't go into the details of tracing through the logs of a run "
 "and finding a good fingerprint, since that's quite involved, dependent on "
 "the job you're looking at, and already documented in a few places including:"
@@ -1451,6 +1503,18 @@ msgid ""
 msgstr ""
 "To get DevStack you will need to clone it from the ``devstack`` repository "
 "under ``openstack-dev``."
+
+msgid "To get started, first setup required accounts."
+msgstr "To get started, first setup required accounts."
+
+msgid ""
+"To make sure everything is set up correctly or to understand the workflow "
+"without trying it on actual projects, you can practice in a Sandbox using "
+"the :doc:`sandbox-house-rules` Guide."
+msgstr ""
+"To make sure everything is set up correctly or to understand the workflow "
+"without trying it on actual projects, you can practice in a Sandbox using "
+"the :doc:`sandbox-house-rules` Guide."
 
 msgid ""
 "To modify a patch within a chain you will need to use interactive rebase:"

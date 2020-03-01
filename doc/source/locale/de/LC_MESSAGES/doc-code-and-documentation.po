@@ -2,15 +2,16 @@
 # Frank Kloeker <eumel@arcor.de>, 2018. #zanata
 # Andreas Jaeger <jaegerandi@gmail.com>, 2019. #zanata
 # Frank Kloeker <eumel@arcor.de>, 2019. #zanata
+# Andreas Jaeger <jaegerandi@gmail.com>, 2020. #zanata
 msgid ""
 msgstr ""
 "Project-Id-Version: contributor-guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-24 22:47+0000\n"
+"POT-Creation-Date: 2020-02-28 12:09+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2019-08-18 09:00+0000\n"
+"PO-Revision-Date: 2020-02-29 09:35+0000\n"
 "Last-Translator: Andreas Jaeger <jaegerandi@gmail.com>\n"
 "Language-Team: German\n"
 "Language: de\n"
@@ -35,6 +36,12 @@ msgid ""
 msgstr ""
 "+W: Genehmigt. Dieser Patch wird nun einer letzten Runde von Prüfungen "
 "unterzogen, bevor er in das Repository eingemischt wird."
+
+msgid ":doc:`../common/git`"
+msgstr ":doc:`../common/git`"
+
+msgid ":doc:`../common/setup-gerrit`"
+msgstr ":doc:`../common/setup-gerrit`"
 
 msgid ""
 ":ref:`launchpad` is one of the task tracking tools that the community is "
@@ -95,6 +102,19 @@ msgid ""
 msgstr ""
 "Nach dem Auschecken des Patches werden Sie automatisch zu einem neuen Zweig "
 "gewechselt, an dem Sie Ihre Änderungen vornehmen können."
+
+msgid ""
+"After proposing changes, you can track them at `Code Review <https://review."
+"opendev.org>`_. After logging in, you will see a dashboard of \"Outgoing "
+"reviews\" for changes you have proposed, \"Incoming reviews\" for changes "
+"you are reviewing, and \"Recently closed\" changes for which you were either "
+"a reviewer or owner."
+msgstr ""
+"Nachdem Sie Änderungen vorgeschlagen haben, können Sie diese unter `Code "
+"Review <https://review.opendev.org>`_ verfolgen. Nach dem Einloggen sehen "
+"Sie ein Dashboard mit \"Outgoing reviews\" für Änderungen, die Sie "
+"vorgeschlagen haben, \"Ingoing reviews\" für Änderungen, die Sie überprüfen, "
+"und \"Recently closed\", für die Sie entweder Reviewer oder Eigentümer waren."
 
 msgid ""
 "After you've completed the Setup and Learn GIT section, the following "
@@ -815,6 +835,9 @@ msgstr ""
 "Nur die Person, die für die -2 gestimmt hat, kann die Stimme entfernen und "
 "sie bleibt bei allen neuen Patchsets bestehen."
 
+msgid "OpenStack :doc:`../common/accounts`"
+msgstr "OpenStack :doc:`../common/accounts`"
+
 msgid "OpenStack Documentation Contributor Guide"
 msgstr "OpenStack Dokumentation Mitwirkender Leitfaden"
 
@@ -833,6 +856,9 @@ msgstr ""
 "Präfix mit ``devstack@`` vorangestellt. Daher können Sie durch systemd "
 "überprüfen, ob der Cinder Volume Prozess mit einem Befehl wie diesem "
 "arbeitet:"
+
+msgid "Publishing documents in project repositories"
+msgstr "Dokumentation in Projekt Repositories veröffentlichen"
 
 msgid "Pushing A Change"
 msgstr "Eine Änderung vorantreiben"
@@ -1390,9 +1416,26 @@ msgstr ""
 "project/2>`_ Projekt in dem Tool finden, das Ihnen alle Funktionalitäten wie "
 "jedes andere aktive Projekt zur Verfügung stellt."
 
+msgid ""
+"You can find a `sandbox Git repository <https://opendev.org/openstack-dev/"
+"sandbox>`_ where you can practice the Git commands before you put together a "
+"patch to resolve a bug or implement a new functionality."
+msgstr ""
+"Sie finden ein `sandbox Git-Repository <https://opendev.org/openstack/"
+"sandbox>`_, wo Sie die Git-Befehle üben können, bevor Sie einen Patch "
+"zusammenstellen, um einen Fehler zu beheben oder eine neue Funktionalität zu "
+"implementieren."
+
 msgid "You can find instructions on how to use Git in the :ref:`git` section."
 msgstr ""
 "Eine Anleitung zur Verwendung von Git finden Sie im Abschnitt :ref:`git`."
+
+msgid ""
+"You can find the same repositories using the search function here: `OpenDev "
+"git repository browser <https://opendev.org/explore/repos>`_"
+msgstr ""
+"Sie können die gleichen Repositories über die Suchfunktion hier finden: "
+"`OpenStack git Repository Browser <https://opendev.org/explore/repos>`_"
 
 msgid "You can find these pages at:"
 msgstr "Sie finden diese Seiten unter:"
