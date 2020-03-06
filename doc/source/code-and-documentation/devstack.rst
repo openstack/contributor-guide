@@ -36,7 +36,7 @@ Getting and Configuring DevStack
 ================================
 
 To get DevStack you will need to clone it from the ``devstack``
-repository under ``openstack-dev``.
+repository under ``openstack``.
 
 .. code-block::  console
 

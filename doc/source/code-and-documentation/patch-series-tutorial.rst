@@ -5,7 +5,7 @@ Tutorial: Developing Changes In A Series
 This tutorial walks through a simple scenario of developing multiple change
 sets in a series on the same branch. If you wish, you can follow along, using
 the `sandbox repository
-<https://opendev.org/openstack-dev/sandbox/>`_, executing the
+<https://opendev.org/opendev/sandbox/>`_, executing the
 commands exactly as they're laid out.
 
 If you are a visual learner, you may prefer
@@ -107,7 +107,7 @@ confirm that I really want to push two commits at once.
   remote:   https://review.opendev.org/635341 Add cyborg client to requirements
   remote:   https://review.opendev.org/635342 WIP: Cyborg PCI handling
   remote:
-  To ssh://review.opendev.org:29418/openstack-dev/sandbox.git
+  To ssh://review.opendev.org:29418/opendev/sandbox.git
    * [new branch]      HEAD -> refs/for/master%topic=bp/nova-cyborg-interaction
 
 Now if you go to either of those links - e.g.

@@ -37,7 +37,7 @@ Git is a version control system that we use to track changes to our source code
 and documentation.
 
 You can find a `sandbox Git repository
-<https://opendev.org/openstack-dev/sandbox>`_ where you can practice
+<https://opendev.org/opendev/sandbox>`_ where you can practice
 the Git commands before you put together a patch to resolve a bug or implement
 a new functionality.
 
@@ -66,4 +66,4 @@ Sandbox Project on Launchpad
 
 There is a `Sandbox project <https://launchpad.net/openstack-dev-sandbox>`_
 available there which is created to track bugs and issues related to the
-openstack-dev/sandbox repository.
+opendev/sandbox repository.
