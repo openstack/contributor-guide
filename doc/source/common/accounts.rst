@@ -41,6 +41,14 @@ Sign Up
 #. Submit your application.
 
 
+Eligibility to Vote in Elections
+--------------------------------
+
+Foundation Membership makes you eligible to vote in elections, for
+full details see the `individual member policy
+<https://www.openstack.org/legal/individual-member-policy/>`__.
+
+
 Setup Your Task Tracker Account
 ===============================
 
