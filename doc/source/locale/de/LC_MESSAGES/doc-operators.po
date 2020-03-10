@@ -1,15 +1,16 @@
 # Andreas Jaeger <jaegerandi@gmail.com>, 2018. #zanata
 # Frank Kloeker <eumel@arcor.de>, 2018. #zanata
 # Andreas Jaeger <jaegerandi@gmail.com>, 2019. #zanata
+# Andreas Jaeger <jaegerandi@gmail.com>, 2020. #zanata
 msgid ""
 msgstr ""
 "Project-Id-Version: contributor-guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-28 00:24+0000\n"
+"POT-Creation-Date: 2020-03-09 17:00+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2019-08-18 08:58+0000\n"
+"PO-Revision-Date: 2020-03-09 04:44+0000\n"
 "Last-Translator: Andreas Jaeger <jaegerandi@gmail.com>\n"
 "Language-Team: German\n"
 "Language: de\n"
@@ -194,3 +195,11 @@ msgstr ""
 "Best Practices, Ideen austauschen und Feedback geben können. Es hat ein "
 "meist rundes Tisch-, Arbeits- und Diskussionsgefühl, mit nur wenigen "
 "Präsentationen und den folgenden Zielen:"
+
+msgid ""
+"`The VM Image Guide <https://docs.openstack.org/image-guide/>`_ explains how "
+"to 'obtain, create and modify VM images that are compatible with OpenStack.'"
+msgstr ""
+"Der `VM Image Guide <https://docs.openstack.org/image-guide/>`_ zeigt Ihnen, "
+"wie Sie Abbilder virtueller Maschinen erhalten, erstellen und ändern, die "
+"mit OpenStack kompatibel sind."
