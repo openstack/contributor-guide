@@ -19,7 +19,7 @@ Pushing A Change
 
 .. note::
    This is a quick start version. For a more in depth description of how to
-   clone, create a patch and push the change, directions can be `found here <https://docs.openstack.org/infra/manual/developers.html#starting-work-on-a-new-project>`_
+   clone, create a patch and push the change, directions can be `found here <https://docs.opendev.org/opendev/infra-manual/latest/developers.html#starting-work-on-a-new-project>`_
 
 Following is a list of the commands that you need to know for your first
 contribution:

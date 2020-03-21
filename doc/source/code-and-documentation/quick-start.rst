@@ -22,7 +22,7 @@ Push your change
 OpenStack uses Gerrit to propose and review the code.
 
 * Here is a quick overview of the `Gerrit Workflow
-  <https://docs.openstack.org/infra/manual/developers.html#quick-reference>`_
+  <https://docs.opendev.org/opendev/infra-manual/latest/developers.html#quick-reference>`_
 
 * Push your change and review :doc:`using-gerrit`
 

@@ -109,7 +109,7 @@ Code
     the gerrit interface rather than using ssh certificates, so is inherently
     less secure.
 
-    * https://docs.openstack.org/infra/manual/developers.html#accessing-gerrit-over-https
+    * https://docs.opendev.org/opendev/infra-manual/latest/developers.html#accessing-gerrit-over-https
 
   * For more information on how we use gerrit see:
 
