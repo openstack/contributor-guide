@@ -2,15 +2,16 @@
 # Andreas Jaeger <jaegerandi@gmail.com>, 2019. #zanata
 # Frank Kloeker <eumel@arcor.de>, 2019. #zanata
 # Robert Simai <robert.simai@suse.com>, 2019. #zanata
+# Andreas Jaeger <jaegerandi@gmail.com>, 2020. #zanata
 msgid ""
 msgstr ""
 "Project-Id-Version: contributor-guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-22 19:12+0000\n"
+"POT-Creation-Date: 2020-03-23 13:39+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2019-04-25 07:03+0000\n"
+"PO-Revision-Date: 2020-03-25 07:29+0000\n"
 "Last-Translator: Andreas Jaeger <jaegerandi@gmail.com>\n"
 "Language-Team: German\n"
 "Language: de\n"
@@ -575,8 +576,8 @@ msgstr ""
 "Informationen über effektives Open-Source-Community-Engagement)."
 
 msgid ""
-"https://docs.openstack.org/infra/manual/developers.html#accessing-gerrit-"
-"over-https"
+"https://docs.opendev.org/opendev/infra-manual/latest/developers."
+"html#accessing-gerrit-over-https"
 msgstr ""
-"https://docs.openstack.org/infra/manual/developers.html#accessing-gerrit-"
-"over-https"
+"https://docs.opendev.org/opendev/infra-manual/latest/developers."
+"html#accessing-gerrit-over-https"
