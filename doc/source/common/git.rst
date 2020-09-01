@@ -114,11 +114,11 @@ Format:
 - Empty line
 - Body
 - Empty line
-- Tags
+- Footers
 
 .. note::
 
-  Tags should be entered one per line.
+  Footers should be entered one per line with no empty lines between them.
 
 Summary Line
 ------------
@@ -137,19 +137,24 @@ for example. The lines are limited to 72 characters. The body should contain
 all the important information related to the problem, without assuming that the
 reader understands the source of the problem or has access to external sites.
 
-Tags
-----
+.. _tags:
 
-Tags are references used to link the change to other tools.
+Footers
+-------
 
-The following tags are required:
+Footers are lines in the final paragraph of a commit message, used to link the
+change to other tools.
 
-- The ``Change-id`` line is a unique hash describing the change,
-  which is generated automatically by a Git commit hook. This should not be
-  changed when rebasing a commit following review feedback, since it is used
-  by Gerrit, to track versions of a patch.
+The following footer is required:
 
-StoryBoard specific tags:
+- The ``Change-Id`` line is a unique hash describing the change, which is
+  generated automatically by a Git commit hook when you initially save a commit
+  message. This should not be changed when rebasing a commit following review
+  feedback, since it is used by Gerrit, to track versions of a patch. It won't
+  appear when you're editing a new commit message for the first time, but if
+  you ``commit --amend`` later you will see it.
+
+StoryBoard specific footers:
 
 - ``Task``: 1234: the number of the task in Storyboard implemented by the
   change. This will auto update the task to 'Review' status and assign it
@@ -158,7 +163,7 @@ StoryBoard specific tags:
   being implemented belongs. This will post a comment on the story with a
   link to your patch.
 
-Launchpad specific tags:
+Launchpad specific footers:
 
 - ``Closes-Bug``: #123456789: use ``Closes-Bug`` if the commit is intended to
   fully fix and close the bug being referenced. Use the Launchpad ID of the bug
@@ -169,34 +174,34 @@ Launchpad specific tags:
 - ``Related-Bug``: #12456789: use 'Related-Bug' if the commit is merely
   related to the referenced bug. Use the Launchpad ID of the bug
   for the number; Gerrit automatically creates a link to the bug.
-- ``Partial-Implements``: Use this tag if the change partially implements
+- ``Partial-Implements``: Use this footer if the change partially implements
   a Launchpad blueprint. Use the name of the blueprint as an ID.
-- ``Implements``: Use this tag if the change fully implements
+- ``Implements``: Use this footer if the change fully implements
   a Launchpad blueprint. Use the name of the blueprint as an ID.
 
 
-The following tags are optional; however, their use is recommended if they are
-applicable to the patch:
+The following footers are optional; however, their use is recommended if they
+are applicable to the patch:
 
-- The ``DocImpact`` tag contains a comment about why
+- The ``DocImpact`` footer contains a comment about why
   the change impacts documentation. Put DocImpact on a line by itself.
-  Use this tag to indicate that documentation is either contained in the
+  Use this footer to indicate that documentation is either contained in the
   patch or has documentation impact.
-  When this tag is included in a commit
+  When this footer is included in a commit
   message, Gerrit creates a bug for the project affected by the change for task
   tracking, or move to the openstack-api-site as needed.
-- The ``APIImpact`` tag contains a comment about why
+- The ``APIImpact`` footer contains a comment about why
   the change impacts a public HTTP API. Put APIImpact on a line by itself.
-  Use this tag to indicate that the patch impacts a public
-  HTTP API. When this tag is included in a commit message,
+  Use this footer to indicate that the patch impacts a public
+  HTTP API. When this footer is included in a commit message,
   the API_Working_Group can use it to help find relevant reviews.
-- The ``SecurityImpact`` tag is used to indicate that a change has
+- The ``SecurityImpact`` footer is used to indicate that a change has
   security implications and should be reviewed by the OpenStack Security Group.
-- The ``UpgradeImpact`` tag contains a comment
+- The ``UpgradeImpact`` footer contains a comment
   about why the change impacts upgrades. It is used to indicate that a change
   has upgrade implications for those doing continuous deployment or N to N+1
   upgrades. Also consider updating the 'Upgrade Notes' section in the release
   notes for the affected project.
-- The ``Depends-On``: <gerrit-change-url> tag is used to refer to a change
+- The ``Depends-On``: <gerrit-change-url> footer is used to refer to a change
   the current one depends on. Use the permalink of the change.
 
