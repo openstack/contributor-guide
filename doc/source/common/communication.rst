@@ -57,14 +57,3 @@ that are on IRC. All emails on these lists are archived and available on the
 `Mailing Lists <https://wiki.openstack.org/wiki/Mailing_Lists>`_ wiki.
 The same page describes how to subscribe to a list and describes some popular
 lists.
-
-ask.openstack.org
-=================
-
-`Ask OpenStack <https://ask.openstack.org/>`__ is a question and answer site
-for OpenStack users and developers. It provides answer to almost every
-question a new contributor can run into. It is possible to collect karma points
-by asking or answering questions. The questions are moderated by Ask OpenStack
-users with high Karma points. More info about Ask OpenStack is available on
-its `about page <https://ask.openstack.org/en/about/>`__ and on the `ask
-moderators wiki <https://wiki.openstack.org/wiki/Community/AskModerators>`__.
