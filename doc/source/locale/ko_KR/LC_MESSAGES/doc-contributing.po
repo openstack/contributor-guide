@@ -1,0 +1,332 @@
+# Gyuseok Jung <epdlemflaj@gmail.com>, 2020. #zanata
+# KEONWOO LEE <lkeonw0o@naver.com>, 2020. #zanata
+# Myeongchul Chae <rncchae@gmail.com>, 2020. #zanata
+# SeongHo Park <glgl2131@naver.com>, 2020. #zanata
+# SeongSoo Cho <ppiyakk2@printf.kr>, 2020. #zanata
+# chohanjoo <vjswl132@gmail.com>, 2020. #zanata
+# youngho choi <0505zxc@gmail.com>, 2020. #zanata
+msgid ""
+msgstr ""
+"Project-Id-Version: contributor-guide\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-13 12:37+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2020-09-12 06:52+0000\n"
+"Last-Translator: KEONWOO LEE <lkeonw0o@naver.com>\n"
+"Language-Team: Korean (South Korea)\n"
+"Language: ko_KR\n"
+"X-Generator: Zanata 4.3.3\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+
+msgid ":doc:`/common/git`"
+msgstr ":doc:`/common/git`"
+
+msgid ":doc:`/common/irc`"
+msgstr ":doc:`/common/irc`"
+
+msgid ":doc:`/common/setup-gerrit`"
+msgstr ":doc:`/common/setup-gerrit`"
+
+msgid "Adding/Updating Content"
+msgstr "콘텐츠 추가/업데이트"
+
+msgid ""
+"After running ``tox -e docs``, the guide will be available for viewing in "
+"HTML format in the ``doc/build/`` directory."
+msgstr ""
+"``tox -e docs`` 를 실행하면, ``doc/build/`` 경로에 HTML 포멧으로 가이드를 볼 "
+"수 있습니다."
+
+msgid ""
+"As the Contributor Guide is meant to be general so everyone can use it, here "
+"are some helpful examples of what should be contributed. Examples of things "
+"that are **not** common should be in your project team's specific "
+"documentation which will be listed in the Contributor Portal."
+msgstr ""
+"컨트리뷰터 가이드는 모든 사람이 사용할 수 있도록 일반적으로 작성되었으므로 여"
+"기에 기여해야 할 몇 가지 유용한 예가 있습니다. 흔하지 ** 않는 ** 항목의 예는 "
+"컨트리뷰터 포털에 나열 될 프로젝트 팀의 특정 문서에 있어야합니다."
+
+msgid ""
+"At various OpenStack events, the Contributor Guide is used to help various "
+"on-boarding programs:"
+msgstr ""
+"다양한 OpenStack 이벤트에서 컨트리뷰터 가이드는 다양한 온-보딩 프로그램을 지"
+"원하는 데 사용됩니다."
+
+msgid ""
+"Avoid covering every issue that can be hit along the way. Case by case basis "
+"will be accepted depending on how common it is."
+msgstr ""
+"도중에 발생할 수 있는 모든 문제를 다루지 마십시오. 얼마나 일반적인지 경우에 "
+"따라 다르게 받아들여질 것입니다."
+
+msgid ""
+"Before you modify or add new content first get familiar with OpenStack's "
+"code/documentation practices. You can read the :doc:`/code-and-documentation/"
+"index` for getting started."
+msgstr ""
+"새로운 콘텐츠를 수정이나 추가하기 전에 먼저 OpenStack의 코드/문서 관리 방법"
+"을 숙지하십시오. 시작하려면 :doc:`/code-and-documentation/index`  를 읽어보세"
+"요."
+
+msgid ""
+"Bug reports and tasks are all recorded in `Storyboard <https://storyboard."
+"openstack.org/#!/project/913>`_. If something isn't assigned, it's available "
+"for you to take."
+msgstr ""
+"버그 보고서와 작업은 모두 `스토리보드 <https://storyboard.openstack.org/#!/"
+"project/913>`_ 에 기록됩니다. 할당되지 않은 것이 있으면 가져갈 수 있습니다."
+
+msgid "Bugs: https://storyboard.openstack.org/#!/project/913"
+msgstr "버그: https://storyboard.openstack.org/#!/project/913"
+
+msgid "Building the guide"
+msgstr "가이드 구축"
+
+msgid "Common Content Only"
+msgstr "공통 콘텐츠"
+
+msgid "Content Guidelines"
+msgstr "콘텐츠 가이드 라인"
+
+msgid "Contributing to the Contributor Guide"
+msgstr "컨트리뷰터 가이드에 기여하기"
+
+msgid "Documentation: https://docs.openstack.org/contributors"
+msgstr "문서: https://docs.openstack.org/contributors"
+
+msgid "Examples of Common Documentation"
+msgstr "공통적인 문서의 예"
+
+msgid "Examples of Documentation that's NOT Common"
+msgstr "공통적이지 않은 문서의 예"
+
+msgid "Examples of Good Documentation"
+msgstr "좋은 문서의 예"
+
+msgid ""
+"Experienced contributors can find helpful reference links listed here too."
+msgstr "숙련된 컨트리뷰터는 여기에 나열된 유용한 참조 링크를 찾을 수 있습니다."
+
+msgid ""
+"First it's important to note that we're not just talking about code "
+"projects. OpenStack contributions come in different forms such as running "
+"meet ups, identifying use cases (Product Working Group), documentation, "
+"testing, etc. Our goal is to have these contributions valued equally."
+msgstr ""
+"먼저, 우리는 그저 코드 프로젝트에 대해 논의하는 것이 아닙니다. OpenStack에 기"
+"여하는 것은   OpenStack contributions come in different forms such as "
+"running meet ups, identifying use cases (Product Working Group), "
+"documentation, testing, etc. Our goal is to have these contributions valued "
+"equally."
+
+msgid "Free software: Apache license"
+msgstr "무료 소프트웨어: 아파치 라이센스"
+
+msgid "Get Help Contributing"
+msgstr "컨트리뷰트 도움 받기"
+
+msgid ""
+"Having the common documentation worked on by various projects will better "
+"help prevent duplicated efforts, inconsistent documentation, and will also "
+"provide more accurate information. Projects that have zero/outdated "
+"documentation can also just use the Contributor Guide."
+msgstr ""
+"다양한 프로젝트에서 공통된 문서를 작업하면 중복 작업, 일관성 없는 문서화를 방"
+"지하는 데 도움이 되며 보다 정확한 정보를 제공할 수 있습니다. 또한 없거나 오래"
+"된 문서가 있는 프로젝트는 컨트리뷰터 가이드를 사용할 수도 있습니다."
+
+msgid "How Can I Start Helping?"
+msgstr "어떻게 도움을 시작할 수 있습니까?"
+
+msgid "How to vote in elections."
+msgstr "선거에서 투표하는 방법"
+
+msgid "Introduction and Goals"
+msgstr "소개 및 목표"
+
+msgid "No videos please. They're way too complicated to keep updated."
+msgstr "비디오는 안됩니다. 너무 복잡하여 지속적으로 업데이트 할 수 없습니다."
+
+msgid ""
+"No wall of text. The reader should feel like they can finish things on the "
+"page in five minutes, instead of having yet another forgotten tab that "
+"they'll never get back to."
+msgstr ""
+"텍스트 벽이 없습니다. 독자는 결코 다시 보지 못할 또 다른 잊혀진 탭을 가지지 "
+"않고 5 분 안에 페이지에 있는 작업을 완료 할 수 있다고 느껴야 합니다."
+
+msgid ""
+"Once you've read through the guide, use git to clone the Contributor Guide "
+"repository::"
+msgstr ""
+"가이드를 읽은 뒤, git을 사용하여 컨트리뷰터 가이드 저장소를 복제합니다."
+
+msgid "Project Specific Contributor Guides"
+msgstr "프로젝트별 컨트리뷰터 가이드"
+
+msgid "Project team on-boarding sessions"
+msgstr "프로젝트 팀 온-보딩 세션"
+
+msgid ""
+"Project teams should still have their own contributor documentation to cover "
+"things listed under `Examples of Documentation that's NOT Common`_. A couple "
+"examples of project team specific contributor guides are the `Nova team's "
+"<https://docs.openstack.org/nova/latest/contributor/index.html>`_ and the "
+"`Documentation team's <https://docs.openstack.org/doc-contrib-guide/>`_."
+msgstr ""
+"프로젝트 팀은 `Examples of Documentation that's NOT Common`_ 에 나열된 내용을 다루기 위해 "
+"자체적으로 컨트리뷰터 문서를 보유해야합니다. 프로젝트 팀별 컨트리뷰터 가이드"
+"의 몇 가지 예로는`Nova 팀 <https://docs.openstack.org/nova/latest/"
+"contributor/index.html>`_  과 `문서화 팀 <https://docs.openstack.org/doc-"
+"contrib-guide/>`_ 이 있습니다."
+
+msgid "Proposing a New Contribution Category"
+msgstr "새로운 컨트리뷰션 카테고리 제안"
+
+msgid "Proposing a Project Team Under Code & Documentation"
+msgstr "프로젝트 팀 내 코드 및 문서 제안"
+
+msgid ""
+"Release Notes: https://docs.openstack.org/releasenotes/openstack-manuals/"
+msgstr ""
+"릴리즈 노트: https://docs.openstack.org/releasenotes/openstack-manuals/"
+
+msgid ""
+"Send your proposal to the `OpenStack Discuss List <http://lists.openstack."
+"org/cgi-bin/mailman/listinfo/openstack-discuss>`_ with the email subject "
+"prefixed with [contributor-portal]. This will start discussions on accepting "
+"the new contribution category."
+msgstr ""
+"제안서를 이메일 제목 앞에 [contributor-portal] 를 붙여  `OpenStack 토론 리스"
+"트 <http://lists.openstack.org/cgi-bin/mailman/listinfo/openstack-discuss>`_ "
+"로 보내십시오. 이를 통해 새로운 컨트리뷰터 카테고리를 수락하는 것에 대한 논의"
+"를 시작할 것입니다."
+
+msgid "Setting up Git."
+msgstr "Git 설정하기"
+
+msgid "Setting up IRC to communicate."
+msgstr "의사소통을 위한 IRC 설정하기"
+
+msgid "Setting up Mailing Lists to communicate."
+msgstr "의사소통을 위한 메일링 리스트 설정하기"
+
+msgid ""
+"Setting up appropriate accounts to contribute like Gerrit, Storyboard and "
+"Launchpad."
+msgstr ""
+"Gerrit, Storyboard과 Launchpad와 같이 컨트리뷰트할 ​​적절한 계정을 설정하기"
+
+msgid "Some specific software tool only your project team uses."
+msgstr "프로젝트 팀에서만 사용하는 특정 소프트웨어 도구"
+
+msgid "Source: https://opendev.org/openstack/contributor-guide/"
+msgstr "소스: https://opendev.org/openstack/contributor-guide/"
+
+msgid "Specific procedures for doing things like bug triage."
+msgstr "버그 분류와 같은 작업을 수행하기 위한 특정 절차"
+
+msgid "Team and repository tags"
+msgstr "팀과 저장소 태그들"
+
+msgid ""
+"The Contributor Guide aims to provide common documentation for all OpenStack "
+"Contributors and help with on-boarding efforts."
+msgstr ""
+"컨트리뷰터 가이드는 모든 OpenStack 컨트리뷰터에게 공통된 문서를 제공하고, 온-"
+"보딩 작업을 도와주는 것을 목표로 합니다."
+
+msgid "The Contributor Guide for the OpenStack project."
+msgstr "오픈스택 프로젝트에 대한 컨트리뷰터 가이드"
+
+msgid "The Contributor Portal"
+msgstr "컨트리뷰터 가이드"
+
+msgid "The OpenStack Contributor Guide"
+msgstr "오픈스택 컨트리뷰터 가이드"
+
+msgid ""
+"The `Contributor Portal <https://www.openstack.org/community/>`_  provides "
+"the community with a landing page for new contributors to discover different "
+"ways to contribute to OpenStack."
+msgstr ""
+"`컨트리뷰터 포털 <https://www.openstack.org/community/>`_ 은 커뮤니티에 새로"
+"운 컨트리뷰터가 OpenStack에 컨트리뷰트할 수 있는 다양한 방법을 찾을 수 있는 "
+"랜딩 페이지를 제공합니다."
+
+msgid ""
+"The project teams listed under the 'Code & Documentation' section come from "
+"OpenStack's governance repository `project.yaml file <https://opendev.org/"
+"openstack/governance/src/reference/projects.yaml>`_. This file is a list of "
+"projects that are recognized by the `Technical Committee <https://governance."
+"openstack.org/tc/>`_. Project teams under this category should make sure "
+"their 'contributor' field is set to the URL of their specific contributor "
+"guide. See the `project.yaml file <https://opendev.org/openstack/governance/"
+"src/reference/projects.yaml>`_ file for examples."
+msgstr ""
+"'코드 및 문서' 섹션에 나열된 프로젝트 팀은 OpenStack의 거버넌스 저장소인 "
+"`project.yaml 파일 <https://opendev.org/openstack/governance/src/reference/"
+"projects.yaml>`_ 에서 가져옵니다. 이 파일은 `기술 위원회 <https://governance."
+"openstack.org/tc/>`_ 에서 인정하는 프로젝트 목록입니다. 이 카테고리의 프로젝"
+"트 팀은 '기여자' 필드가 특정 기고자 가이드의 URL로 설정되어 있는지 확인해야합"
+"니다. 예시는 `project.yaml 파일 <https://opendev.org/openstack/governance/"
+"src/reference/projects.yaml>`_ 을 참조하세요."
+
+msgid ""
+"There are different contribution categories listed, such as Code & "
+"Documentation and Users. Each one of these has their own contributor guide "
+"listed on the main page of the :doc:`../index`."
+msgstr ""
+"코드 & 설명서, 사용자 등 다양한 기여 범주가 열거되어 있다. 이들 각각은 "
+":doc:`../index` 의 메인 페이지에 나열된 자체 기여자 가이드를 가지고 있습니"
+"다."
+
+msgid "To build the guide, execute the following command::"
+msgstr "이렇게하려면, 다음 명령을 실행합니다.::"
+
+msgid ""
+"Use chapters that have already been accepted to get a feel of what we're "
+"looking for."
+msgstr "이미 승인된 장을 사용하여 우리가 찾고 있는 내용을 파악합니다."
+
+msgid "Use screen shots."
+msgstr "스크린 샷을 사용하십시오."
+
+msgid ""
+"We want you to succeed! You can ask for help on `IRC Freenode <https://"
+"webchat.freenode.net/>`_ in channel #openstack-doc. You can also ask for "
+"help on the `OpenStack Discuss Mailing list <http://lists.openstack.org/cgi-"
+"bin/mailman/listinfo/openstack-discuss>`_ prefixing your email subject with "
+"'[contributor-guide]'. If you're not familiar with these ways of "
+"communicating, read the :doc:`/code-and-documentation/index`."
+msgstr ""
+"우리는 당신이 성공하기를 바랍니다! `IRC Freenode <https://webchat.freenode."
+"net/>`_ #openstack-doc 채널에서 도움을 요청할 수 있습니다. `OpenStack 토론 메"
+"일링 리스트 <http://lists.openstack.org/cgi-bin/mailman/listinfo/openstack-"
+"discuss>`_ 에서 이메일 제목 앞에 '[contributor-guide]' 를 붙여서 도움을 요청"
+"할 수도 있습니다. 이러한 의사 소통 방법에 익숙하지 않다면  :doc:`/code-and-"
+"documentation/index` 를 읽어보십시오."
+
+msgid "What is the Contributor Guide?"
+msgstr "컨트리뷰터 가이드란?"
+
+msgid "What is the Contributor Portal?"
+msgstr "컨트리뷰터 포털이란?"
+
+msgid "Where the Guide Is Used"
+msgstr "가이드가 사용되는 곳"
+
+msgid ""
+"`The Certified OpenStack Administrator Exam <https://www.openstack.org/coa>`_"
+msgstr "`OpenStack 공인 관리자 시험 <https://www.openstack.org/coa>`_"
+
+msgid ""
+"`The OpenStack Upstream Institute <https://docs.openstack.org/upstream-"
+"training/>`_"
+msgstr ""
+"`OpenStack 업스트림 트레이닝 <https://docs.openstack.org/upstream-training/"
+">`_"
