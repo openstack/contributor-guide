@@ -4,18 +4,19 @@
 # Gyuseok Jung <epdlemflaj@gmail.com>, 2020. #zanata
 # Ian Y. Choi <ianyrchoi@gmail.com>, 2020. #zanata
 # KEONWOO LEE <lkeonw0o@naver.com>, 2020. #zanata
+# Myeongchul Chae <rncchae@gmail.com>, 2020. #zanata
 # chohanjoo <vjswl132@gmail.com>, 2020. #zanata
 # youngho choi <0505zxc@gmail.com>, 2020. #zanata
 msgid ""
 msgstr ""
 "Project-Id-Version: contributor-guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-14 13:15+0000\n"
+"POT-Creation-Date: 2020-09-19 09:04+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2020-09-19 05:48+0000\n"
-"Last-Translator: Ian Y. Choi <ianyrchoi@gmail.com>\n"
+"PO-Revision-Date: 2020-09-20 07:39+0000\n"
+"Last-Translator: Myeongchul Chae <rncchae@gmail.com>\n"
 "Language-Team: Korean (South Korea)\n"
 "Language: ko_KR\n"
 "X-Generator: Zanata 4.3.3\n"
@@ -1257,6 +1258,24 @@ msgid ""
 msgstr ""
 "오픈 소스의 핵심은 커뮤니티에 참여하는 사람들이며 OpenStack의 경우에도 다르"
 "지 않습니다."
+
+msgid ""
+"The installation guide can be found in the ``install`` directory. It "
+"contains information on anything to do with installing a project from "
+"packages, for instance, software necessary for installing the project, like "
+"database installation and configuration, or what parameters should be set in "
+"the project's config file. If everything is configured properly (described "
+"below), the project's installation guide is included in the `OpenStack "
+"Installation Guides`_. The installation guide is not intended to be used for "
+"production system installations."
+msgstr ""
+"설치 가이드는 ``install`` 디렉토리에 있습니다. 가이드에는 데이터베이스 설치 "
+"및 구성과 같이 프로젝트 설치에 필요한 소프트웨어, 또는 프로젝트 구성 파일에"
+"서 설정해야 하는 매개 변수 등 패키지로부터 프로젝트를 설치하는 것과 관련된 모"
+"든 정보를 담고 있습니다.  만약 모든 것이 적절히 설정되었다면(아래 설명 참"
+"조), 프로젝트의 설치 가이드는 `OpenStack Installation Guides`_ 에 포함됩니"
+"다. 설치 가이드는 프로덕션 시스템에 설치하기 위해 사용할 목적으로 작성되지 않"
+"습니다. "
 
 msgid ""
 "The patch submitted is a duplicate or at odds with another patch submitted."
