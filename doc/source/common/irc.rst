@@ -176,11 +176,11 @@ Troubleshooting
 
 * If you get a notice that the nick name is already taken:
 
-    * Click **cancel**.
-    * Click the **info** icon.
-    * Type in a different user/nick name as shown in the previous step.
-    * Click **disconnect** and click **connect** to retry connecting with the
-      new nick name.
+  * Click **cancel**.
+  * Click the **info** icon.
+  * Type in a different user/nick name as shown in the previous step.
+  * Click **disconnect** and click **connect** to retry connecting with the
+    new nick name.
 
 .. image:: /_assets/irc/macos/3.png
     :width: 50%
