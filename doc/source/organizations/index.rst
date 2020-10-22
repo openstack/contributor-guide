@@ -268,7 +268,7 @@ Expectations
     letters for getting visas
   * The letters/decisions made on travel should be given out, ideally weeks
     or more, in advance
-  * Permission to agree with terms of becoming an OpenStack Foundation
-    Individual Member
+  * Permission to agree with terms of becoming an Open Infrastructure
+    Foundation Individual Member
 
 * Consider signing up as a contributing organization member

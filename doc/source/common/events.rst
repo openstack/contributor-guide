@@ -5,9 +5,9 @@ Events
 OpenStack Events
 ================
 
-The OpenStack Foundation organizes multiple events per year to bring together
-the community as well as companies and individuals interested in the technology
-and to embrace and encourage open collaboration.
+The Open Infrastructure Foundation organizes multiple events per year to bring
+together the community as well as companies and individuals interested in the
+technology and to embrace and encourage open collaboration.
 
 This section allows you to:
 
@@ -19,17 +19,16 @@ This section allows you to:
 Open Infrastructure Summit
 --------------------------
 
-The `Summits <https://www.openstack.org/summit/other-summits/>`_ are bi-annual
-events with thousands of attendees from all around the globe. The event in
-Spring is located in North America and the Fall occasions are alternating
-somewhere between Europe and Asia.
+The `Summits <https://www.openstack.org/summit/>`_ are annual events with
+thousands of attendees from all around the globe. The event occasions are
+alternating somewhere between North America, Europe and Asia.
 
 The event is designed to bring together users, operators and developers to
 discuss feedback and future plans and you will also find a lot of options to
 collaborate with representatives from adjacent communities.
 
-To see how OpenStack and further OpenStack Foundation projects are utilized
-you will find exhibitors at the Market Place area.
+To see how OpenStack and further Open Infrastructure Foundation projects are
+utilized you will find exhibitors at the Market Place area.
 
 The sessions are grouped into two major parts, the conference and the Forum.
 

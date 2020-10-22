@@ -95,8 +95,8 @@ Contributors From the U.S. Government
 
 #. Someone of authority needs to sign the `U.S. Government Contributor License
    Agreement <https://wiki.openstack.org/wiki/GovernmentCLA>`_. Contact the
-   `OpenStack Foundation <mailto:communitymngr@openstack.org>`_ to initiate
-   this process.
+   `Open Infrastructure Foundation <mailto:communitymngr@openstack.org>`_ to
+   initiate this process.
 
 Setup SSH Keys
 ==============

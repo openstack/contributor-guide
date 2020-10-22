@@ -4,10 +4,10 @@ Account Setup
 
 .. _foundation account:
 
-Setup Your OpenStack Foundation Account
-=======================================
+Setup Your Open Infrastructure Foundation Account
+=================================================
 
-An OpenStack Foundation account allows you to:
+An Open Infrastructure Foundation account allows you to:
 
 * Vote in elections.
 * Run for elected positions in the OpenStack project.
@@ -21,9 +21,10 @@ Sign Up
    Make sure to use the same email address you'll want to use for code
    contributions since it's important later that these match up.
 
-#. Go to the `OpenStack Foundation sign up page
-   <https://www.openstack.org/join>`_.
-#. Under individual members, click the **Foundation Member** button.
+#. Go to the `Open Infrastructure Foundation sign up page
+   <https://openinfra.dev/join/>`_.
+#. Under 'Participate as an Individual Member'', click the
+   **AS AN INDIVIDUAL FOUNDATION MEMBER** link.
 
    .. image:: /_assets/account-setup/memberships.png
      :scale: 80%

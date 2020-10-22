@@ -19,8 +19,8 @@ Committees
 Foundation Board of Directors
 -----------------------------
 
-The OpenStack Foundation is a non-profit "whose purpose is to develop, support,
-protect, and promote" OpenStack. It has a set of `bylaws
+The Open Infrastructure Foundation is a non-profit "whose purpose is to
+develop, support, protect, and promote" OpenStack. It has a set of `bylaws
 <https://www.openstack.org/legal/bylaws-of-the-openstack-foundation/>`_ and a
 board of directors. The Foundation has three types of members, defined by the
 bylaws. Each of the types -- Platinum, Gold and Individual -- are represented
@@ -79,10 +79,10 @@ Benefits for official OpenStack projects:
 * Contributors get to vote in the Technical Committee election
 * Can publish to `docs.openstack.org <https://docs.openstack.org/>`_ and
   `developer.openstack.org <https://developer.openstack.org/>`_
-* The teams get space at `OpenStack Summits
+* The teams get space at `Open Infrastructure Summits
   <https://www.openstack.org/summit/>`_ and `Project Team Gatherings (PTG)
   <https://www.openstack.org/ptg/>`_
-* Get marketing from the OpenStack Foundation
+* Get marketing from the Open Infrastructure Foundation
 * Can participate in common programs, like `mentoring
   <https://wiki.openstack.org/wiki/Mentors>`_ and `internship
   <https://wiki.openstack.org/wiki/Outreachy>`_ to help with on boarding
