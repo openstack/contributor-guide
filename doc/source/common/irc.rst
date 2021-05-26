@@ -7,6 +7,13 @@ Setup IRC
 IRC
 ===
 
+.. warning::
+
+   The OpenStack Community will be moving the IRC network from Freenode to OFTC
+   on May 31, 2021. All the current IRC channels used by the OpenStack
+   community are registered in the OFTC network, too. More details on how to use
+   OFTC on various platform are coming soon.
+
 What is IRC?
 ------------
 
@@ -18,6 +25,12 @@ IRC allows you to:
 * Communicate with project teams, technical committee, SIGs,
   and other Working Groups.
 * Participate in regular meetings with the above groups.
+
+What IRC network we use
+=======================
+
+As of May 31st, 2021 the OpenStack Community has decided to move its IRC
+network from Freenode to OFTC.
 
 Set up IRC on Linux & Windows
 =============================
@@ -54,10 +67,11 @@ Edit Nick Name Settings
 
 #. Lets first fill out the **Nick name** and **User name** field with our
    choice of a nickname:
-#. From the list of **Networks** you should see Freenode. Select that and click
-   'edit'.
+#. From the list of **Networks** you should select OFTC network.
 
-.. image:: /_assets/irc/linux/1.png
+* ircs://irc.oftc.net:6697 for SSL (alternative port: 9999), IPv4 and IPv6.
+* irc://irc.oftc.net:6667 for non-SSL (alternative ports: 6668-6670, 7000),
+  IPv4 and IPv6.
 
 
 Edit Server Settings
@@ -66,8 +80,6 @@ Edit Server Settings
 #. Click the **edit** button and
 #. Make sure that **Use SSL for all the servers on this network** is
    checked.
-
-.. image:: /_assets/irc/linux/2.png
 
 Troubleshooting
 ^^^^^^^^^^^^^^^
@@ -79,32 +91,22 @@ Troubleshooting
 Register Your Nick Name
 -----------------------
 
-If all goes well you will get a dialog window indicating the connection to
-Freenode has completed, and what to do next. For now, select "Nothing,
-I'll join a channel later."
-
-.. image:: /_assets/irc/linux/3.png
+If you don’t already have an account, you can register one with
+``/msg NickServ REGISTER <password> <e-mail>``. `The OFTC Guide
+<https://www.oftc.net/Services/#nickserv>`_ will guide you through
+the rest of the registration process.  Make sure to follow the instructions
+and complete the verification process.
 
 When you login to the server for the first time with your nickname, it
 will be used by you, but it's still not registered yet.
 
-In order to register you need to send a message to nickserv on Freenode, which
+In order to register you need to send a message to nickserv on OFTC, which
 is a bot that allows you to register and identify yourselves as the owner of
 a nick name.
-
-Type the following to register your nick name with nickserv replacing
-**mysecretpassword** and **test@domain.com** with your own password and email
-address::
-
-  /msg nickserv register mysecretpassword test@domain.com
-
-.. image:: /_assets/irc/linux/4.png
 
 If all goes well you should receive a message back instantly that the nick name
 is registered by you and an activation email will be sent to the email address
 you provided.
-
-
 
 Auto-Login On Connecting To Freenode
 ------------------------------------
@@ -119,15 +121,16 @@ upon connecting.
 #. In the **Password** put in the password you picked in the previous
    step and click close.
 
-.. image:: /_assets/irc/linux/5.png
 
+In case of more question about OFTC, read `these FAQs
+<https://www.oftc.net/FAQ/Services/>`_
 
 Done
 ----
 
 Congratulations you're now ready to communicate with the OpenStack community
-and have a registered nick name on Freenode! From here on out when you connect
-to Freenode with Hexchat you will be identified with your nickname.
+and have a registered nick name on OFTC! From here on out when you connect
+to OFTC with Hexchat you will be identified with your nickname.
 
 A good channel to join right away is the #openstack-dev channel. A lot of
 people hang around in that channel so come on in and say hello! If there is
@@ -143,112 +146,7 @@ United States work hours and it might be a while before they respond.
 Set up IRC on Mac OS
 ====================
 
-Install an IRC Program
-----------------------
-
-This section explains how you can install an IRC program called Colloquy.
-
-#. Go to http://colloquy.info and follow the download link.
-#. From your downloads folder, drag the Colloquy application icon to your
-   applications folder to install.
-
-
-Add A New Connection
---------------------
-
-#. First fill out the **Nickname** and **User name** field with your
-   choice of a nickname.
-#. For the **Chat server** type in **irc.freenode.net**.
-#. For the **Chat Server Port** type in **6697** and check the **SSL
-   Connection** box.
-
-.. image:: /_assets/irc/macos/1.png
-    :width: 50%
-
-If all goes well in the second window you will see your new connection
-and your client connected.
-
-.. image:: /_assets/irc/macos/2.png
-    :width: 50%
-
-Troubleshooting
-^^^^^^^^^^^^^^^
-
-* If you get a notice that the nick name is already taken:
-
-  * Click **cancel**.
-  * Click the **info** icon.
-  * Type in a different user/nick name as shown in the previous step.
-  * Click **disconnect** and click **connect** to retry connecting with the
-    new nick name.
-
-.. image:: /_assets/irc/macos/3.png
-    :width: 50%
-
-
-Register Your Nick Name
------------------------
-
-If all goes well you should be connected and not get any pop ups as
-indicated in the previous step's Troubleshooting section.
-
-When you login to the server for the first time with your nickname, it
-will be used by you, but it's still not registered yet.
-
-In order to register you need to send a message to nickserv on
-Freenode, which is a bot that allows you to register and identify
-yourselves as the owner of a nick name.
-
-Click the **message user** icon and type::
-
-  nickserv
-
-A message dialog window will come up. Type the following to register your nick
-name with nickserv replacing **mysecretpassword** and **test@domain.com** with
-your own password and email address::
-
-  register mysecretpassword test@domain.com
-
-.. image:: /_assets/irc/macos/4.png
-    :width: 90%
-
-If all goes well you should receive a message back instantly that the nick name
-is registered by you and an activation email will be sent to the email address
-you provided.
-
-
-Auto-Login On Connecting To Freenode
-------------------------------------
-
-In order to identify yourselves that you own the nick name upon
-logging in, you need to tell Colloquy to communicate your password
-upon connecting.
-
-#. Going back to your connection window, highlight your Freenode connection and
-   click the **info** icon.
-#. In the **Password** field type your password.
-
-.. image:: /_assets/irc/macos/5.png
-    :width: 50%
-
-
-Done
-----
-
-Congratulations you're now ready to communicate with the OpenStack community
-and have a registered nick name on Freenode! From here on out when you connect
-to Freenode with Colloquy you will be identified with your nickname.
-
-A good channel to join right away is the #openstack-dev channel. A lot of
-people hang around in that channel so come on in and say hello! If there is
-a specific project you are also interested in working on, feel free to join
-that one as well and introduce yourself there. Interested in joining more
-channels or need to look up what one is called? Check out
-:ref:`irc-channels` for more information.
-
-It's also important to note that given that the majority of contributors
-reside in the United States, channels will likely be quieter outside of
-United States work hours and it might be a while before they respond.
+TODO
 
 .. _irc-channels:
 
