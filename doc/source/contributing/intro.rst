@@ -96,8 +96,8 @@ assigned, it's available for you to take.
 
 Get Help Contributing
 =====================
-We want you to succeed! You can ask for help on `IRC Freenode
-<https://webchat.freenode.net/>`_ in channel #openstack-doc. You can also ask
+We want you to succeed! You can ask for help on `IRC OFTC
+<https://webchat.oftc.net/>`_ in channel #openstack-doc. You can also ask
 for help on the `OpenStack Discuss Mailing list
 <http://lists.openstack.org/cgi-bin/mailman/listinfo/openstack-discuss>`_ prefixing
 your email subject with '[contributor-guide]'. If you're not familiar with

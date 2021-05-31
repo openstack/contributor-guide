@@ -119,7 +119,7 @@ Code
 Internet Relay Chat (IRC)
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-* Access to chat.freenode.net port 6697/tcp (IRC communication)
+* Access to chat.oftc.net port 6697/tcp (IRC communication)
 
   * If utilizing an IRC bouncer port 443, to the bouncer, may be used.
   * See :ref:`setup-irc`.

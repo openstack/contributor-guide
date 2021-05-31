@@ -108,8 +108,8 @@ If all goes well you should receive a message back instantly that the nick name
 is registered by you and an activation email will be sent to the email address
 you provided.
 
-Auto-Login On Connecting To Freenode
-------------------------------------
+Auto-Login On Connecting To OFTC
+--------------------------------
 
 In order to identify yourselves that you own the nick name upon
 logging in, you need to tell Hexchat to communicate your password
@@ -117,7 +117,7 @@ upon connecting.
 
 #. Click **Hexchat** from the menu and then click **Network List**.
    You will see a familiar first screen of servers listed. Make sure
-   Freenode is highlighted and click **edit**.
+   OFTC is highlighted and click **edit**.
 #. In the **Password** put in the password you picked in the previous
    step and click close.
 

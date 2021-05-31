@@ -22,7 +22,7 @@ page's :ref:`communication-mailing-lists` section.
 
 IRC Channels
 ============
-There is the #openstack-operators channel on Freenode IRC for live
+There is the #openstack-operators channel on OFTC IRC for live
 conversations and `Operators' team meeting
 <http://eavesdrop.openstack.org/#OpenStack_OSOps_Team>`_.
 On top of the #openstack-operators channel there are many others that you
