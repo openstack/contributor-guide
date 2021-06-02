@@ -170,6 +170,28 @@ blocks and make your changes smaller. For instance changes to an object can be
 implemented first that you will use later when you implement new API
 functionality.
 
+Structural split of Changes
+===========================
+
+The cardinal rule for creating good commits is to ensure there is only one
+"logical change" per commit. There are many reasons why this is an important
+rule:
+
+* The smaller the amount of code being changed, the quicker and easier it is
+  to review and identify potential flaws.
+
+* If a change is found to be flawed later, it may be necessary to revert the
+  broken commit. This is much easier to do if there are not other unrelated
+  code changes entangled with the original commit.
+
+* When troubleshooting problems using Git's bisect capability, small well
+  defined changes will aid in isolating exactly where the code problem was
+  introduced.
+
+* When browsing history using ``git annotate`` or ``git blame``, small well
+  defined changes also aid in isolating exactly where and why a piece of code
+  came from.
+
 The Right Content
 =================
 
