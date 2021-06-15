@@ -9,10 +9,9 @@ IRC
 
 .. warning::
 
-   The OpenStack Community will be moving the IRC network from Freenode to OFTC
+   The OpenStack Community moved the IRC network from Freenode to OFTC
    on May 31, 2021. All the current IRC channels used by the OpenStack
-   community are registered in the OFTC network, too. More details on how to use
-   OFTC on various platform are coming soon.
+   community are registered in the OFTC network with the same name.
 
 What is IRC?
 ------------
