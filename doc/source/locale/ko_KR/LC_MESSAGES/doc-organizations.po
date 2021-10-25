@@ -4,16 +4,17 @@
 # KEONWOO LEE <lkeonw0o@naver.com>, 2020. #zanata
 # Myeongchul Chae <rncchae@gmail.com>, 2020. #zanata
 # youngho choi <0505zxc@gmail.com>, 2020. #zanata
+# Seunghyun Lim <lsmman5211@gmail.com>, 2021. #zanata
 msgid ""
 msgstr ""
 "Project-Id-Version: contributor-guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-16 09:08+0000\n"
+"POT-Creation-Date: 2021-06-20 08:22+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2020-09-12 03:45+0000\n"
-"Last-Translator: KEONWOO LEE <lkeonw0o@naver.com>\n"
+"PO-Revision-Date: 2021-09-23 04:13+0000\n"
+"Last-Translator: Seunghyun Lim <lsmman5211@gmail.com>\n"
 "Language-Team: Korean (South Korea)\n"
 "Language: ko_KR\n"
 "X-Generator: Zanata 4.3.3\n"
@@ -41,6 +42,9 @@ msgid ""
 msgstr ""
 "이메일을 수신하고 lists.openstack.org의 주소로 이메일을 보낼 수 있습니다(예: "
 "목록)."
+
+msgid "Access to chat.oftc.net port 6697/tcp (IRC communication)"
+msgstr "char.oftc.net에 6697/tcp 포트로 접근하기 (IRC 의사소통 채널)"
 
 msgid "Access to review.opendev.org for code review and code submission."
 msgstr "코드 검토와 코드 제출을 위해 review.opendev.org에 액세스하십시오."
@@ -301,6 +305,12 @@ msgstr "이벤트에 기여자를 보낼 수 있는 허가 및 예산입니다."
 
 msgid "Permission to agree to the OpenStack ICLA (required)"
 msgstr "OpenStack ICLA에 동의할 수 있는 권한(필수)입니다."
+
+msgid ""
+"Permission to agree with terms of becoming an Open Infrastructure Foundation "
+"Individual Member"
+msgstr ""
+"Open Infrastructure Foundation 개인 회원이 되는 가입 조건에 동의합니다."
 
 msgid "Permission to occasionally work outside typical office hours"
 msgstr "일반적인 업무 시간 이외의 시간에 작업할 수 있는 권한을 부여합니다."

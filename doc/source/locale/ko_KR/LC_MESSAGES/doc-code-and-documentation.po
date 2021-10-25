@@ -1,5 +1,5 @@
 # Ian Y. Choi <ianyrchoi@gmail.com>, 2019. #zanata
-# SeongSoo Cho <ppiyakk2@printf.kr>, 2019. #zanata
+# Seongsoo Cho <ppiyakk2@printf.kr>, 2019. #zanata
 # Andreas Jaeger <jaegerandi@gmail.com>, 2020. #zanata
 # Gyuseok Jung <epdlemflaj@gmail.com>, 2020. #zanata
 # Ian Y. Choi <ianyrchoi@gmail.com>, 2020. #zanata
@@ -7,16 +7,17 @@
 # Myeongchul Chae <rncchae@gmail.com>, 2020. #zanata
 # chohanjoo <vjswl132@gmail.com>, 2020. #zanata
 # youngho choi <0505zxc@gmail.com>, 2020. #zanata
+# Seunghyun Lim <lsmman5211@gmail.com>, 2021. #zanata
 msgid ""
 msgstr ""
 "Project-Id-Version: contributor-guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-21 06:50+0000\n"
+"POT-Creation-Date: 2021-06-20 08:22+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2020-09-24 06:34+0000\n"
-"Last-Translator: KEONWOO LEE <lkeonw0o@naver.com>\n"
+"PO-Revision-Date: 2021-09-23 04:03+0000\n"
+"Last-Translator: Seunghyun Lim <lsmman5211@gmail.com>\n"
 "Language-Team: Korean (South Korea)\n"
 "Language: ko_KR\n"
 "X-Generator: Zanata 4.3.3\n"
@@ -555,6 +556,15 @@ msgstr ""
 "OpenStack이 DevStack에 의해 성공적으로 배포 완료되었다면 웹 브라우저에서 "
 "``local.conf`` 에 설정한 ``HOST_IP`` IP를 지정하여 접속할 수 있으며 Horizon"
 "에 접근 가능할 것입니다."
+
+msgid ""
+"If a change is found to be flawed later, it may be necessary to revert the "
+"broken commit. This is much easier to do if there are not other unrelated "
+"code changes entangled with the original commit."
+msgstr ""
+"나중에 변경 사항에 결함이 있는 것으로 밝혀지면, 결함이 있는 커밋을 되돌려야 "
+"할 수도 있습니다. 이 때 커밋에서 변경하고자 했던 것과 관련 없는 코드가 없다"
+"면, 훨씬 더 쉽게 수행할 수 있습니다."
 
 msgid ""
 "If successful, the Git response message will contain a URL you can use to "
@@ -1108,6 +1118,9 @@ msgstr "DevStack 중지하기"
 msgid "Stopping the project services, mysql and rabbitmq"
 msgstr "프로젝트 서비스, mysql 그리고 rabbitmq 중지하기"
 
+msgid "Structural split of Changes"
+msgstr "변경 사항을 구조적으로 분할"
+
 msgid "Testing Changes with DevStack"
 msgstr "DevStack으로 변경 사항 테스팅하기"
 
@@ -1227,6 +1240,14 @@ msgstr ""
 "기여자가 패치에 대해 투표해야 하는 기본 가치 집합은 -1, 0 또는 +1입니다. 이러"
 "한 값은 비교적 간단한 시스템에 해당합니다"
 
+msgid ""
+"The cardinal rule for creating good commits is to ensure there is only one "
+"\"logical change\" per commit. There are many reasons why this is an "
+"important rule:"
+msgstr ""
+"좋은 커밋을 만들기 위한 기본 규칙은 커밋당 오직 하나의 \"논리적 변경\"이 있는"
+"지 확인하는 것입니다. 이것이 중요한 규칙인 데에는 여러가지 이유가 있습니다."
+
 msgid "The change ID can be found on the web UI of Gerrit:"
 msgstr "변경 ID는 Gerrit의 웹 UI에서 확인할 수 있습니다."
 
@@ -1280,6 +1301,13 @@ msgstr ""
 msgid ""
 "The patch submitted is a duplicate or at odds with another patch submitted."
 msgstr "제출된 패치가 중복되거나 제출된 다른 패치와 충돌합니다."
+
+msgid ""
+"The smaller the amount of code being changed, the quicker and easier it is "
+"to review and identify potential flaws."
+msgstr ""
+"변경되는 코드의 양이 적을수록, 잠재적인 결함을 더 쉽고 빠르게 검토하고 식별"
+"할 수 있습니다."
 
 msgid ""
 "The tag can be applied to patches proposed for the same repository as well. "
@@ -1543,6 +1571,23 @@ msgstr "Elastic-Recheck이란?"
 
 msgid "What to do if a test job fails"
 msgstr "테스트 작업이 실패 할 경우 수행 할 작업"
+
+msgid ""
+"When browsing history using ``git annotate`` or ``git blame``, small well "
+"defined changes also aid in isolating exactly where and why a piece of code "
+"came from."
+msgstr ""
+"``git annotate``나 ``git blame``을 사용하여 커밋 히스토리를 검색할 때, 변경 "
+"사항을 작은 단위로 잘 정의하는 것은 코드 조각이 어디서부터 왔고 왜 작성 되었"
+"는지 정확하게 분리해내는 데 도움이 됩니다."
+
+msgid ""
+"When troubleshooting problems using Git's bisect capability, small well "
+"defined changes will aid in isolating exactly where the code problem was "
+"introduced."
+msgstr ""
+"Git의 Bisect 기능을 사용하여 문제를 해결할 때, 작은 단위로 잘 정의된 변경 사"
+"항은 코드 문제가 발생한 정확한 위치를 분리해내는 데 도움이 됩니다."
 
 msgid ""
 "When you ``git commit`` (without ``--amend``), you're creating a new commit "

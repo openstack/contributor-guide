@@ -3,19 +3,20 @@
 # KEONWOO LEE <lkeonw0o@naver.com>, 2020. #zanata
 # Myeongchul Chae <rncchae@gmail.com>, 2020. #zanata
 # SeongHo Park <glgl2131@naver.com>, 2020. #zanata
-# SeongSoo Cho <ppiyakk2@printf.kr>, 2020. #zanata
+# Seongsoo Cho <ppiyakk2@printf.kr>, 2020. #zanata
 # chohanjoo <vjswl132@gmail.com>, 2020. #zanata
 # youngho choi <0505zxc@gmail.com>, 2020. #zanata
+# Seunghyun Lim <lsmman5211@gmail.com>, 2021. #zanata
 msgid ""
 msgstr ""
 "Project-Id-Version: contributor-guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-16 09:08+0000\n"
+"POT-Creation-Date: 2021-06-20 08:22+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2020-09-19 05:53+0000\n"
-"Last-Translator: Ian Y. Choi <ianyrchoi@gmail.com>\n"
+"PO-Revision-Date: 2021-10-04 01:28+0000\n"
+"Last-Translator: Seunghyun Lim <lsmman5211@gmail.com>\n"
 "Language-Team: Korean (South Korea)\n"
 "Language: ko_KR\n"
 "X-Generator: Zanata 4.3.3\n"
@@ -295,6 +296,21 @@ msgstr "이미 승인된 장을 사용하여 우리가 찾고 있는 내용을 �
 
 msgid "Use screen shots."
 msgstr "스크린 샷을 사용하십시오."
+
+msgid ""
+"We want you to succeed! You can ask for help on `IRC OFTC <https://webchat."
+"oftc.net/>`_ in channel #openstack-doc. You can also ask for help on the "
+"`OpenStack Discuss Mailing list <http://lists.openstack.org/cgi-bin/mailman/"
+"listinfo/openstack-discuss>`_ prefixing your email subject with "
+"'[contributor-guide]'. If you're not familiar with these ways of "
+"communicating, read the :doc:`/code-and-documentation/index`."
+msgstr ""
+"우리는 당신이 성공하기를 바랍니다! 채널 #openstack -doc에서 `IRC OFTC "
+"<https://webchat.oftc.net/>`_  에 대한 도움을 요청할 수 있습니다 . 이메일 제"
+"목에 '[contributor-guide]' 접두사를 붙인 `OpenStack 토론 메일링 목록 <http://"
+"lists.openstack.org/cgi-bin/mailman/listinfo/openstack-discuss>`_  에서 도움"
+"을 요청할 수도 있습니다 . 이러한 의사 소통 방식에 익숙하지 않은 경우 코드 및 "
+"문서 기여자 안내서를 읽으십시오."
 
 msgid "What is the Contributor Guide?"
 msgstr "컨트리뷰터 가이드란?"
