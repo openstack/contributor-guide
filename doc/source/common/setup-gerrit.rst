@@ -39,9 +39,10 @@ Sign Up
    your Launchpad login info. This is because Gerrit uses it as an OpenID
    single sign on.
 
+.. _individual-contributor-license-agreement:
 
-Individual Contributor License Agreement
-========================================
+Individual Contributor License Agreement (ICLA)
+===============================================
 
 What is it?
 -----------
@@ -68,7 +69,11 @@ Individual Contributors
 Contributors From a Company or Organization
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-If you are contributing on behalf of a company or organization.
+If you are contributing on behalf of a company or organization, please
+make sure that you sign the ICLA **AND** also get added to the list of
+contributors on your company's Corporate Contributor License Agreement
+(CCLA). You will need to complete both of these steps before being able
+to contribute.
 
 #. In Gerrit's `settings <https://review.opendev.org/#/settings/agreements>`_
    click the **New Contributor Agreement** link and sign the agreement.
