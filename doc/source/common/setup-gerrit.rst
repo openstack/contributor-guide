@@ -152,18 +152,23 @@ for OpenStack Gerrit, you need to generate keys.
 Generate SSH Key Pairs
 ----------------------
 
+.. note::
+
+   This guide recommends using ``ed25519`` keys because it has been found that
+   this type works well across all operating systems.
+
 Generating The Default Or Initial SSH Key Pair
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 You can generate a new SSH key pair using the provided email as a label by
 going into your terminal program and typing::
 
-  ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+  ssh-keygen -t ed25519 -C "your_email@example.com"
 
 When you're prompted to "Enter a file in which to save the key" press Enter.
 This accepts the default location::
 
-  Enter a file in which to save the key (/Users/you/.ssh/id_rsa): [Press enter]
+  Enter a file in which to save the key (/Users/you/.ssh/id_ed25519): [Press enter]
 
 At the prompt, type a secure passphrase, you may enter one or press Enter to
 have no passphrase::
@@ -177,12 +182,12 @@ Generating A Separate Key Pair For OpenStack Gerrit (optional)
 You can generate a new SSH key using the provided email as a label by going
 into your terminal program and typing::
 
-  ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+  ssh-keygen -t ed25519 -C "your_email@example.com"
 
 When you're prompted to "Enter a file in which to save the key" you must
 specify the name of the new key pair and then press Enter::
 
-  Enter a file in which to save the key (/Users/you/.ssh/id_rsa): /Users/you/.ssh/id_openstack_rsa
+  Enter a file in which to save the key (/Users/you/.ssh/id_ed25519): /Users/you/.ssh/id_openstack_ed25519
 
 At the prompt, type a secure passphrase, you may enter one or press Enter to
 have no passphrase::
@@ -198,7 +203,7 @@ and add something like::
     Hostname review.opendev.org
     Port 29418
     User <your_gerrit_username>
-    IdentityFile ~/.ssh/id_openstack_rsa
+    IdentityFile ~/.ssh/id_openstack_ed25519
 
 Copy Public Key
 ---------------
@@ -208,12 +213,12 @@ Mac OS & Linux
 
 From your terminal type::
 
-  cat ~/.ssh/id_rsa.pub
+  cat ~/.ssh/id_ed25519.pub
 
 Or if you created a separate key pair, assuming the example
 name above::
 
-  cat ~/.ssh/id_openstack_rsa.pub
+  cat ~/.ssh/id_openstack_ed25519.pub
 
 Highlight and copy the output.
 
