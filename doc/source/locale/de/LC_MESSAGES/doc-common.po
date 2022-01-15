@@ -3,16 +3,17 @@
 # Andreas Jaeger <jaegerandi@gmail.com>, 2019. #zanata
 # Frank Kloeker <eumel@arcor.de>, 2019. #zanata
 # Andreas Jaeger <jaegerandi@gmail.com>, 2020. #zanata
+# Frank Kloeker <eumel@arcor.de>, 2022. #zanata
 msgid ""
 msgstr ""
 "Project-Id-Version: contributor-guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-16 09:08+0000\n"
+"POT-Creation-Date: 2022-01-12 16:48+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2020-03-25 07:24+0000\n"
-"Last-Translator: Andreas Jaeger <jaegerandi@gmail.com>\n"
+"PO-Revision-Date: 2022-01-14 10:25+0000\n"
+"Last-Translator: Frank Kloeker <eumel@arcor.de>\n"
 "Language-Team: German\n"
 "Language: de\n"
 "X-Generator: Zanata 4.3.3\n"
@@ -899,11 +900,6 @@ msgstr ""
 "Wenn Sie bereits ein Ubuntu One-Konto haben, können Sie sich einfach "
 "anmelden."
 
-msgid "If you are contributing on behalf of a company or organization."
-msgstr ""
-"Wenn Sie im Namen eines Unternehmens oder einer Organisation einen Beitrag "
-"leisten."
-
 msgid ""
 "If you don't have a Ubuntu One Account, click the **I am a new Ubuntu One "
 "user**."
@@ -1071,9 +1067,6 @@ msgid ""
 msgstr ""
 "Geben Sie im **Passwort** das im vorherigen Schritt gewählte Passwort ein "
 "und klicken Sie auf Schließen."
-
-msgid "Individual Contributor License Agreement"
-msgstr "Lizenzvereinbarung für einzelne Mitwirkende"
 
 msgid "Individual Contributors"
 msgstr "Individuelle Mitwirkende"
@@ -1608,6 +1601,9 @@ msgstr "IRC einrichten"
 
 msgid "Setup SSH Keys"
 msgstr "Einrichten von SSH-Schlüsseln"
+
+msgid "Setup Your Open Infrastructure Foundation Account"
+msgstr "Einrichtung Ihres Open Infrastructure Foundation Kontos"
 
 msgid "Setup Your Task Tracker Account"
 msgstr "Einrichten Ihres Task Tracker-Kontos"
