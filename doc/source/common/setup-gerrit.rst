@@ -225,11 +225,10 @@ Highlight and copy the output.
 Import Public Key Into Gerrit
 -----------------------------
 
-#. Go to `Gerrit's SSH Public Keys settings
-   <https://review.opendev.org/#/settings/ssh-keys>`_.
-#. Click the 'Add Key' button.
-#. Paste the public key into the **Add SSH Public Key** text box and click
-   **Add**.
+#. Go to `Gerrit's SSH Keys section in User Settings
+   <https://review.opendev.org/settings/#SSHKeys>`_.
+#. Paste the public key into the **New SSH Key** text box.
+#. Click the 'ADD NEW SSH KEY' button.
 
 Git Review
 ==========
