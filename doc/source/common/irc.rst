@@ -145,7 +145,19 @@ United States work hours and it might be a while before they respond.
 Set up IRC on Mac OS
 ====================
 
-TODO
+`#irchelp <https://www.irchelp.org/clients/mac/>`__ describes available
+IRC client programs for Mac OS environment. `LimeChat
+<https://github.com/psychs/limechat>`__ provides an installation binary
+for you to download, install, and configure to connect to OFTC.
+
+IRC Chatting with Matrix
+========================
+
+You can also use IRC chat with Matrix.
+The Zuul community described how to use Matrix to bridge into OFTC IRC.
+If you want to use Matrix as a IRC client, please follow this link:
+
+`<https://zuul-ci.org/docs/zuul/latest/howtos/matrix.html>`__.
 
 .. _irc-channels:
 
