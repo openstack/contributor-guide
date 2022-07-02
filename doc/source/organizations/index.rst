@@ -103,9 +103,9 @@ Code
 
 * Access to review.opendev.org for code review and code submission.
 
-  * Port 29428/tcp is the Gerrit SSH API.
+  * Port 29418/tcp is the Gerrit SSH API.
   * Port 443/tcp is also available to access gerrit but only recommended if
-    opening port 29428 is not possible, as it requires generating a password in
+    opening port 29418 is not possible, as it requires generating a password in
     the gerrit interface rather than using ssh certificates, so is inherently
     less secure.
 
