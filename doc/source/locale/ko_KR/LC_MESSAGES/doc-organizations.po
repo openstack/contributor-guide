@@ -5,16 +5,17 @@
 # Myeongchul Chae <rncchae@gmail.com>, 2020. #zanata
 # youngho choi <0505zxc@gmail.com>, 2020. #zanata
 # Seunghyun Lim <lsmman5211@gmail.com>, 2021. #zanata
+# Taehyun Park <parkth32@gmail.com>, 2022. #zanata
 msgid ""
 msgstr ""
 "Project-Id-Version: contributor-guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-06 13:03+0000\n"
+"POT-Creation-Date: 2022-07-28 16:31+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2021-09-23 04:13+0000\n"
-"Last-Translator: Seunghyun Lim <lsmman5211@gmail.com>\n"
+"PO-Revision-Date: 2022-09-20 11:37+0000\n"
+"Last-Translator: Taehyun Park <parkth32@gmail.com>\n"
 "Language-Team: Korean (South Korea)\n"
 "Language: ko_KR\n"
 "X-Generator: Zanata 4.3.3\n"
@@ -321,6 +322,19 @@ msgid ""
 msgstr ""
 "Linux를 실행하고 고용주가 제공한 하드웨어에 다른 오픈소스 소프트웨어를 설치"
 "할 수 있는 권한."
+
+msgid "Port 29418/tcp is the Gerrit SSH API."
+msgstr "Gerrit SSH API의 포트는 29418/tcp 입니다."
+
+msgid ""
+"Port 443/tcp is also available to access gerrit but only recommended if "
+"opening port 29418 is not possible, as it requires generating a password in "
+"the gerrit interface rather than using ssh certificates, so is inherently "
+"less secure."
+msgstr ""
+"443/tcp 포트도 또한 gerrit에 접근할 수 있지만 SSH 인증서를 사용하지 않고 "
+"Gerrit 인터페이스에서 암호를 생성해야 하므로 본질적으로 덜 안전합니다. 따라"
+"서  29418 포트를 여는 것이 불가능한 경우에만 추천합니다. "
 
 msgid "Project Technical Gatherings (PTGs)"
 msgstr "Project Technical Gatherings (PTGs)"

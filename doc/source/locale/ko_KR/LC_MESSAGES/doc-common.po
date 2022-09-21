@@ -5,16 +5,17 @@
 # Jinseok Kim <wlstjr112@naver.com>, 2021. #zanata
 # SEUNG TAE KIM <st54309@korea.ac.kr>, 2021. #zanata
 # Seunghyun Lim <lsmman5211@gmail.com>, 2021. #zanata
+# Taehyun Park <parkth32@gmail.com>, 2022. #zanata
 msgid ""
 msgstr ""
 "Project-Id-Version: contributor-guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-24 01:19+0000\n"
+"POT-Creation-Date: 2022-07-28 16:31+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2021-10-12 10:23+0000\n"
-"Last-Translator: Seunghyun Lim <lsmman5211@gmail.com>\n"
+"PO-Revision-Date: 2022-09-20 11:31+0000\n"
+"Last-Translator: Taehyun Park <parkth32@gmail.com>\n"
 "Language-Team: Korean (South Korea)\n"
 "Language: ko_KR\n"
 "X-Generator: Zanata 4.3.3\n"
@@ -385,6 +386,9 @@ msgstr ""
 "메뉴에서 **Hexchat**을 클릭한 다음 **Network List**을 클릭합니다. 첫 화면에 "
 "서버 리스트가 표시됩니다. OFTC가 강조 표시되어 있는지 확인하고 **edit**을 클"
 "릭합니다."
+
+msgid "Click the 'ADD NEW SSH KEY' button."
+msgstr "'ADD NEW SSH KEY' 버튼을 클릭합니다."
 
 msgid "Click the **edit** button and"
 msgstr "**edit** 버튼을 클릭합니다."
@@ -849,6 +853,13 @@ msgid "Git reviews only needs to be initialized once in a repository."
 msgstr "Git 검토는 리포지토리에서 한 번만 초기화하면 됩니다."
 
 msgid ""
+"Go to `Gerrit's SSH Keys section in User Settings <https://review.opendev."
+"org/settings/#SSHKeys>`_."
+msgstr ""
+"`Gerrit User Setting의 SSH Key 설정 섹션 <https://review.opendev.org/"
+"settings/#SSHKeys>`_ 으로 이동합니다."
+
+msgid ""
 "Go to the Git `download page <https://git-scm.com/downloads>`_ and click "
 "**Mac OS X**."
 msgstr ""
@@ -902,6 +913,9 @@ msgstr "IRC 아카이브"
 
 msgid "IRC Channels"
 msgstr "IRC 채널"
+
+msgid "IRC Chatting with Matrix"
+msgstr "Matrix를 이용한 IRC chat"
 
 msgid "IRC Meetings"
 msgstr "IRC 미팅"
@@ -979,6 +993,17 @@ msgstr ""
 
 msgid "If you already have an Ubuntu One Account, you can just login."
 msgstr "Ubuntu One 계정이 이미 있는 경우 로그인하기만 하면 됩니다."
+
+msgid ""
+"If you are contributing on behalf of a company or organization, please make "
+"sure that you sign the ICLA **AND** also get added to the list of "
+"contributors on your company's Corporate Contributor License Agreement "
+"(CCLA). You will need to complete both of these steps before being able to "
+"contribute."
+msgstr ""
+"기업 또는 조직을 대표하여 기여를 하는 경우, ICLA 에 서명을 해야합니다. **그리"
+"고**  또한 회사의 기업 기여자 라이센스 계약 (CCLA)에도 추가되었는지 확인해야"
+"합니다. 당신은 기여를 위해서 두 단계를 모두 완료해야 합니다"
 
 msgid ""
 "If you don't have a Ubuntu One Account, click the **I am a new Ubuntu One "
@@ -1169,6 +1194,9 @@ msgid ""
 msgstr ""
 "**Password** 에서 이전 단계에서 선택한 암호를 입력하고 close(닫기)를 클릭합니"
 "다."
+
+msgid "Individual Contributor License Agreement (ICLA)"
+msgstr "개인 기여자 라이센스 계약"
 
 msgid "Individual Contributors"
 msgstr "개인 기여자"
@@ -1588,6 +1616,9 @@ msgstr "멘티로 참여"
 
 msgid "Participating as a Mentor"
 msgstr "멘토로 참여"
+
+msgid "Paste the public key into the **New SSH Key** text box."
+msgstr "**New SSH Key** 라고 적힌 텍스트 박스에 공개키를 붙여넣습니다"
 
 msgid "Preparing to Send a Review"
 msgstr "리뷰를 보낼 준비"
@@ -2425,6 +2456,13 @@ msgstr ""
 "이 되는 여러 세션을 찾을 수 있는 OpenStack Summits 중 하나를 먼저 고려해 보"
 "는 것이 좋습니다."
 
+msgid ""
+"This guide recommends using ``ed25519`` keys because it has been found that "
+"this type works well across all operating systems."
+msgstr ""
+"이 가이드에서는 모든 운영체제에서 잘 동작하는 ` `ed25519` ` 키를 사용하는 것"
+"을 추천합니다"
+
 msgid "This is a valid issue, but it is the way it should be"
 msgstr "이것은 유효한 문제이지만, 이렇게 작동해야합니다."
 
@@ -2736,6 +2774,15 @@ msgstr ""
 "달할 수 있습니다."
 
 msgid ""
+"You can also use IRC chat with Matrix. The Zuul community described how to "
+"use Matrix to bridge into OFTC IRC. If you want to use Matrix as a IRC "
+"client, please follow this link:"
+msgstr ""
+"Matrix와 함께 IRC chat을 사용할 수도 있습니다. Zuul 커뮤니티에는 Matrix를 사"
+"용하여 OFTC IRC에 연결하는 방법에 대해 설명되어있습니다. Matrix를 IRC 클라이"
+"언트로 사용하시려면, 다음의 링크를 따라가세요"
+
+msgid ""
 "You can check the status of those jobs at any time by navigating to: https://"
 "zuul.openstack.org/"
 msgstr ""
@@ -2823,6 +2870,20 @@ msgstr "[first-cloud] 당신의 첫번째 클라우드 배포에 사용됩니다
 
 msgid "[first-patch] for getting your first patch merged"
 msgstr "[first-patch] 첫번째 Patch를 Merge"
+
+msgid ""
+"`#irchelp <https://www.irchelp.org/clients/mac/>`__ describes available IRC "
+"client programs for Mac OS environment. `LimeChat <https://github.com/psychs/"
+"limechat>`__ provides an installation binary for you to download, install, "
+"and configure to connect to OFTC."
+msgstr ""
+"`#irchelp <https://www.irchelp.org/clients/mac/>`__ 는 MAC OS 환경에서 사용 "
+"가능한 IRC 클라이언트 프로그램에 대해 설명하고 있습니다 `LimeChat <https://"
+"github.com/psychs/limechat>`__ OFTC에 연결하기 위해서 다운로드, 설치 및 구성"
+"할 수 있는 설치 바이너리를 제공합니다"
+
+msgid "`<https://zuul-ci.org/docs/zuul/latest/howtos/matrix.html>`__."
+msgstr "`<https://zuul-ci.org/docs/zuul/latest/howtos/matrix.html>`__."
 
 msgid ""
 "`Code, docs, infrastructure changes, and CI configurations <https://opendev."
