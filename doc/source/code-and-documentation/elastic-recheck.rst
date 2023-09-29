@@ -21,6 +21,12 @@ pre-existing bug in OpenStack. Additionally, some times the infrastructure for
 running the tests might have had a failure. To figure this out you'll always
 need to look at the logs from the failed job to understand what's happening.
 
+A comment `recheck` on the patch would trigger the failed job to execute again.
+**DO NOT** just recheck the patch only to see if it fails again. CI test
+resources are very scarce. Read this document to know
+`how to handle test failures <https://docs.openstack.org/project-team-guide/
+testing.html#how-to-handle-test-failures>`_
+
 OpenSearch
 ==========
 
