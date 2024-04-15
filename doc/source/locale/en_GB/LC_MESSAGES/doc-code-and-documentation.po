@@ -3,15 +3,16 @@
 # Andi Chandler <andi@gowling.com>, 2020. #zanata
 # Andi Chandler <andi@gowling.com>, 2021. #zanata
 # Andi Chandler <andi@gowling.com>, 2022. #zanata
+# Andi Chandler <andi@gowling.com>, 2024. #zanata
 msgid ""
 msgstr ""
 "Project-Id-Version: contributor-guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-06 13:03+0000\n"
+"POT-Creation-Date: 2023-10-03 18:13+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2022-07-19 09:47+0000\n"
+"PO-Revision-Date: 2024-04-14 06:50+0000\n"
 "Last-Translator: Andi Chandler <andi@gowling.com>\n"
 "Language-Team: English (United Kingdom)\n"
 "Language: en_GB\n"
@@ -71,6 +72,19 @@ msgid ""
 msgstr ""
 "A ``clean.sh`` run does the steps for ``unstack.sh`` plus additional "
 "cleaning:"
+
+msgid ""
+"A comment `recheck` on the patch would trigger the failed job to execute "
+"again. **DO NOT** just recheck the patch only to see if it fails again. CI "
+"test resources are very scarce. Read this document to know `how to handle "
+"test failures <https://docs.openstack.org/project-team-guide/ testing."
+"html#how-to-handle-test-failures>`_"
+msgstr ""
+"A comment `recheck` on the patch would trigger the failed job to execute "
+"again. **DO NOT** just recheck the patch only to see if it fails again. CI "
+"test resources are very scarce. Read this document to know `how to handle "
+"test failures <https://docs.openstack.org/project-team-guide/ testing."
+"html#how-to-handle-test-failures>`_"
 
 msgid "A log of the stack.sh run is kept in ``/opt/stack/logs/stack.sh.log``."
 msgstr "A log of the stack.sh run is kept in ``/opt/stack/logs/stack.sh.log``."
