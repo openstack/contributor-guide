@@ -108,25 +108,18 @@ age.
 | Maintained   | Approximately 18   | All appropriate bug fixes accepted   |
 |              | months             | and releases are produced.           |
 +--------------+--------------------+--------------------------------------+
-| Extended     | While there are    | All appropriate bug fixes accepted.  |
-| Maintenance  | community members  | No releases are produced and there   |
+| Unmaintained | While there are    | All appropriate bug fixes accepted.  |
+|              | community members  | No releases are produced and there   |
 |              | maintaining it.    | is reduced CI commitment.            |
-+--------------+--------------------+--------------------------------------+
-| Unmaintained | 6 months from the  | The branch is under Extended         |
-|              | time the branch is | Maintenance rules, but there are no  |
-|              | made unmaintained. | maintainers.                         |
 +--------------+--------------------+--------------------------------------+
 | End of Life  | N/A                | Branch is no longer accepting        |
 | (EOL)        |                    | Changes.                             |
 +--------------+--------------------+--------------------------------------+
 
-Before the Ocata release the Maintained and Extended Maintenance phases were
-only 6 months long. This meant that each release went End of Life after
-18 months. It was determined that this practice was not beneficial for
-distributors or users of OpenStack. As a result the Maintained state
-was updated to last 18 months and the Extended Maitenance time frame
-was made flexible increasing the number of stable branches still accepting
-fixes.
+Unmaintained state is only to have a common place for cooperation for
+interested parties to do some further maintenance of a given stable release
+after its maintained phase, but as its name says, it's not officially
+considered maintained.
 
 The state of all OpenStack releases may be seen on the
 `OpenStack Releases <https://releases.openstack.org>`_ web page.
