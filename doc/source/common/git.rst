@@ -48,12 +48,8 @@ For distributions like Debian, Ubuntu, or Mint open a terminal and type::
 
   sudo apt install git
 
-For distributions like RedHat, Fedora 21 or earlier, or CentOS open a terminal
+For distributions like RedHat, Fedora or CentOS open a terminal
 and type::
-
-  sudo yum install git
-
-For Fedora 22 or later open a terminal and type::
 
   sudo dnf install git
 
@@ -95,7 +91,7 @@ and email address. This is how your contributions will be identified::
 Learning Git
 ------------
 
-You can use `Git Immersion <http://gitimmersion.com/lab_02.html>`_ to work
+You can use `Git Immersion <https://gitimmersion.com/index.html>`_ to work
 through tutorials for learning git.
 
 For reference, use the `Git Reference and Cheat Sheet <https://git-scm.com/doc>`_.
@@ -156,29 +152,28 @@ The following footer is required:
 
 StoryBoard specific footers:
 
-- ``Task``: 1234: the number of the task in Storyboard implemented by the
+- ``Task: 1234``: the number of the task in Storyboard implemented by the
   change. This will auto update the task to 'Review' status and assign it
   to you when you push the patch.
-- ``Story``: 1234567: the number of the story in Storyboard to which the task
+- ``Story: 1234567``: the number of the story in Storyboard to which the task
   being implemented belongs. This will post a comment on the story with a
   link to your patch.
 
 Launchpad specific footers:
 
-- ``Closes-Bug``: #123456789: use ``Closes-Bug`` if the commit is intended to
+- ``Closes-Bug: #123456789``: use ``Closes-Bug`` if the commit is intended to
   fully fix and close the bug being referenced. Use the Launchpad ID of the bug
   for the number; Gerrit automatically creates a link to the bug.
-- ``Partial-Bug``: #123456789: use ``Partial-Bug`` if the commit is only a
+- ``Partial-Bug: #123456789``: use ``Partial-Bug`` if the commit is only a
   partial fix and more work is needed. Use the Launchpad ID of the bug
   for the number; Gerrit automatically creates a link to the bug.
-- ``Related-Bug``: #12456789: use 'Related-Bug' if the commit is merely
+- ``Related-Bug: #12456789``: use ``Related-Bug`` if the commit is merely
   related to the referenced bug. Use the Launchpad ID of the bug
   for the number; Gerrit automatically creates a link to the bug.
 - ``Partial-Implements``: Use this footer if the change partially implements
   a Launchpad blueprint. Use the name of the blueprint as an ID.
 - ``Implements``: Use this footer if the change fully implements
   a Launchpad blueprint. Use the name of the blueprint as an ID.
-
 
 The following footers are optional; however, their use is recommended if they
 are applicable to the patch:

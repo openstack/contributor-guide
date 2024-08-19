@@ -98,10 +98,10 @@ to contribute.
 Contributors From the U.S. Government
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-#. Someone of authority needs to sign the `U.S. Government Contributor License
-   Agreement <https://wiki.openstack.org/wiki/GovernmentCLA>`_. Contact the
-   `Open Infrastructure Foundation <mailto:communitymngr@openstack.org>`_ to
-   initiate this process.
+Someone of authority needs to sign the `U.S. Government Contributor License
+Agreement <https://wiki.openstack.org/wiki/GovernmentCLA>`_. Contact the
+`Open Infrastructure Foundation <mailto:communitymngr@openstack.org>`_ to
+initiate this process.
 
 Setup SSH Keys
 ==============
@@ -220,7 +220,7 @@ name above::
 
   cat ~/.ssh/id_openstack_ed25519.pub
 
-Highlight and copy the output.
+Select and copy the output.
 
 Import Public Key Into Gerrit
 -----------------------------
@@ -281,12 +281,8 @@ For distributions like Debian, Ubuntu, or Mint open a terminal and type::
 
   sudo apt install git-review
 
-For distributions like RedHat, Fedora 21 or earlier, or CentOS open a terminal
+For distributions like RedHat, Fedora or CentOS open a terminal
 and type::
-
-  sudo yum install git-review
-
-For Fedora 22 or later open a terminal and type::
 
   sudo dnf install git-review
 
@@ -319,4 +315,4 @@ to enable pushing changes to Gerrit.
 
 .. note::
 
-  Git reviews only needs to be initialized once in a repository.
+  Git review only needs to be initialized once in a repository.
