@@ -10,8 +10,8 @@ IRC
 What is IRC?
 ------------
 
-The OpenStack community uses Internet Relay Chat (IRC) as its primary chat
-service.
+The OpenStack community uses `Internet Relay Chat (IRC) <https://en.wikipedia.org/wiki/IRC>`_,
+an open source protocol, as its primary chat service.
 
 IRC allows you to:
 
@@ -125,9 +125,14 @@ that one as well and introduce yourself there. Interested in joining more
 channels or need to look up what one is called? Check out
 :ref:`irc-channels` for more information.
 
-It's also important to note that given that the majority of contributors
-reside in the United States, channels will likely be quieter outside of
-United States work hours and it might be a while before they respond.
+It's also important to note that contributors are located all over the world
+across different time zones, so channels may be quieter outside of their work
+hours. Be patient when asking questions, and it might be a while before
+someone responds. Additionally, keep in mind that IRC does not natively
+support a message backlog, so you may miss messages sent while you were
+disconnected. Many contributors keep a persistent IRC session to avoid missing
+important communications, and :ref:`irc-archives` can be helpful for catching
+up on missed messages.
 
 Set up IRC on Mac OS
 ====================
