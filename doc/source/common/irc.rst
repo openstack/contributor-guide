@@ -7,12 +7,6 @@ Setup IRC
 IRC
 ===
 
-.. warning::
-
-   The OpenStack Community moved the IRC network from Freenode to OFTC
-   on May 31, 2021. All the current IRC channels used by the OpenStack
-   community are registered in the OFTC network with the same name.
-
 What is IRC?
 ------------
 
@@ -21,15 +15,14 @@ service.
 
 IRC allows you to:
 
-* Communicate with project teams, technical committee, SIGs,
+* Communicate with project teams, the technical committee, SIGs,
   and other Working Groups.
 * Participate in regular meetings with the above groups.
 
 What IRC network we use
 =======================
 
-As of May 31st, 2021 the OpenStack Community has decided to move its IRC
-network from Freenode to OFTC.
+The OpenStack Community is using the OFTC IRC network.
 
 Set up IRC on Linux & Windows
 =============================
@@ -44,19 +37,14 @@ type::
 
   sudo apt install hexchat
 
-For a Linux distributions like Redhat, Fedora 21 or earlier, or CentOS open
+For Linux distributions like Redhat, Fedora, or CentOS open
 a terminal and type::
-
-  sudo yum install hexchat
-
-For Fedora 22 or later open a terminal and type::
 
   sudo dnf install hexchat
 
-For Windows environment, download latest Hexchat installation binary from
+For a Windows environment, download the latest Hexchat installation binary from
 `Hexchat download <https://hexchat.github.io/downloads.html>`__ and
 install it.
-You will probably also need extra components shown just under Hexchat.
 
 Now open the hexchat program just like you would for any Linux program.
 
@@ -85,7 +73,6 @@ Troubleshooting
 
 * If you get a notice that the nick name is already taken, quit and go back to
   the first set of steps to pick a different nickname.
-
 
 Register Your Nick Name
 -----------------------
@@ -131,7 +118,7 @@ Congratulations you're now ready to communicate with the OpenStack community
 and have a registered nick name on OFTC! From here on out when you connect
 to OFTC with Hexchat you will be identified with your nickname.
 
-A good channel to join right away is the #openstack-dev channel. A lot of
+A good channel to join right away is the ``#openstack-dev`` channel. A lot of
 people hang around in that channel so come on in and say hello! If there is
 a specific project you are also interested in working on, feel free to join
 that one as well and introduce yourself there. Interested in joining more
@@ -165,22 +152,27 @@ IRC Channels
 ============
 
 Each project and working group has its own IRC channel. The common syntax for
-naming the IRC channels is: #openstack-<name-of-project>. See the
-`list of OpenStack-related IRC channels <http://eavesdrop.openstack.org/#channels>`__.
+naming the IRC channels is: ``#openstack-<name-of-project>``, but there are
+some exceptions. See the contributor guide for each project for specific
+information.
+If you fail to find a reference there, don't hesitate to ask
+in the general ``#openstack-dev`` channel.
 
 IRC Meetings
 ============
 
 In OpenStack all the meetings are happening either on generic meeting channels
 channels like #openstack-meeting, or on specific project channels. Check the
-`list of meetings <http://eavesdrop.openstack.org/#meetings>`__ for meetings
+`list of meetings <https://meetings.opendev.org/#meetings>`__ for meeting
 times, IRC channels, and archives of meetings.
+
+.. _irc-archives:
 
 IRC Archives
 ============
 
 Most IRC channels are archived, you can read the logs on
-`eavesdrop <http://eavesdrop.openstack.org/irclogs/>`__.
+`IRC channel logs <https://meetings.opendev.org/irclogs/>`__.
 
 IRC bots
 ========
@@ -189,8 +181,8 @@ IRC allows different programs to listen to the IRC channels and do some
 actions. These programs are called IRC bots. There are several bots used
 in the OpenStack IRC channels, this section contains the ones which are
 useful from the first days of OpenStack development. A more
-comprehensive list can be found in the `Infrastructure team IRC page
-<https://docs.openstack.org/infra/system-config/irc.html>`__.
+comprehensive list can be found in the `OpenDev team IRC page
+<https://docs.opendev.org/opendev/system-config/latest/irc.html>`__.
 
 Thanksbot
 ---------
@@ -211,13 +203,13 @@ collects all thanks to a `wiki page
 Statusbot
 ---------
 
-Statusbot is used to distribute urgent information from the Infrastructure team
+Statusbot is used to distribute urgent information from the OpenDev team
 to OpenStack channels.
 
 Successbot
 ----------
 
-Succesbot is an IRC bot to express small successes in OpenStack
+Successbot is an IRC bot to express small successes in OpenStack
 development.
 To celebrate in the OpenStack IRC channel way just type:
 
