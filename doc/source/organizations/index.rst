@@ -258,7 +258,7 @@ Community Culture
 Expectations
 ^^^^^^^^^^^^
 
-* Permission to agree to the OpenStack ICLA (required)
+* Permission to agree to the Developer Certificate of Origin - DCO (required)
 * Permission to occasionally work outside typical office hours
 * A process to clear contributions from IP point of view
 * Permission and budget to send contributors to events

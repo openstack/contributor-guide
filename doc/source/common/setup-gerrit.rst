@@ -39,70 +39,6 @@ Sign Up
    your Launchpad login info. This is because Gerrit uses it as an OpenID
    single sign on.
 
-.. _individual-contributor-license-agreement:
-
-Individual Contributor License Agreement (ICLA)
-===============================================
-
-What is it?
------------
-
-An agreement to clarify intellectual property rights granted with
-contributions from a person or entity. `Preview the full agreement
-<https://review.opendev.org/static/cla.html>`_.
-
-Signing it
-----------
-
-Individual Contributors
-^^^^^^^^^^^^^^^^^^^^^^^
-
-#. In Gerrit's `settings <https://review.opendev.org/#/settings/agreements>`_
-   click the **New Contributor Agreement** link and sign the
-   agreement. You need this to contribute code & documentation. You
-   will not be able to push patches to Gerrit without this.
-
-.. image:: /_assets/account-setup/3.png
-   :scale: 70%
-   :align: center
-
-Contributors From a Company or Organization
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-If you are contributing on behalf of a company or organization, please
-make sure that you sign the ICLA **AND** also get added to the list of
-contributors on your company's Corporate Contributor License Agreement
-(CCLA). You will need to complete both of these steps before being able
-to contribute.
-
-#. In Gerrit's `settings <https://review.opendev.org/#/settings/agreements>`_
-   click the **New Contributor Agreement** link and sign the agreement.
-
-   .. image:: /_assets/account-setup/3.png
-     :scale: 70%
-     :align: center
-
-#. An employer with the appropriate signing rights of the company or
-   organization needs to sign the `Corporate Contributor License Agreement
-   <https://secure.echosign.com/public/hostedForm?formid=56JUVGT95E78X5>`_.
-#. If the CCLA only needs to be extended follow `this
-   <https://wiki.openstack.org/wiki/HowToUpdateCorporateCLA>`_ procedure.
-
-.. note::
-
-   Employers can update the list of authorized employees by filling out and
-   signing an `Updated Schedule
-   A Form
-   <https://openstack.echosign.com/public/hostedForm?formid=56JUVP6K4Z6P4C>`_.
-
-Contributors From the U.S. Government
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Someone of authority needs to sign the `U.S. Government Contributor License
-Agreement <https://wiki.openstack.org/wiki/GovernmentCLA>`_. Contact the
-`Open Infrastructure Foundation <mailto:communitymngr@openstack.org>`_ to
-initiate this process.
-
 Set Up SSH Keys
 ===============
 
@@ -316,3 +252,16 @@ to enable pushing changes to Gerrit.
 .. note::
 
   Git review only needs to be initialized once in a repository.
+
+
+Submitting your Commit to Review
+--------------------------------
+
+In order to submit your code to the `OpenStack code review system
+<https://review.opendev.org>`_, ensure that you have
+:ref:`signed off your commit<DCO Setting Up Your Git Configuration>`. If you
+did not sign off your commit, the code review submission will fail. With a
+valid signed-off commit, you may use the following command to submit your code
+to the review system::
+
+  git review

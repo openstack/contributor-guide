@@ -8,6 +8,7 @@ Code & Documentation Contributor Guide
 
    /code-and-documentation/introduction
    /code-and-documentation/quick-start
+   /common/dco
    /common/communication
    /common/irc
    /common/accounts
