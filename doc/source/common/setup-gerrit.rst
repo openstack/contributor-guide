@@ -103,8 +103,8 @@ Agreement <https://wiki.openstack.org/wiki/GovernmentCLA>`_. Contact the
 `Open Infrastructure Foundation <mailto:communitymngr@openstack.org>`_ to
 initiate this process.
 
-Setup SSH Keys
-==============
+Set Up SSH Keys
+===============
 
 What are they?
 --------------

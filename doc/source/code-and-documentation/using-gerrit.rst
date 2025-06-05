@@ -32,7 +32,7 @@ To clone a copy of some repository::
    You can find the same repositories using the search function here:
    `OpenDev git repository browser <https://opendev.org/explore/repos>`_
 
-After you've completed the Setup and Learn GIT section, the following command
+After you've completed the Set Up and Learn GIT section, the following command
 configures the repository to know about Gerrit and installs the ``Change-Id``
 commit hook. You only need to do this once per repository you clone::
 

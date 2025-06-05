@@ -48,4 +48,4 @@ Example configurations for various OpenStack services are provided in the
 `openstack/osops-example-configs repository
 <https://git.openstack.org/cgit/openstack/osops-example-configs/tree/README.md>`_.
 Operators can share their configuration files to help others, and review
-how others setup and tune their configurations.
+how others set up and tune their configurations.

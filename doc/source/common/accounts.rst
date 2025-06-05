@@ -4,8 +4,8 @@ Account Setup
 
 .. _foundation account:
 
-Setup Your Open Infrastructure Foundation Account
-=================================================
+Set Up Your Open Infrastructure Foundation Account
+==================================================
 
 An Open Infrastructure Foundation account allows you to:
 
@@ -50,8 +50,8 @@ full details see the `individual member policy
 <https://www.openstack.org/legal/individual-member-policy/>`__.
 
 
-Setup Your Task Tracker Account
-===============================
+Set Up Your Task Tracker Account
+================================
 
 .. note::
    The OpenStack community is currently in the process of moving from the bug

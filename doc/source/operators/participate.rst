@@ -30,7 +30,7 @@ might find useful. More generic information about IRC channels can be found
 in the :ref:`irc-channels` section of the IRC page.
 
 In the :ref:`setup-irc` section of this guide, there are instructions on how
-to setup a desktop client and register your irc nickname so that you can
+to set up a desktop client and register your irc nickname so that you can
 join these channels.
 
 .. _ops-meetup:

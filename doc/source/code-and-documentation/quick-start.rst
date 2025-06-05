@@ -8,7 +8,7 @@ to do to push your first patch in OpenStack.
 Set up accounts and configure environment
 -----------------------------------------
 
-To get started, first setup required accounts.
+To get started, first set up required accounts.
 
 #. OpenStack :doc:`../common/accounts`
 
