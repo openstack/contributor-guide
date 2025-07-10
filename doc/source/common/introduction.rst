@@ -57,8 +57,8 @@ OpenStack provides an ecosystem for collaboration. It has infrastructure for
 * CI
 * Version control
 * Documentation
-* a set of collaboration tools, like a wiki, IRC chanels, Etherpad
-  and Ethercalc.
+* a set of collaboration tools, like a wiki, IRC channels, Etherpad
+  and Meetpad.
 
 The four opens
 ^^^^^^^^^^^^^^
