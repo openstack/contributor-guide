@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: contributor-guide\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-20 22:00+0000\n"
+"POT-Creation-Date: 2025-07-10 12:20+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -212,12 +212,6 @@ msgstr "配置 Git"
 
 msgid "Contribute as a Translator"
 msgstr "贡献翻译"
-
-msgid "Contributors From a Company or Organization"
-msgstr "来自公司或组织的贡献者"
-
-msgid "Contributors From the U.S. Government"
-msgstr "来自美国政府的贡献者"
 
 msgid "Core Reviewer"
 msgstr "核心审阅者(Core Reviewer)"
@@ -577,9 +571,6 @@ msgid ""
 "In the **Password** put in the password you picked in the previous step and "
 "click close."
 msgstr "在 **密码** 框中输入你在上一步中设置的密码，然后点击关闭。"
-
-msgid "Individual Contributors"
-msgstr "个人贡献者"
 
 msgid ""
 "Individual Members of the Foundation who have contributed to any of the "
@@ -945,23 +936,8 @@ msgstr "在Mac OS上设置IRC"
 msgid "Setting Up Your Gerrit Account"
 msgstr "设置您的Gerrit帐户"
 
-msgid "Setup IRC"
-msgstr "设置IRC"
-
-msgid "Setup SSH Keys"
-msgstr "设置SSH密钥"
-
-msgid "Setup Your Task Tracker Account"
-msgstr "设置您的任务跟踪帐户"
-
-msgid "Setup and Learn GIT"
-msgstr "设置和学习Git"
-
 msgid "Sign Up"
 msgstr "注册"
-
-msgid "Signing it"
-msgstr "签名"
 
 msgid ""
 "Similar to being a mentor, the first thing you'll want to do is sign up "
@@ -1755,11 +1731,6 @@ msgid ""
 msgstr ""
 "`openSUSE Leap 42 <https://www.microsoft.com/en-us/store/p/opensuse-"
 "leap-42/9njvjts82tjx>`_"
-
-msgid ""
-"a set of collaboration tools, like a wiki, IRC chanels, Etherpad and "
-"Ethercalc."
-msgstr "一系列的协作工具，如wiki，IRC频道，Etherpad和Ethercalc。"
 
 msgid "id_dsa.pub"
 msgstr "id_dsa.pub"
