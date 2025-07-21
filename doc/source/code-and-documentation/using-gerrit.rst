@@ -256,6 +256,42 @@ you can cherry-pick your own changes on top of it:
 
 The change ID is the same as in the previous case.
 
+.. _backporting:
+
+Backports
+=========
+
+In order to backport a commit that has been merged to master, the commit must
+be backported to all :ref:`open branches <stable-branches>` between master and
+the target branch (even if some of those branches are Unmaintained). If a
+commit must be backported to multiple branches, each backport should be
+cherry-picked from the next-newest backport. For example, to cherry-pick change
+`I06b19044 <https://review.opendev.org/q/I06b19044876aab9b4585384352f8dccc39984526>`__
+with change number
+`946581 <https://review.opendev.org/c/openstack/nova/+/946581>`__
+from `master` (2025.2) to `stable/2024.1`:
+
+.. code-block:: console
+
+  git fetch --all
+  git checkout -b bug/123 gerrit/stable/2025.1
+  git review -X 946581
+  git review -f         # Uploads change number 950213
+  git checkout -b bug/123 gerrit/stable/2024.2
+  git review -X 950213
+  git review -f         # Uploads change number 950215
+  git checkout -b bug/123 gerrit/stable/2024.1
+  git review -X 950215
+  git review -f         # Uploads change number 950217
+
+The `final change <https://review.opendev.org/c/openstack/nova/+/950217>`__
+should have several `(cherry picked from <sha>)` at the bottom of the commit
+message.
+
+See `Stable Branches
+<https://docs.openstack.org/project-team-guide/stable-branches.html>`__
+for more information.
+
 .. _+2: https://docs.openstack.org/project-team-guide/review-the-openstack-way.html#code-review-plus-2
 .. _+1: https://docs.openstack.org/project-team-guide/review-the-openstack-way.html#code-review-plus-1
 .. _0: https://docs.openstack.org/project-team-guide/review-the-openstack-way.html#code-review-0
