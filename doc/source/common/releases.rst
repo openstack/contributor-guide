@@ -76,6 +76,8 @@ Having the main projects following the release cycle ensures that all these
 projects release at the same time so these can be picked up by downstream
 teams to package and further distribute.
 
+.. _stable-branches:
+
 Stable Branches
 ---------------
 
@@ -93,7 +95,7 @@ Proposed changes should:
 * Have a user visible benefit
 * Be self contained
 * Be included in master and backported to all releases between master
-  and the stable branch in question
+  and the stable branch in question (see :ref:`Backports <backporting>`)
 
 Project teams do point releases off stable branches when enough
 changes accumulate in the stable branch to justify creating another release for
