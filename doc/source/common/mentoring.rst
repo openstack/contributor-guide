@@ -57,7 +57,8 @@ Mentoring Mailing List
 ----------------------
 
 The mailing list is where most day to day asynchronous interactions happen.
-Here is where you can get  `subscribed and view ML archives <http://lists.openstack.org/cgi-bin/mailman/listinfo/openstack-mentoring>`_.
+Here is where you can get  `subscribed and view ML archives
+<https://lists.openstack.org/mailman3/lists/openstack-mentoring.lists.openstack.org/>`_.
 
 When sending emails to the ML, if your subject is specific to one cohort,
 please use the relevant tag:

@@ -51,7 +51,7 @@ Mailing Lists (ML)
 ==================
 
 There are more than 40 different ML's. These are listed in the `mailman page
-<http://lists.openstack.org/cgi-bin/mailman/listinfo>`__.
+<https://lists.openstack.org/mailman3/lists/>`__.
 Mailing lists are a way for people to communicate to a larger group than those
 that are on IRC. All emails on these lists are archived and available on the
 `Mailing Lists <https://wiki.openstack.org/wiki/Mailing_Lists>`_ wiki.

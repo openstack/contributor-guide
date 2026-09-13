@@ -18,7 +18,7 @@ Proposing a New Contribution Category
 =====================================
 
 Send your proposal to the `OpenStack Discuss List
-<http://lists.openstack.org/cgi-bin/mailman/listinfo/openstack-discuss>`_
+<https://lists.openstack.org/mailman3/lists/openstack-discuss.lists.openstack.org/>`_
 with the email subject prefixed with [contributor-portal]. This will
 start discussions on accepting the new contribution category.
 
